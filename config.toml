@@ -1,4 +1,4 @@
-base_url = "https://easydocs.codeandmedia.com"
+base_url = "https://tieje.github.io/unofficial_powell_365_docs"
 title = "Docs"
 compile_sass = true
 build_search_index = true
