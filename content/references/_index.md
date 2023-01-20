@@ -1,5 +1,5 @@
 +++
 title = "References"
-sort_by = "title"
+sort_by = "weight"
 weight = 101
 +++
