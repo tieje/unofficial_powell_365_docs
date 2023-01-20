@@ -14,7 +14,9 @@ TL:DR;
 - [Table of Contents](#table-of-contents)
 - [What We Are Making](#what-we-are-making)
 - [In Powell Manager](#in-powell-manager)
-  - [Create List Template](#create-list-template)
+  - [Create a Custom Content Type](#create-a-custom-content-type)
+  - [Create a List Template](#create-a-list-template)
+  - [Create new List from List Template](#create-new-list-from-list-template)
   - [Add to Site Template](#add-to-site-template)
 - [In SharePoint Site Contents](#in-sharepoint-site-contents)
 
@@ -24,14 +26,33 @@ TL:DR;
 
 ## In Powell Manager
 
-### Create List Template
+### Create a Custom Content Type
 
-&emsp; In Powell Manager, the list template is used by the web part widget. 
+&emsp;
+
+1. [Go to content types](../common_actions/intranet/to_content_types.md)
+
+### Create a List Template
+
+&emsp; In Powell Manager, the list template is used by the web part widget. If you already have this list template, then you can skip this section.
+
+1. [Go to list templates](../common_actions/to_list_templates.md)
+2. *Create a new list template*
+3. Fill in *Title*
+4. *Select a list template model to inherit from* dropdown, select *Generic List*
+5. *Add a new content type*
+6. 
+
+### Create new List from List Template
 
 &emsp; You'll want to click through the following in Powell Manager:
 
 1. [Get to your site](../common_actions/to_your_site.md)
-2. 
+2. *Lists* (left sidebar)
+3. *Create a new list*
+4. Fill in *Title*
+5. Under *Select a list model* dropdown, select *Quick Access*
+6. 
 
 ### Add to Site Template
 
