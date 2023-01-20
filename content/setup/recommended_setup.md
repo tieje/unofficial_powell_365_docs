@@ -1,5 +1,6 @@
 +++
 title = "Recommended Setup"
+weight = 1
 +++
 
 
