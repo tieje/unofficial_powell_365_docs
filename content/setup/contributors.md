@@ -21,7 +21,7 @@ weight = 100
 
 ## Recommended VSCode Extensions
 
-```toml
+```
 Name: Markdown All in One
 Id: yzhang.markdown-all-in-one
 Description: All you need to write Markdown (keyboard shortcuts, table of contents, auto preview and more)

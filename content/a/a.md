@@ -1,0 +1,177 @@
++++
+title = "Common Actions"
+weight = 100
++++
+
+## IMPORTANT
+&emsp; Click through the buttons or links in the steps specified to get to your destination on the web.
+
+## Table of Contents
+- [Powell Manager](#powell-manager)
+  - [Powell Intranet](#powell-intranet)
+    - [Powell Intranet Design](#powell-intranet-design)
+      - [Powell Intranet App catalog](#powell-intranet-app-catalog)
+      - [Powell Intranet Azure Applications](#powell-intranet-azure-applications)
+      - [Powell Intranet Content types](#powell-intranet-content-types)
+      - [Powell Intranet Disclaimers](#powell-intranet-disclaimers)
+      - [Powell Intranet Email Template](#powell-intranet-email-template)
+      - [Powell Intranet Fonts](#powell-intranet-fonts)
+      - [Powell Intranet Footer HTML Template](#powell-intranet-footer-html-template)
+      - [Powell Intranet Header HTML Template](#powell-intranet-header-html-template)
+      - [Powell Intranet JavaScript catalog](#powell-intranet-javascript-catalog)
+      - [Powell Intranet JSLink catalog](#powell-intranet-jslink-catalog)
+      - [Powell Intranet List Templates](#powell-intranet-list-templates)
+      - [Powell Intranet Master pages](#powell-intranet-master-pages)
+      - [Powell Intranet Navigation](#powell-intranet-navigation)
+      - [Powell Intranet PNP Provisioning Schema](#powell-intranet-pnp-provisioning-schema)
+      - [Powell Intranet Search Queries](#powell-intranet-search-queries)
+      - [Powell Intranet Site scripts](#powell-intranet-site-scripts)
+      - [Powell Intranet Site Templates](#powell-intranet-site-templates)
+      - [Powell Intranet Teams templates](#powell-intranet-teams-templates)
+      - [Powell Intranet Themes](#powell-intranet-themes)
+      - [Powell Intranet Widget views](#powell-intranet-widget-views)
+      - [Powell Intranet Your Site](#powell-intranet-your-site)
+    - [Powell Intranet Deploy](#powell-intranet-deploy)
+      - [Powell Intranet Office groups](#powell-intranet-office-groups)
+      - [Powell Intranet Site collections](#powell-intranet-site-collections)
+      - [Powell Intranet Site Designs](#powell-intranet-site-designs)
+      - [Powell Intranet Teams](#powell-intranet-teams)
+  - [Powell Hub](#powell-hub)
+    - [Powell Hub Design](#powell-hub-design)
+      - [Hub Azure Applications](#hub-azure-applications)
+      - [Powell Hub Fonts](#powell-hub-fonts)
+      - [Powell Hub Footer HTML Template](#powell-hub-footer-html-template)
+      - [Powell Hub Header HTML Template](#powell-hub-header-html-template)
+      - [Powell Hub JavaScript catalog](#powell-hub-javascript-catalog)
+      - [Powell Hub Themes](#powell-hub-themes)
+      - [Powell Hub Widget views](#powell-hub-widget-views)
+- [SharePoint Site Collection](#sharepoint-site-collection)
+  - [Site Contents](#site-contents)
+  - [Manual Contents](#manual-contents)
+
+## Purpose
+&emsp; The purpose of this section is to provide a reference to a list of actions that are very commonly used in Powell to arrive at a desired result or web page. This cuts down on repetition and ambiguity while writing documentation for Powell. Currently, due to needing to repeat specific actions many times in Powell, it's all too easy for Users to visually and mentally block out Powell's other features to the point where they genuinely would not know where to look on the web page. This page should be referenced often by contributors to help users navigate Powell.
+
+# Powell Manager
+
+## Powell Intranet
+&emsp; Powell Intranet is where we'll be doing most of our work.
+
+### Powell Intranet Design
+1. *Powell intranet* tab
+2. *Design* tab
+#### Powell Intranet App catalog
+1. [Go to Design](#powell-intranet-design)
+2. Under *Custom Components*, *App catalog*
+#### Powell Intranet Azure Applications
+1. [Go to Design](#powell-intranet-design)
+2. Under *Custom Components*, *Azure Applications*
+#### Powell Intranet Content types
+1. [Go to Design](#powell-intranet-design)
+2. Under *SharePoint Templates*, *Content types*
+#### Powell Intranet Disclaimers
+1. [Go to Design](#powell-intranet-design)
+2. Under *Branding*, *Disclaimers*
+#### Powell Intranet Email Template
+1. [Go to Design](#powell-intranet-design)
+2. Under *Branding*, *Email Template*
+#### Powell Intranet Fonts
+1. [Go to Design](#powell-intranet-design)
+2. Under *Branding*, *Fonts*
+#### Powell Intranet Footer HTML Template
+1. [Go to Design](#powell-intranet-design)
+2. Under *Branding*, *Footer HTML Template*
+#### Powell Intranet Header HTML Template
+1. [Go to Design](#powell-intranet-design)
+2. Under *Branding*, *Header HTML Template*
+#### Powell Intranet JavaScript catalog
+1. [Go to Design](#powell-intranet-design)
+2. Under *Custom Components*, *JavaScript catalog*
+#### Powell Intranet JSLink catalog
+1. [Go to Design](#powell-intranet-design)
+2. Under *Custom Components*, *JSLink catalog*
+#### Powell Intranet List Templates
+1. [Go to Design](#powell-intranet-design)
+2. Under *SharePoint Templates*, *Lists*
+#### Powell Intranet Master pages
+1. [Go to Design](#powell-intranet-design)
+2. Under *SharePoint Templates*, *Master pages*
+#### Powell Intranet Navigation
+1. [Go to Design](#powell-intranet-design)
+2. Under *SharePoint Templates*, *Navigation*
+#### Powell Intranet PNP Provisioning Schema
+1. [Go to Design](#powell-intranet-design)
+2. Under *Custom Components*, *PNP Provisioning Schema*
+#### Powell Intranet Search Queries
+1. [Go to Design](#powell-intranet-design)
+2. Under *SharePoint Templates*, *Search Queries*
+#### Powell Intranet Site scripts
+1. [Go to Design](#powell-intranet-design)
+2. Under *Custom Components*, *Site scripts*
+#### Powell Intranet Site Templates
+1. [Go to Design](#powell-intranet-design)
+2. Under *SharePoint Templates*, *Sites*
+#### Powell Intranet Teams templates
+1. [Go to Design](#powell-intranet-design)
+2. Under *SharePoint Templates*, *Teams templates*
+#### Powell Intranet Themes
+1. [Go to Design](#powell-intranet-design)
+2. Under *Branding*, *Themes*
+#### Powell Intranet Widget views
+1. [Go to Design](#powell-intranet-design)
+2. Under *Custom Components*, *Widget views*
+#### Powell Intranet Your Site
+1. [Go to site templates](#powell-intranet-site-templates)
+2. Search for your site
+3. Edit button for your site
+
+### Powell Intranet Deploy
+1. *Powell intranet* tab
+2. *Deploy* tab
+#### Powell Intranet Office groups
+1. [Go to Deploy](#powell-intranet-deploy)
+2. Under *Deploy*, *Office groups*
+#### Powell Intranet Site collections
+1. [Go to Deploy](#powell-intranet-deploy)
+2. Under *Deploy*, *Site collections*
+#### Powell Intranet Site Designs
+1. [Go to Deploy](#powell-intranet-deploy)
+2. Under *Deploy*, *Site Designs*
+#### Powell Intranet Teams
+1. [Go to Deploy](#powell-intranet-deploy)
+2. Under *Deploy*, *Teams*
+
+## Powell Hub
+<!-- TODO: What does this do. -->
+
+### Powell Hub Design
+1. *Powell Hub* tab
+2. *Design* tab
+
+#### Hub Azure Applications
+1. [Go to Design](#powell-hub-design)
+2. Under *Custom Components*, *Azure Applications*
+#### Powell Hub Fonts
+1. [Go to Design](#powell-hub-design)
+2. Under *Branding*, *Fonts*
+#### Powell Hub Footer HTML Template
+1. [Go to Design](#powell-hub-design)
+2. Under *Branding*, *Footer HTML Template*
+#### Powell Hub Header HTML Template
+1. [Go to Design](#powell-hub-design)
+2. Under *Branding*, *Header HTML Template*
+#### Powell Hub JavaScript catalog
+1. [Go to Design](#powell-hub-design)
+2. Under *Custom Components*, *JavaScript catalog*
+#### Powell Hub Themes
+1. [Go to Design](#powell-hub-design)
+2. Under *Branding*, *Themes*
+#### Powell Hub Widget views
+1. [Go to Design](#powell-hub-design)
+2. Under *Custom Components*, *Widget views*
+
+# SharePoint Site Collection
+
+## Site Contents
+
+## Manual Contents

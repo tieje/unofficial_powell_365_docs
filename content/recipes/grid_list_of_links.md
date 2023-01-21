@@ -30,13 +30,13 @@ TL:DR;
 
 &emsp;
 
-1. [Go to content types](../common_actions/to_intranet_content_types.md)
+1. [Go to content types](/a/a/#powell-intranet-content-types)
 
 ### Create a List Template
 
 &emsp; In Powell Manager, the list template is used by the web part widget. If you already have this list template, then you can skip this section.
 
-1. [Go to list templates](../common_actions/to_intranet_list_templates.md)
+1. [Go to list templates](/a/a/#powell-intranet-list-templates)
 2. *Create a new list template*
 3. Fill in *Title*
 4. *Select a list template model to inherit from* dropdown, select *Generic List*
@@ -47,7 +47,7 @@ TL:DR;
 
 &emsp; You'll want to click through the following in Powell Manager:
 
-1. [Get to your site](../common_actions/to_intranet_your_site.md)
+1. [Get to your site](/a/a/#powell-intranet-your-site)
 2. *Lists* (left sidebar)
 3. *Create a new list*
 4. Fill in *Title*
@@ -58,7 +58,7 @@ TL:DR;
 
 &emsp; You'll want to click through the following in Powell Manager:
 
-1. [Get to your site](../common_actions/to_intranet_your_site.md)
+1. [Get to your site](/a/a/#powell-intranet-your-site)
 2. Pages on the left column
 3. Edit button for the page that you want to edit
 4. Scroll to the bottom: `Add a webpart`
