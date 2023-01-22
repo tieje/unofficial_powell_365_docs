@@ -6,12 +6,12 @@ function prefixProdAnchors() {
   var prod = 'tieje.github.io';
   if (window.location.host === prod) {
     var prefix = '/unofficial_powell_365_docs';
-    window.document.querySelectorAll('a').forEach(function (ele) {
+    window.document.querySelectorAll('a').forEach((ele) => {
       var hrefValue = ele.getAttribute('href');
       if (hrefValue[0] === '/') {
-        ele.setAttribute('href', prefix + hrefValue)
+        ele.setAttribute('href', prefix + hrefValue);
       }
-    })
+    });
   }
 }
 prefixProdAnchors();
