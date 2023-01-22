@@ -1,7 +1,7 @@
 // temporary fix while hosting on Github Pages.
 // local testing base URL: http://127.0.0.1:1111/
 // Github Pages base URL: https://tieje.github.io/unofficial_powell_365_docs
-// Because "unofficial_powell_365_docs" is added to the base URL, this interferes with markdown links
+// Because "unofficial_powell_365_docs" is added to the base URL, this interferes with markdown links, specifically those anchors that reference common actions with '/'
 function prefixProdAnchors() {
   var prod = 'tieje.github.io';
   if (window.location.host === prod) {
