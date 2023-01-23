@@ -40,4 +40,4 @@ TL:DR;
 1. [Go to Site Collections](/actions/common/#powell-intranet-site-collections)
 2. Choose your site
 3. *Configuration* (left column)
-4. *Site Collection Features*, *Top Navigation*, choose [the navigation your created](#create-a-navigation).
+4. *Site Collection Features*, *Top Navigation*, choose [the navigation you created](#create-a-navigation).

@@ -5,6 +5,8 @@ insert_anchor_links = "right"
 
 # Content Types
 
+&emsp; Your partner may not have access to standard content types.
+
 ## Table of Contents
 - [Content Types](#content-types)
   - [Table of Contents](#table-of-contents)
@@ -16,16 +18,19 @@ insert_anchor_links = "right"
     - [Announcement](#announcement)
     - [Comment](#comment)
     - [Contact](#contact)
+    - [Document](#document)
     - [East Asia Contact](#east-asia-contact)
     - [Event](#event)
     - [Issue](#issue)
     - [Item](#item)
     - [Link](#link)
     - [Message](#message)
+    - [Picture](#picture)
     - [Post](#post)
     - [Reservations](#reservations)
     - [Schedule and Reservations](#schedule-and-reservations)
     - [Schedule](#schedule)
+    - [Site Page](#site-page)
     - [Task](#task)
     - [Workflow Task (SharePoint 2013)](#workflow-task-sharepoint-2013)
 
@@ -107,6 +112,26 @@ State/Province | WorkState | Text
 First name | FirstName | Text
 Home Phone | HomePhone | Text
 Mobile Number | CellPhone | Text
+
+### Document
+Display name | Internal name | Type
+--- | --- | ---
+Title | Title | Text
+Document Created By | Created_x0020_By | Text
+Name | LinkFilenameNoMenu | Computed
+Type | DocIcon | Computed
+Created By | Author | User
+Content Type | ContentType | Computed
+Name | FileLeafRef | File
+Name | LinkeFilename | Computed
+Select | SelectFilename | Computed
+File Size | FileSizeDisplay | Computed
+Edit | Edit | Computed
+Modified | Modified | DateTime
+Created | Created | DateTime
+Modified By | Editor | User
+Document Modified By | Modified_x0020_By | Text
+
 ### East Asia Contact
 Display name | Internal name | Type
 --- | --- | ---
@@ -233,6 +258,35 @@ PostedBy | PersonImage | Computed
 Thread Index | ThreadIndex | ThreadIndex
 E-Mail Sender | EmailSender | Note
 Shortest Thread-Index Id Lookup | ShortestThreadIndexIdLookup | Lookup
+### Picture
+Display name | Internal name | Type
+--- | --- | ---
+Title | Title | Text
+Thumbnail Exists | ThumbnailExists | Boolean
+Date Picture Taken | ImageCreateDate | DateTime
+Document Created By | Created_x0020_By | Text
+Web Preview | Preview | Computed
+Picture Height | ImageHeight | Integer
+Thumbnail | Thumbnail | Computed
+Required Field | RequiredField | Computed
+Keywords | Keywords | Note
+Content Type | ContentType | Computed
+Web Image URL | EncodedAbsWebImgUrl | Computed
+Name | FileLeafRef | File
+Select | SelectFilename | Computed
+Name | NameOrTitle | Computed
+Comments | Comments | Note
+Preview | PreviewOnForm | Computed
+Thumbnail URL | EncodedAbsThumbnailUrl | Computed
+Preview Image URL | AlternateThumbnailUrl | URL
+Picture Size | ImageSize | Computed
+Modified | Modified | DateTime
+Selection Checkbox | SelectedFlag | Computed
+Created | Created | DateTime
+Preview Exists | PreviewExists | Boolean
+Document Modified By | Modified_x0020_By | Text
+File Type | FileType | Computed
+Picture Width | ImageWidth | Integer
 ### Post
 Display name | Internal name | Type
 --- | --- | ---
@@ -312,6 +366,20 @@ End Time | EndDate | DateTime
 All Day Event | fAllDayEvent | AllDayEvent
 Workspace | WorkspaceLink | CrossProjectLink
 Recurrence ID | RecurrenceID | DateTime
+### Site Page
+Display name | Internal name | Type
+--- | --- | ---
+Title | Title | Text
+Description | Description | Note
+Document Created By | Created_x0020_By | Text
+Content Type | ContentType | Computed
+Name | FileLeafRef | File
+Select | SelectFilename | Computed
+Modified | Modified | DateTime
+Title | LinkTitle | Computed
+Created | Created | DateTime
+Document Modified By | Modified_x0020_By | Text
+Banner Image URL | BannerImageUrl | URL
 ### Task
 Display name | Internal name | Type
 --- | --- | ---
