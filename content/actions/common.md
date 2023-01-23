@@ -13,6 +13,7 @@ weight = 100
       - [Powell Intranet App catalog](#powell-intranet-app-catalog)
       - [Powell Intranet Azure Applications](#powell-intranet-azure-applications)
       - [Powell Intranet Content types](#powell-intranet-content-types)
+        - [Powell Intranet Create a new content type](#powell-intranet-create-a-new-content-type)
       - [Powell Intranet Disclaimers](#powell-intranet-disclaimers)
       - [Powell Intranet Email Template](#powell-intranet-email-template)
       - [Powell Intranet Fonts](#powell-intranet-fonts)
@@ -21,6 +22,7 @@ weight = 100
       - [Powell Intranet JavaScript catalog](#powell-intranet-javascript-catalog)
       - [Powell Intranet JSLink catalog](#powell-intranet-jslink-catalog)
       - [Powell Intranet List Templates](#powell-intranet-list-templates)
+        - [Powell Intranet Create a new List Template](#powell-intranet-create-a-new-list-template)
       - [Powell Intranet Master pages](#powell-intranet-master-pages)
       - [Powell Intranet Navigation](#powell-intranet-navigation)
       - [Powell Intranet PNP Provisioning Schema](#powell-intranet-pnp-provisioning-schema)
@@ -31,6 +33,8 @@ weight = 100
       - [Powell Intranet Themes](#powell-intranet-themes)
       - [Powell Intranet Widget views](#powell-intranet-widget-views)
       - [Powell Intranet Your Site](#powell-intranet-your-site)
+        - [Powell Intranet Edit Your Site](#powell-intranet-edit-your-site)
+        - [Powell Intranet Create a new list](#powell-intranet-create-a-new-list)
     - [Powell Intranet Deploy](#powell-intranet-deploy)
       - [Powell Intranet Office groups](#powell-intranet-office-groups)
       - [Powell Intranet Site collections](#powell-intranet-site-collections)
@@ -69,6 +73,10 @@ weight = 100
 #### Powell Intranet Content types
 1. [Go to Design](#powell-intranet-design)
 2. Under *SharePoint Templates*, *Content types*
+##### Powell Intranet Create a new content type
+1. [Go to Content types](#powell-intranet-content-types)
+2. *Create a new Content type*
+3. Name your new content type.
 #### Powell Intranet Disclaimers
 1. [Go to Design](#powell-intranet-design)
 2. Under *Branding*, *Disclaimers*
@@ -93,6 +101,10 @@ weight = 100
 #### Powell Intranet List Templates
 1. [Go to Design](#powell-intranet-design)
 2. Under *SharePoint Templates*, *Lists*
+##### Powell Intranet Create a new List Template
+1. [Go to list templates](/actions/common/#powell-intranet-list-templates)
+2. *Create a new list template*
+3. Fill in *Title*.
 #### Powell Intranet Master pages
 1. [Go to Design](#powell-intranet-design)
 2. Under *SharePoint Templates*, *Master pages*
@@ -124,7 +136,15 @@ weight = 100
 1. [Go to site templates](#powell-intranet-site-templates)
 2. Search for your site
 3. Edit button for your site
-
+##### Powell Intranet Edit Your Site
+1. [Get to your site](/actions/common/#powell-intranet-your-site)
+2. *Pages* on the left column
+3. Edit button for the page that you want to edit
+##### Powell Intranet Create a new list
+1. [Get to your site](/actions/common/#powell-intranet-your-site)
+2. *Lists* (left sidebar)
+3. *Create a new list*
+4. Fill in *Title*.
 ### Powell Intranet Deploy
 1. *Powell intranet* tab
 2. *Deploy* tab

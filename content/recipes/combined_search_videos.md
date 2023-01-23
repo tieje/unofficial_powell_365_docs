@@ -1,15 +1,10 @@
 +++
-title = "Grid List of Links"
+title = "Combined Search Videos"
 +++
 
 # Grid List of Links
 
 ![grid-list-links.png](https://i.postimg.cc/xC7JWZMN/grid-list-links.png)
-
-TL:DR;
-> "use graph webpart and then application tiles widget view and set 3 per row"
->
-> ~ <cite>Dah Master</cite>&emsp;![dah master](https://avatars.githubusercontent.com/u/53357172?s=64&v=4)
 
 ## Table of Contents
 - [Grid List of Links](#grid-list-of-links)
@@ -25,7 +20,7 @@ TL:DR;
 
 ## What We Are Making
 
-&emsp; A list of accessible links is one of the most commonly requested requirements that clients ask for in SharePoint sites. To create this grid style list of links with icons, perform the following steps.
+&emsp; A list of videos as part of a combined search webpart.
 
 ## In Powell Manager
 
