@@ -3,10 +3,13 @@ title = "Setup for Contributors"
 weight = 100
 +++
 
+# Contributors
+
 ## Table of Contents
-- [Table of Contents](#table-of-contents)
-- [Local Repo Setup](#local-repo-setup)
-- [Recommended VSCode Extensions](#recommended-vscode-extensions)
+- [Contributors](#contributors)
+  - [Table of Contents](#table-of-contents)
+  - [Local Repo Setup](#local-repo-setup)
+  - [Recommended VSCode Extensions](#recommended-vscode-extensions)
 
 ## Local Repo Setup
 

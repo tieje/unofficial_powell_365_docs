@@ -1,30 +1,33 @@
 +++
 title = "Content Types"
-weight = 1
+insert_anchor_links = "right"
 +++
 
+# Content Types
+
 ## Table of Contents
-- [Table of Contents](#table-of-contents)
 - [Content Types](#content-types)
-  - [Standard Content Types](#standard-content-types)
-  - [Partners Content Types](#partners-content-types)
-  - [Custom Content Types](#custom-content-types)
-- [Standard Content Types Reference](#standard-content-types-reference)
-  - [Announcement](#announcement)
-  - [Comment](#comment)
-  - [Contact](#contact)
-  - [East Asia Contact](#east-asia-contact)
-  - [Event](#event)
-  - [Issue](#issue)
-  - [Item](#item)
-  - [Link](#link)
-  - [Message](#message)
-  - [Post](#post)
-  - [Reservations](#reservations)
-  - [Schedule and Reservations](#schedule-and-reservations)
-  - [Schedule](#schedule)
-  - [Task](#task)
-  - [Workflow Task (SharePoint 2013)](#workflow-task-sharepoint-2013)
+  - [Table of Contents](#table-of-contents)
+  - [Content Types](#content-types-1)
+    - [Standard Content Types](#standard-content-types)
+    - [Partners Content Types](#partners-content-types)
+    - [Custom Content Types](#custom-content-types)
+  - [Standard Content Types Reference](#standard-content-types-reference)
+    - [Announcement](#announcement)
+    - [Comment](#comment)
+    - [Contact](#contact)
+    - [East Asia Contact](#east-asia-contact)
+    - [Event](#event)
+    - [Issue](#issue)
+    - [Item](#item)
+    - [Link](#link)
+    - [Message](#message)
+    - [Post](#post)
+    - [Reservations](#reservations)
+    - [Schedule and Reservations](#schedule-and-reservations)
+    - [Schedule](#schedule)
+    - [Task](#task)
+    - [Workflow Task (SharePoint 2013)](#workflow-task-sharepoint-2013)
 
 
 <table>

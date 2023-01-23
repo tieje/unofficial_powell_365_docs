@@ -3,11 +3,14 @@ title = "Recommended Setup"
 weight = 1
 +++
 
+# Recommended Setup
+
 ## Table of Contents
-- [Table of Contents](#table-of-contents)
-- [Recommended Setup for Powell Users](#recommended-setup-for-powell-users)
-  - [Saving Work](#saving-work)
-  - [Debugging](#debugging)
+- [Recommended Setup](#recommended-setup)
+  - [Table of Contents](#table-of-contents)
+  - [Recommended Setup for Powell Users](#recommended-setup-for-powell-users)
+    - [Saving Work](#saving-work)
+    - [Debugging](#debugging)
 
 ## Recommended Setup for Powell Users
 

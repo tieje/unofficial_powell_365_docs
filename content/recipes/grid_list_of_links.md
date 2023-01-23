@@ -1,7 +1,8 @@
 +++
 title = "Grid List of Links"
-insert_anchor_links = "right"
 +++
+
+# Grid List of Links
 
 ![grid-list-links.png](https://i.postimg.cc/xC7JWZMN/grid-list-links.png)
 
@@ -11,15 +12,16 @@ TL:DR;
 > ~ <cite>Dah Master</cite>&emsp;![dah master](https://avatars.githubusercontent.com/u/53357172?s=64&v=4)
 
 ## Table of Contents
-- [Table of Contents](#table-of-contents)
-- [What We Are Making](#what-we-are-making)
-- [In Powell Manager](#in-powell-manager)
-  - [Create a Custom Content Type](#create-a-custom-content-type)
-  - [Create a List Template](#create-a-list-template)
-  - [Create new List from List Template](#create-new-list-from-list-template)
-  - [Add to Site Template](#add-to-site-template)
-- [In SharePoint Site Contents](#in-sharepoint-site-contents)
-  - [Create Items For the List](#create-items-for-the-list)
+- [Grid List of Links](#grid-list-of-links)
+  - [Table of Contents](#table-of-contents)
+  - [What We Are Making](#what-we-are-making)
+  - [In Powell Manager](#in-powell-manager)
+    - [Create a Custom Content Type](#create-a-custom-content-type)
+    - [Create a List Template](#create-a-list-template)
+    - [Create new List from List Template](#create-new-list-from-list-template)
+    - [Add to Site Template](#add-to-site-template)
+  - [In SharePoint Site Contents](#in-sharepoint-site-contents)
+    - [Create Items For the List](#create-items-for-the-list)
 
 ## What We Are Making
 
