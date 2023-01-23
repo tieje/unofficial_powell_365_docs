@@ -8,3 +8,7 @@
 - [Powell apps](https://www.youtube.com/watch?v=U_RZ8Rxpwcw)
 
 as well as a [learning center](https://pow365.sharepoint.com/sites/learningcenter) [(email Powell for access)](https://support.powell-software.com/hc/en-us/requests/new?ticket_form_id=360001285619), this form of training is not especially helpful for developers building SharePoint sites using Powell. Due to lack-luster documentation, this documentation was born to help developers be productive.
+
+## Contributors
+
+&emsp; Instructions for contributors can be found [here](./content/setup/contributors.md).

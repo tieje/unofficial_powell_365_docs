@@ -10,6 +10,11 @@ weight = 100
 
 ## Local Repo Setup
 
+After cloning the repo:
+```bash
+git clone https://github.com/tieje/unofficial_powell_365_docs.git
+```
+
 1. [Install Rust](https://www.rust-lang.org/tools/install)
    1. Add `~/wherever-it-is/.cargo/bin` to path.
 2. [Install Zola](https://www.getzola.org/documentation/getting-started/installation)
