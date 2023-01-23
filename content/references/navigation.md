@@ -12,7 +12,7 @@ title = "Navigation"
       - [navigation section with static sublinks](#navigation-section-with-static-sublinks)
       - [static link](#static-link)
       - [search query](#search-query)
-      - [connected user's groups](#connected-users-groups)
+      - [connected users groups](#connected-users-groups)
       - [Example](#example)
 
 ## Design Home Navigation
@@ -32,7 +32,7 @@ title = "Navigation"
 
 TODO
 
-#### connected user's groups
+#### connected users groups
 
 TODO
 

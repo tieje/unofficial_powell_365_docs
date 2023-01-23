@@ -8,8 +8,13 @@ weight = 100
 ## Table of Contents
 - [Contributors](#contributors)
   - [Table of Contents](#table-of-contents)
+  - [Header Rules](#header-rules)
   - [Local Repo Setup](#local-repo-setup)
   - [Recommended VSCode Extensions](#recommended-vscode-extensions)
+
+## Header Rules
+
+&emsp; Do not use non-alpha-numeric characters in markdown headers.
 
 ## Local Repo Setup
 
