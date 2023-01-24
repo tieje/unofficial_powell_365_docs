@@ -2,8 +2,6 @@
 title = "Top Navigation"
 +++
 
-# Top Navigation
-
 ![top navigation](https://i.postimg.cc/dtTh2Fw8/top-navigation.png)
 
 TL:DR;
@@ -12,12 +10,11 @@ TL:DR;
 > ~ <cite>Dah Master</cite>&emsp;![dah master](https://avatars.githubusercontent.com/u/53357172?s=64&v=4)
 
 ## Table of Contents
-- [Top Navigation](#top-navigation)
-  - [Table of Contents](#table-of-contents)
-  - [What We Are Making](#what-we-are-making)
-  - [In Powell Manager](#in-powell-manager)
-    - [Create a Navigation](#create-a-navigation)
-    - [Add to Your Site](#add-to-your-site)
+- [Table of Contents](#table-of-contents)
+- [What We Are Making](#what-we-are-making)
+- [In Powell Manager](#in-powell-manager)
+  - [Create a Navigation](#create-a-navigation)
+  - [Add to Your Site](#add-to-your-site)
 
 ## What We Are Making
 

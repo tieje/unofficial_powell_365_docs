@@ -2,18 +2,15 @@
 title = "Navigation"
 +++
 
-# Navigation
-
 ## Table of Contents
-- [Navigation](#navigation)
-  - [Table of Contents](#table-of-contents)
-  - [Design Home Navigation](#design-home-navigation)
-    - [Create a new node](#create-a-new-node)
-      - [navigation section with static sublinks](#navigation-section-with-static-sublinks)
-      - [static link](#static-link)
-      - [search query](#search-query)
-      - [connected users groups](#connected-users-groups)
-      - [Example](#example)
+- [Table of Contents](#table-of-contents)
+- [Design Home Navigation](#design-home-navigation)
+  - [Create a new node](#create-a-new-node)
+    - [navigation section with static sublinks](#navigation-section-with-static-sublinks)
+    - [static link](#static-link)
+    - [search query](#search-query)
+    - [connected users groups](#connected-users-groups)
+    - [Example](#example)
 
 ## Design Home Navigation
 

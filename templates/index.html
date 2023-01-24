@@ -15,7 +15,7 @@
 </head>
 <body>
 
-{% if config.extra.release -%}
+<!-- {% if config.extra.release -%}
     <script>
         fetch('{{ config.extra.release | safe }}')
             .then((response) => {
@@ -27,7 +27,7 @@
                 release.innerHTML = `<a href='${html_url}'>${release_name}</a>`;
             });
     </script>
-{% endif -%}
+{% endif -%} -->
 <main>
     {# Create variable to allow appending index.html at end of links if set in config #}
     {% if not config.extra.easydocs_uglyurls or config.mode == "serve" or config.mode == "Serve" -%}
@@ -55,8 +55,12 @@
                 <h1><a href="{{ config.base_url }}{{ _ugly_url }}">{{ config.title }}</a></h1>
             {% endif -%}
 
-            {% if config.extra.release -%}
+            <!-- {% if config.extra.release -%}
                 <div id="release"></div>
+            {% endif -%}
+            -->
+            {% if config.extra.github -%}
+                <div id="release"><a href="{{ config.extra.github }}">Github</a></div>
             {% endif -%}
 
             <a href="javascript:void(0);" onclick="burger()" id="mobile" class="ms-Icon--GlobalNavButton"></a>
@@ -131,7 +135,6 @@
     {% endblock nav -%}
 
     <article>
-
         {% if config.build_search_index -%}
             <div id="on_right">
                 <span id="search-ico" class="ms-Icon--Search"></span>
@@ -144,7 +147,7 @@
                 </div>
             </div>
         {% endif -%}
-
+        
         <div id="wrap">
             {% block content -%}
                 {%- if section.word_count > 0 -%}
@@ -154,7 +157,6 @@
                 {% endif -%}
             {% endblock content %}
         </div>
-
     </article>
 </main>
 

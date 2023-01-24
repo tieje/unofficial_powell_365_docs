@@ -12,6 +12,8 @@ logo = "https://easydocs.codeandmedia.com/logo.svg"
 release = "https://api.github.com/repos/getzola/zola/releases/latest"
 favicon = "https://www.getzola.org/favicon.ico"
 easydocs_logo_always_clickable = false
+github = "https://github.com/tieje/unofficial_powell_365_docs"
+
 
 # For use with offline sites. If set to true template links are generated with the full path indcluding index.html
 # Insired by Abridge theme https://www.getzola.org/themes/abridge/

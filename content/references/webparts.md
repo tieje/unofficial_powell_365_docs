@@ -2,13 +2,10 @@
 title = "Webparts"
 +++
 
-# Webparts
-
 ## Table of Contents
-- [Webparts](#webparts)
-  - [Table of Contents](#table-of-contents)
-  - [Edit Widget Explanations](#edit-widget-explanations)
-    - [Row limit](#row-limit)
+- [Table of Contents](#table-of-contents)
+- [Edit Widget Explanations](#edit-widget-explanations)
+  - [Row limit](#row-limit)
 
 ## Edit Widget Explanations
 

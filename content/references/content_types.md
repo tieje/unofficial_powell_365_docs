@@ -3,36 +3,33 @@ title = "Content Types"
 insert_anchor_links = "right"
 +++
 
-# Content Types
-
 &emsp; Your partner may not have access to standard content types.
 
 ## Table of Contents
+- [Table of Contents](#table-of-contents)
 - [Content Types](#content-types)
-  - [Table of Contents](#table-of-contents)
-  - [Content Types](#content-types-1)
-    - [Standard Content Types](#standard-content-types)
-    - [Partners Content Types](#partners-content-types)
-    - [Custom Content Types](#custom-content-types)
-  - [Standard Content Types Reference](#standard-content-types-reference)
-    - [Announcement](#announcement)
-    - [Comment](#comment)
-    - [Contact](#contact)
-    - [Document](#document)
-    - [East Asia Contact](#east-asia-contact)
-    - [Event](#event)
-    - [Issue](#issue)
-    - [Item](#item)
-    - [Link](#link)
-    - [Message](#message)
-    - [Picture](#picture)
-    - [Post](#post)
-    - [Reservations](#reservations)
-    - [Schedule and Reservations](#schedule-and-reservations)
-    - [Schedule](#schedule)
-    - [Site Page](#site-page)
-    - [Task](#task)
-    - [Workflow Task (SharePoint 2013)](#workflow-task-sharepoint-2013)
+  - [Standard Content Types](#standard-content-types)
+  - [Partners Content Types](#partners-content-types)
+  - [Custom Content Types](#custom-content-types)
+- [Standard Content Types Reference](#standard-content-types-reference)
+  - [Announcement](#announcement)
+  - [Comment](#comment)
+  - [Contact](#contact)
+  - [Document](#document)
+  - [East Asia Contact](#east-asia-contact)
+  - [Event](#event)
+  - [Issue](#issue)
+  - [Item](#item)
+  - [Link](#link)
+  - [Message](#message)
+  - [Picture](#picture)
+  - [Post](#post)
+  - [Reservations](#reservations)
+  - [Schedule and Reservations](#schedule-and-reservations)
+  - [Schedule](#schedule)
+  - [Site Page](#site-page)
+  - [Task](#task)
+  - [Workflow Task (SharePoint 2013)](#workflow-task-sharepoint-2013)
 
 
 <table>

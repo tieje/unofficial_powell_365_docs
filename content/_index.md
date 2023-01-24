@@ -7,10 +7,6 @@ weight = 1
 
 ## Unofficial Powell 365 Documentation
 
-### Github
-
-&emsp; Please contribute [here](https://github.com/tieje/unofficial_powell_365_docs).
-
 ### Motivation
 
 &emsp; The purpose of this documentation is to ease the developer experience of Powell 365. As of this writing (2023/01/19), [official Powell documentation](https://support.powell-software.com/hc/en-us) is less than helpful. While [official training videos](https://www.youtube.com/@powellsoftware6848/videos) do exist:

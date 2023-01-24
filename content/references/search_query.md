@@ -2,12 +2,9 @@
 title = "Search Query"
 +++
 
-# Search Query
-
 ## Table of Contents
-- [Search Query](#search-query)
-  - [Table of Contents](#table-of-contents)
-  - [Search Query Explained](#search-query-explained)
+- [Table of Contents](#table-of-contents)
+- [Search Query Explained](#search-query-explained)
 
 ## Search Query Explained
 
