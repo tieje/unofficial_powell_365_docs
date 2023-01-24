@@ -4,7 +4,8 @@ title = "Webparts"
 
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
-- [Web Parts](#web-parts)
+- [Species](#species)
+  - [Search Web Part](#search-web-part)
   - [Combined Search Web Part](#combined-search-web-part)
 - [Edit Widget Explanations](#edit-widget-explanations)
   - [Search Query](#search-query)
@@ -14,8 +15,12 @@ title = "Webparts"
     - [Avoid Nesting Folders in SharePoint Sites](#avoid-nesting-folders-in-sharepoint-sites)
     - [Form View](#form-view)
   - [Row limit](#row-limit)
+- [Tips and Tricks](#tips-and-tricks)
+  - [Determine the Type of Webpart By Inspecting SharePoint Site with Dev Tools](#determine-the-type-of-webpart-by-inspecting-sharepoint-site-with-dev-tools)
 
-## Web Parts
+## Species
+
+### Search Web Part
 
 ### Combined Search Web Part
 
@@ -95,3 +100,13 @@ because we need the Forms view of the files.
 **Example**
 
 &emsp; In the [grid list of links recipe](/recipes/webparts/#grid-list-of-links), we want an arbitrary max of 27 rows or 27 items that will be grabbed from the SharePoint List
+
+## Tips and Tricks
+
+### Determine the Type of Webpart By Inspecting SharePoint Site with Dev Tools
+
+&emsp; The type of webpart can be found in the `data-sp-feature-tag`. It may look like the following:
+```html
+<div data-sp-feature-tag="PowellScriptEditorWebPart web part (Search)" ...>...</div>
+```
+The webpart featured here is *Search*.

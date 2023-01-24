@@ -25,8 +25,13 @@ weight = 100
         - [Powell Intranet Create a new List Template](#powell-intranet-create-a-new-list-template)
       - [Powell Intranet Master pages](#powell-intranet-master-pages)
       - [Powell Intranet Navigation](#powell-intranet-navigation)
+      - [Powell Intranet Page layouts](#powell-intranet-page-layouts)
+      - [Powell Intranet Create a Page layout](#powell-intranet-create-a-page-layout)
+      - [Powell Intranet Page templates](#powell-intranet-page-templates)
+      - [Powell Intranet Create a Page template](#powell-intranet-create-a-page-template)
       - [Powell Intranet PNP Provisioning Schema](#powell-intranet-pnp-provisioning-schema)
       - [Powell Intranet Search Queries](#powell-intranet-search-queries)
+      - [Powell Intranet Sites](#powell-intranet-sites)
       - [Powell Intranet Site scripts](#powell-intranet-site-scripts)
       - [Powell Intranet Site Templates](#powell-intranet-site-templates)
       - [Powell Intranet Teams templates](#powell-intranet-teams-templates)
@@ -116,12 +121,27 @@ weight = 100
 #### Powell Intranet Navigation
 1. [Go to Design](#powell-intranet-design)
 2. Under *SharePoint Templates*, *Navigation*
+#### Powell Intranet Page layouts
+1. [Go to Design](#powell-intranet-design)
+2. Under *SharePoint Templates*, *Page layouts*
+#### Powell Intranet Create a Page layout
+1. [Go to page layout](#powell-intranet-page-layouts)
+2. *Create a new page layout*
+#### Powell Intranet Page templates
+1. [Go to Design](#powell-intranet-design)
+2. Under *SharePoint Templates*, *Page templates*
+#### Powell Intranet Create a Page template
+1. [Go to page templates](#powell-intranet-page-templates)
+2. *Create a new page template*
 #### Powell Intranet PNP Provisioning Schema
 1. [Go to Design](#powell-intranet-design)
 2. Under *Custom Components*, *PNP Provisioning Schema*
 #### Powell Intranet Search Queries
 1. [Go to Design](#powell-intranet-design)
 2. Under *SharePoint Templates*, *Search Queries*
+#### Powell Intranet Sites
+1. [Go to Design](#powell-intranet-design)
+2. Under *SharePoint Templates*, *Sites*
 #### Powell Intranet Site scripts
 1. [Go to Design](#powell-intranet-design)
 2. Under *Custom Components*, *Site scripts*

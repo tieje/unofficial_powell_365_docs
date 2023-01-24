@@ -1,12 +1,12 @@
 +++
-title = "Recipes for Webparts"
+title = "Recipes for Entire Powell Web Pages"
 +++
 
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
-- [Intro](#intro)
-- [Grid List of Links](#grid-list-of-links)
+- [Waterfountain Page](#waterfountain-page)
   - [What We Are Making](#what-we-are-making)
+  - [Create the Page](#create-the-page)
   - [In Powell Manager](#in-powell-manager)
     - [Create a Custom Content Type](#create-a-custom-content-type)
     - [Create a List Template](#create-a-list-template)
@@ -14,30 +14,36 @@ title = "Recipes for Webparts"
     - [Add to Site Template](#add-to-site-template)
   - [In SharePoint Site Contents](#in-sharepoint-site-contents)
     - [Create Items For the List](#create-items-for-the-list)
-- [Combined Search Videos](#combined-search-videos)
-  - [What We Are Making](#what-we-are-making-1)
-  - [In Powell Manager](#in-powell-manager-1)
-    - [Add to Site Template](#add-to-site-template-1)
-  - [In SharePoint Site Contents](#in-sharepoint-site-contents-1)
-    - [Create Videos Files](#create-videos-files)
 
+## Waterfountain Page
 
-## Intro
+| ![water-fountain-top-half.png](https://i.postimg.cc/wTwTvy79/water-fountain-top-half.png) |
+|:---:|
+| **Top Half** |
 
-&emsp; Webparts are the basic building blocks of SharePoint sites. Below are "recipes" on how to build specific web components in Powell for SharePoint Sites. For information on Webparts, you can check the reference [here](/references/webparts).
-
-## Grid List of Links
-
-![grid-list-links.png](https://i.postimg.cc/xC7JWZMN/grid-list-links.png)
+| ![water-fountain-bottom-half.png](https://i.postimg.cc/BQbfmhnG/water-fountain-bottom-half.png) |
+|:---:|
+| **Bottom Half** |
 
 TL:DR;
-> "use graph webpart and then application tiles widget view and set 3 per row"
+> "search webpart and discussion tiles webpart"
+>
+> ~ <cite>a Student</cite>&emsp;![a student](https://avatars.githubusercontent.com/u/19988117?s=40&v=4)
+
+> "Create a page layout, create a page template, create a page in site template"
 >
 > ~ <cite>Dah Master</cite>&emsp;![dah master](https://avatars.githubusercontent.com/u/53357172?s=40&v=4)
 
 ### What We Are Making
 
-&emsp; A list of accessible links is one of the most commonly requested requirements that clients ask for in SharePoint sites. To create this grid style list of links with icons, perform the following steps.
+&emsp; We will be making a water fountain page, which can be found in the Powell example site [here](https://pow365.sharepoint.com/sites/multilingualconnect/en-US/waterfountain).
+
+### Create the Page
+
+1. [Create a page a layout](/actions/common/#powell-intranet-create-a-page-layout)
+2. [Create a page template](/actions/common/#powell-intranet-create-a-page-template)
+3. Create Page in Site template
+4. 
 
 ### In Powell Manager
 
@@ -106,57 +112,4 @@ TL:DR;
 2. Choose [the list that you created](#create-new-list-from-list-template)
 3. Fill in the fields.
 4. Create as many items in the list as needed.
-
-## Combined Search Videos
-
-![combined-search-videos.png](https://i.postimg.cc/WbRtkTHF/combined-search-videos.png)
-
-TL:DR;
-> "use `FileType: mp4` search query"
->
-> ~ <cite>a Student</cite>&emsp;![a student](https://avatars.githubusercontent.com/u/19988117?s=40&v=4)
-
-### What We Are Making
-
-&emsp; A list of videos as part of a [combined search webpart](/references/webparts/#combined-search-web-part). You may wish to [create the videos files](#create-videos-files) first because the [search query](/references/webparts/#search-query) might be based on where you stored your videos in storage.
-
-### In Powell Manager
-
-#### Add to Site Template
-
-1. [Add a Webpart](/actions/common/#powell-intranet-add-a-webpart)
-2. Use the *Combined search* webpart
-3. Scroll down to *Configuration*
-4. *Select a widget view*
-5. In our case, we will be using the *Vertical* widget, but feel free to use what you need.
-6. Set the following:
-   1. *Title*
-7. *New Configuration*. Set the following:
-   1. *Title*
-   2. [*Search query template*](/references/webparts/#search-query)
-   3. [Row limit](/content/references/webparts/#row-limit)
-   4. *Display* -> *Select a display type* -> *Select a widget view*
-   5. Under *Must read items*, set the following to your needs or the following parameters
-      1. *Mobile item's per row* to 1
-      2. *Tablet item's per row* to 1
-      3. *Desktop item's per row* to 4
-      4. *Large screen item's per row* to 4
-8.  Save the Configuration
-9.  Save the Webpart
-10. Save the page template
-11. Sync the Webpart
-12. Go back to *Edit Site Template*
-13. Save all site templates.
-14. Sync the site template that you were working on.
-
-### In SharePoint Site Contents 
-
-&emsp; If you do not have any content to upload, I recommend downloading sample video content from [here](https://samplelib.com/sample-mp4.html).
-
-#### Create Videos Files
-
-1. [Go to site contents](/actions/common/#site-contents)
-2. Create a Document Library Folder with the same name as what [you specified in your search query](#add-to-site-template)
-3. *New*. Choose from your computer and upload the sample video files
-
 
