@@ -60,14 +60,12 @@ TL:DR;
 
 ### Add to Site Template
 
-1. [Edit your site](/actions/common/#powell-intranet-edit-your-site)
-2. Scroll to the bottom under *Placeholder Main*. `Add a webpart`
-   - If you need to add a space on your site for the web part, edit the template under the `Selected Page Layout` 
-3.  Use the `Graph` web part
-4. Scroll down to `Display`
-5. `Select a widget view`
-6. Use the `Application Tiles` widget
-7. Set the following
+1. [Add a Webpart](/actions/common/#powell-intranet-add-a-webpart)
+2. Use the *Graph* web part
+3. Scroll down to *Display*
+4. *Select a widget view*
+5. Use the *Application Tiles* widget
+6. Set the following
    1. *Title*
    2. *Site Url* to your sharepoint site Url
    3. *List* to *Manual value*. Type in [the list that you created](#create-new-list-from-list-template)

@@ -33,8 +33,9 @@ weight = 100
       - [Powell Intranet Themes](#powell-intranet-themes)
       - [Powell Intranet Widget views](#powell-intranet-widget-views)
       - [Powell Intranet Your Site](#powell-intranet-your-site)
-        - [Powell Intranet Edit Your Site](#powell-intranet-edit-your-site)
-        - [Powell Intranet Create a new list](#powell-intranet-create-a-new-list)
+      - [Powell Intranet Edit Your Site](#powell-intranet-edit-your-site)
+      - [Powell Intranet Add a Webpart](#powell-intranet-add-a-webpart)
+      - [Powell Intranet Create a new list](#powell-intranet-create-a-new-list)
     - [Powell Intranet Deploy](#powell-intranet-deploy)
       - [Powell Intranet Office groups](#powell-intranet-office-groups)
       - [Powell Intranet Site collections](#powell-intranet-site-collections)
@@ -50,7 +51,11 @@ weight = 100
       - [Powell Hub Themes](#powell-hub-themes)
       - [Powell Hub Widget views](#powell-hub-widget-views)
 - [SharePoint Site Collection](#sharepoint-site-collection)
+  - [SharePoint Site Settings](#sharepoint-site-settings)
   - [Site Contents](#site-contents)
+  - [Site Information](#site-information)
+  - [View all site settings](#view-all-site-settings)
+  - [Check File Content Type](#check-file-content-type)
   - [Manual Contents](#manual-contents)
 
 ## Purpose
@@ -136,11 +141,15 @@ weight = 100
 1. [Go to site templates](#powell-intranet-site-templates)
 2. Search for your site
 3. Edit button for your site
-##### Powell Intranet Edit Your Site
+#### Powell Intranet Edit Your Site
 1. [Get to your site](/actions/common/#powell-intranet-your-site)
 2. *Pages* on the left column
 3. Edit button for the page that you want to edit
-##### Powell Intranet Create a new list
+#### Powell Intranet Add a Webpart
+1. [Edit your site](/actions/common/#powell-intranet-edit-your-site)
+2. Scroll to the bottom under *Placeholder Main*. `Add a webpart`
+   - If you need to add a space on your site for the web part, edit the template under the `Selected Page Layout`
+#### Powell Intranet Create a new list
 1. [Get to your site](/actions/common/#powell-intranet-your-site)
 2. *Lists* (left sidebar)
 3. *Create a new list*
@@ -192,6 +201,22 @@ weight = 100
 
 # SharePoint Site Collection
 
+## SharePoint Site Settings
+1. Gear wheel in the upper right corner
 ## Site Contents
+1. [Go to settings](#sharepoint-site-settings)
+2. *Site Contents*
+## Site Information
+1. [Go to settings](#sharepoint-site-settings)
+2. *Site Information*
+## View all site settings
+1. [Go to site settings](#view-all-site-settings)
+2. *View all site settings* is above the *Delete site* trash can (terrible design, btw)
+## Check File Content Type
+1. [Go to site settings](#view-all-site-settings)
+2. Go to your file.
+3. Click file menu button, which is the three vertical dots next to the file.
+4. Click on *Details* all the way at the bottom.
+5. The popup vertical bar on the right, under properties header, Content Type
 
 ## Manual Contents
