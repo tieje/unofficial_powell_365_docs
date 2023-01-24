@@ -24,7 +24,7 @@ title = "Recipes for Webparts"
 
 ## Intro
 
-&emsp; Webparts are the basic building blocks of SharePoint sites. For information on Webparts, you can check the reference [here](/references/webparts).
+&emsp; Webparts are the basic building blocks of SharePoint sites. Below are "recipes" on how to build specific web components in Powell for SharePoint Sites. For information on Webparts, you can check the reference [here](/references/webparts).
 
 ## Grid List of Links
 
