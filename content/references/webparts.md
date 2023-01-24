@@ -23,7 +23,7 @@ title = "Webparts"
 
 **Example**
 
-Example Recipe: [Combined Search Videos](/recipes/combined_search_videos)
+Example Recipe: [Combined Search Videos](/recipes/webparts/#combined_search_videos)
 
 ![combined-search-videos.png](https://i.postimg.cc/WbRtkTHF/combined-search-videos.png)
 
@@ -94,4 +94,4 @@ because we need the Forms view of the files.
 
 **Example**
 
-&emsp; In the [grid list of links recipe](/recipes/grid_list_of_links), we want an arbitrary max of 27 rows or 27 items that will be grabbed from the SharePoint List
+&emsp; In the [grid list of links recipe](/recipes/webparts/#grid-list-of-links), we want an arbitrary max of 27 rows or 27 items that will be grabbed from the SharePoint List
