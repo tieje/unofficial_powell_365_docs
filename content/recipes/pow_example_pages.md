@@ -41,7 +41,7 @@ TL:DR;
 
 ### What We Are Making
 
-&emsp; We will be making a water fountain page, which can be found in the Powell example site [here](https://pow365.sharepoint.com/sites/multilingualconnect/en-US/waterfountain). We can determine the type of the webparts by [looking for the the `data-sp-feature-tag`](#search-for-a-tag-or-attribute-on-a-web-page) on the [example water fountain page](/references/webparts/#determine-the-type-of-webpart-by-inspecting-sharepoint-site-with-dev-tools). There are main webparts for this page:
+&emsp; We will be making a water fountain page, which can be found in the Powell example site [here](https://pow365.sharepoint.com/sites/multilingualconnect/en-US/waterfountain). We can determine the type of the webparts by [looking for the the `data-sp-feature-tag`](/actions/common/#search-for-a-tag-or-attribute-on-a-web-page) on the [example water fountain page](/references/webparts/#determine-the-type-of-webpart-by-inspecting-sharepoint-site-with-dev-tools). There are main webparts for this page:
 
 1. Search
 2. Discussion tiles
@@ -52,7 +52,7 @@ TL:DR;
 
 &emsp; Here, we will be creating a custom content type that inherits from the standard Item Content Type. It will contain additional fields for image, number, and URL.
 
-1. [Create a new item content type](#powell-intranet-create-a-content-type-that-inherits-from-item)
+1. [Create a new item content type](/actions/common/#powell-intranet-create-a-content-type-that-inherits-from-item)
    - Create a URL field: *Select a field type*, choose URL.
 2. Save
 

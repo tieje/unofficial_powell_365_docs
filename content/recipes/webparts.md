@@ -45,7 +45,7 @@ TL:DR;
 
 &emsp; Here, we will be creating a custom content type that inherits from the standard Item Content Type. It will contain additional fields for image, number, and URL.
 
-1. [Create a new item content type](#powell-intranet-create-a-content-type-that-inherits-from-item)
+1. [Create a new item content type](/actions/common/#powell-intranet-create-a-content-type-that-inherits-from-item)
    1. Create an image field: *Select a field type*, choose Image.
    2. Create a number field: *Select a field type*, choose Number.
    3. Create a URL field: *Select a field type*, choose URL.
