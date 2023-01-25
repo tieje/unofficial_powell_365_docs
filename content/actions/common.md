@@ -13,7 +13,8 @@ weight = 100
       - [Powell Intranet App catalog](#powell-intranet-app-catalog)
       - [Powell Intranet Azure Applications](#powell-intranet-azure-applications)
       - [Powell Intranet Content types](#powell-intranet-content-types)
-        - [Powell Intranet Create a new content type](#powell-intranet-create-a-new-content-type)
+      - [Powell Intranet Create a new content type](#powell-intranet-create-a-new-content-type)
+      - [Powell Intranet Create a content type that inherits from item](#powell-intranet-create-a-content-type-that-inherits-from-item)
       - [Powell Intranet Disclaimers](#powell-intranet-disclaimers)
       - [Powell Intranet Email Template](#powell-intranet-email-template)
       - [Powell Intranet Fonts](#powell-intranet-fonts)
@@ -22,7 +23,7 @@ weight = 100
       - [Powell Intranet JavaScript catalog](#powell-intranet-javascript-catalog)
       - [Powell Intranet JSLink catalog](#powell-intranet-jslink-catalog)
       - [Powell Intranet List Templates](#powell-intranet-list-templates)
-        - [Powell Intranet Create a new List Template](#powell-intranet-create-a-new-list-template)
+      - [Powell Intranet Create a new List Template](#powell-intranet-create-a-new-list-template)
       - [Powell Intranet Master pages](#powell-intranet-master-pages)
       - [Powell Intranet Navigation](#powell-intranet-navigation)
       - [Powell Intranet Page layouts](#powell-intranet-page-layouts)
@@ -39,6 +40,7 @@ weight = 100
       - [Powell Intranet Widget views](#powell-intranet-widget-views)
       - [Powell Intranet Your Site](#powell-intranet-your-site)
       - [Powell Intranet Edit Your Site](#powell-intranet-edit-your-site)
+      - [Powell Intranet Create a new page for your site](#powell-intranet-create-a-new-page-for-your-site)
       - [Powell Intranet Add a Webpart](#powell-intranet-add-a-webpart)
       - [Powell Intranet Create a new list](#powell-intranet-create-a-new-list)
     - [Powell Intranet Deploy](#powell-intranet-deploy)
@@ -61,7 +63,9 @@ weight = 100
   - [Site Information](#site-information)
   - [View all site settings](#view-all-site-settings)
   - [Check File Content Type](#check-file-content-type)
-  - [Manual Contents](#manual-contents)
+- [Web Page](#web-page)
+  - [Inspect a web page](#inspect-a-web-page)
+  - [Search for a tag or attribute on a web page](#search-for-a-tag-or-attribute-on-a-web-page)
 
 ## Purpose
 &emsp; The purpose of this section is to provide a reference to a list of actions that are very commonly used in Powell to arrive at a desired result or web page. This cuts down on repetition and ambiguity while writing documentation for Powell. Currently, due to needing to repeat specific actions many times in Powell, it's all too easy for Users to visually and mentally block out Powell's other features to the point where they genuinely would not know where to look on the web page. This page should be referenced often by contributors to help users navigate Powell.
@@ -83,10 +87,16 @@ weight = 100
 #### Powell Intranet Content types
 1. [Go to Design](#powell-intranet-design)
 2. Under *SharePoint Templates*, *Content types*
-##### Powell Intranet Create a new content type
+#### Powell Intranet Create a new content type
 1. [Go to Content types](#powell-intranet-content-types)
 2. *Create a new Content type*
 3. Name your new content type.
+#### Powell Intranet Create a content type that inherits from item
+1. [Create a new content type](#powell-intranet-create-a-new-content-type)
+2. Inherit from *Item* Content Type. Save.
+3. You should be in edit mode for your new content Type. Go to *Fields*
+4. *Add new field*
+5. *Create a new field*. Name your fields appropriately and with whatever field types that you need.
 #### Powell Intranet Disclaimers
 1. [Go to Design](#powell-intranet-design)
 2. Under *Branding*, *Disclaimers*
@@ -111,7 +121,7 @@ weight = 100
 #### Powell Intranet List Templates
 1. [Go to Design](#powell-intranet-design)
 2. Under *SharePoint Templates*, *Lists*
-##### Powell Intranet Create a new List Template
+#### Powell Intranet Create a new List Template
 1. [Go to list templates](/actions/common/#powell-intranet-list-templates)
 2. *Create a new list template*
 3. Fill in *Title*.
@@ -127,6 +137,13 @@ weight = 100
 #### Powell Intranet Create a Page layout
 1. [Go to page layout](#powell-intranet-page-layouts)
 2. *Create a new page layout*
+   - Its recommended to use the same *Web template* as the one used in your site.
+     1. [Go to your site](#powell-intranet-your-site)
+     2. *Global settings* (left column)
+   - The new page layout should be as close to what we want as possible.
+   - If there is an existing page layout that is exactly the same as what you're making, you can use that page layout instead.
+   - To use this page layout builder, *Add a section*. Drag and drop from the *Section list*
+3. Save.
 #### Powell Intranet Page templates
 1. [Go to Design](#powell-intranet-design)
 2. Under *SharePoint Templates*, *Page templates*
@@ -165,6 +182,12 @@ weight = 100
 1. [Get to your site](/actions/common/#powell-intranet-your-site)
 2. *Pages* on the left column
 3. Edit button for the page that you want to edit
+#### Powell Intranet Create a new page for your site
+1. [Create a page a layout](/actions/common/#powell-intranet-create-a-page-layout)
+2. [Create a page template](/actions/common/#powell-intranet-create-a-page-template)
+3. [Go to your site](/actions/common/#powell-intranet-edit-your-site)
+4. *Pages* (left column)
+5. *Create a new page*
 #### Powell Intranet Add a Webpart
 1. [Edit your site](/actions/common/#powell-intranet-edit-your-site)
 2. Scroll to the bottom under *Placeholder Main*. `Add a webpart`
@@ -239,4 +262,12 @@ weight = 100
 4. Click on *Details* all the way at the bottom.
 5. The popup vertical bar on the right, under properties header, Content Type
 
-## Manual Contents
+# Web Page
+
+## Inspect a web page
+1. Right-click on an element of the web page that you'd like to inspect.
+2. On the dropdown menu, choose *Inspect*
+
+## Search for a tag or attribute on a web page
+1. [Inspect the page](#inspect-a-web-page)
+2. On the *Inspector* (Firefox) or *Elements* (Chrome) tab (at the top, but usually this is the default opened tag anyways), press `Ctrl + f` and type in what you'd like to look for.

@@ -4,16 +4,21 @@ title = "Recipes for Entire Powell Web Pages"
 
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
+- [Powell Example Web Pages](#powell-example-web-pages)
 - [Waterfountain Page](#waterfountain-page)
   - [What We Are Making](#what-we-are-making)
-  - [Create the Page](#create-the-page)
   - [In Powell Manager](#in-powell-manager)
     - [Create a Custom Content Type](#create-a-custom-content-type)
     - [Create a List Template](#create-a-list-template)
     - [Create new List from List Template](#create-new-list-from-list-template)
+    - [Create the Page](#create-the-page)
     - [Add to Site Template](#add-to-site-template)
   - [In SharePoint Site Contents](#in-sharepoint-site-contents)
     - [Create Items For the List](#create-items-for-the-list)
+
+## Powell Example Web Pages
+
+&emsp; There exists a [sample Powell SharePoint site](https://pow365.sharepoint.com/sites/multilingualconnect/en-US/) with several examples of Powell webparts. You can request access [here](https://support.powell-software.com/hc/en-us/requests/new). Unfortunately, getting access to the Powell Manager which shows its settings, has not been possible, at least to our knowledge. For this reason, this section was created to show how to build these pages.
 
 ## Waterfountain Page
 
@@ -36,14 +41,10 @@ TL:DR;
 
 ### What We Are Making
 
-&emsp; We will be making a water fountain page, which can be found in the Powell example site [here](https://pow365.sharepoint.com/sites/multilingualconnect/en-US/waterfountain).
+&emsp; We will be making a water fountain page, which can be found in the Powell example site [here](https://pow365.sharepoint.com/sites/multilingualconnect/en-US/waterfountain). We can determine the type of the webparts by [looking for the the `data-sp-feature-tag`](#search-for-a-tag-or-attribute-on-a-web-page) on the [example water fountain page](/references/webparts/#determine-the-type-of-webpart-by-inspecting-sharepoint-site-with-dev-tools). There are main webparts for this page:
 
-### Create the Page
-
-1. [Create a page a layout](/actions/common/#powell-intranet-create-a-page-layout)
-2. [Create a page template](/actions/common/#powell-intranet-create-a-page-template)
-3. Create Page in Site template
-4. 
+1. Search
+2. Discussion tiles
 
 ### In Powell Manager
 
@@ -51,15 +52,9 @@ TL:DR;
 
 &emsp; Here, we will be creating a custom content type that inherits from the standard Item Content Type. It will contain additional fields for image, number, and URL.
 
-1. [Create a new content type](/actions/common/#powell-intranet-create-a-new-content-type)
-2. Inherit from *Item* Content Type. Save.
-3. You should be in edit mode for your new content Type. Go to *Fields*
-4. *Add new field*
-5. *Create a new field*. Name your fields appropriately.
-   1. Create an image field: *Select a field type*, choose Image.
-   2. Create a number field: *Select a field type*, choose Number.
-   3. Create a URL field: *Select a field type*, choose URL.
-6. Save
+1. [Create a new item content type](#powell-intranet-create-a-content-type-that-inherits-from-item)
+   - Create a URL field: *Select a field type*, choose URL.
+2. Save
 
 #### Create a List Template
 
@@ -78,6 +73,21 @@ TL:DR;
 1. [Create a new list](/actions/common/#powell-intranet-create-a-new-list)
 2. Under *Select a list model* dropdown, select [the list template that you created](#create-a-list-template) under *My List Templates*
 3. Save and Sync
+
+#### Create the Page
+
+1. [Create a new page for you site](powell-intranet-create-a-new-page-for-your-site)
+   - For page template
+     - Under *Page header*, choose *No header*
+     - Under Select page content type, choose *Waterfountain topic*
+2. Under *Placeholder Main*, *Add a webpart*, choose the *Search* webpart.
+3. Set the following fields:
+   - *Title*: `Find a conversation topic to engage a discussion with your colleagues`
+   - Under *Query Builder*, fill in *Search query template* with the following query:
+     - ``
+   - [*Row limit*](/references/webparts/#row-limit): `12` or whatever suits your needs
+   - Under *Display*, *Select a widget view*, choose *Application Tiles 2*
+   - 
 
 #### Add to Site Template
 

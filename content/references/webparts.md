@@ -105,7 +105,7 @@ because we need the Forms view of the files.
 
 ### Determine the Type of Webpart By Inspecting SharePoint Site with Dev Tools
 
-&emsp; The type of webpart can be found in the `data-sp-feature-tag`. It may look like the following:
+&emsp; The type of webpart can be found in the `data-sp-feature-tag`. You'll want to inspect the page, and press `Ctrl + F` to find this attribute in the HTML. It may look like the following:
 ```html
 <div data-sp-feature-tag="PowellScriptEditorWebPart web part (Search)" ...>...</div>
 ```
