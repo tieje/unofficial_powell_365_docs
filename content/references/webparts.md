@@ -26,7 +26,7 @@ title = "Webparts"
 
 ### Discussion Tiles webpart
 
-&emsp; This webpart can only be used by pre-programmed Powell Intranet site templates like the [Water Fountain Page](#water-fountain-page). In other words, this webpart is useless to Powell users.
+&emsp; This webpart can only be used by pre-programmed Powell Intranet site templates like the [Water Fountain Page](/recipes/pow_example_pages/#water-fountain-page). In other words, this webpart is useless to Powell users.
 ![Discussion Tiles](https://i.postimg.cc/fL24hZss/discussion-tiles.png)
 
 ### Search webpart
