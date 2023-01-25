@@ -5,10 +5,11 @@ title = "Recipes for Entire Powell Web Pages"
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
 - [Powell Example Web Pages](#powell-example-web-pages)
-- [Waterfountain Page](#waterfountain-page)
+- [Water Fountain Page](#water-fountain-page)
   - [What We Are Making](#what-we-are-making)
   - [In Powell Manager](#in-powell-manager)
-    - [Create a Custom Content Type](#create-a-custom-content-type)
+    - [Create a Custom Content Type for Display Widget Application Tiles 2](#create-a-custom-content-type-for-display-widget-application-tiles-2)
+    - [Create a Custom Content Type for](#create-a-custom-content-type-for)
     - [Create a List Template](#create-a-list-template)
     - [Create new List from List Template](#create-new-list-from-list-template)
     - [Create the Page](#create-the-page)
@@ -18,9 +19,9 @@ title = "Recipes for Entire Powell Web Pages"
 
 ## Powell Example Web Pages
 
-&emsp; There exists a [sample Powell SharePoint site](https://pow365.sharepoint.com/sites/multilingualconnect/en-US/) with several examples of Powell webparts. You can request access [here](https://support.powell-software.com/hc/en-us/requests/new). Unfortunately, getting access to the Powell Manager which shows its settings, has not been possible, at least to our knowledge. For this reason, this section was created to show how to build these pages.
+&emsp; There exists a [sample Powell SharePoint site](https://pow365.sharepoint.com/sites/multilingualconnect/en-US/) with several examples of Powell webparts. You can request access [here](https://support.powell-software.com/hc/en-us/requests/new). The site templates of the sample site can be accessed through Powell Manager and going to [Powell site collections](/actions/common/#powell-intranet-powell-site-collections).
 
-## Waterfountain Page
+## Water Fountain Page
 
 | ![water-fountain-top-half.png](https://i.postimg.cc/wTwTvy79/water-fountain-top-half.png) |
 |:---:|
@@ -31,29 +32,34 @@ title = "Recipes for Entire Powell Web Pages"
 | **Bottom Half** |
 
 TL:DR;
-> "search webpart and discussion tiles webpart"
+> "this page can only be created from the water fountain site template"
 >
 > ~ <cite>a Student</cite>&emsp;![a student](https://avatars.githubusercontent.com/u/19988117?s=40&v=4)
 
-> "Create a page layout, create a page template, create a page in site template"
->
-> ~ <cite>Dah Master</cite>&emsp;![dah master](https://avatars.githubusercontent.com/u/53357172?s=40&v=4)
-
 ### What We Are Making
 
-&emsp; We will be making a water fountain page, which can be found in the Powell example site [here](https://pow365.sharepoint.com/sites/multilingualconnect/en-US/waterfountain). We can determine the type of the webparts by [looking for the the `data-sp-feature-tag`](/actions/common/#search-for-a-tag-or-attribute-on-a-web-page) on the [example water fountain page](/references/webparts/#determine-the-type-of-webpart-by-inspecting-sharepoint-site-with-dev-tools). There are main webparts for this page:
+&emsp; We will be making a water fountain page, which can be found in the Powell example site [here](https://pow365.sharepoint.com/sites/multilingualconnect/en-US/waterfountain). Official [powell documentation on the Water Fountain page](https://support.powell-software.com/hc/en-us/articles/360021195020--standalone-template-Water-Fountain#h_01FTAX98H2Q296M9N631SRYFN7) exists. Additionally, [powell documentation on how to create a category on the Water Fountain page](https://support.powell-software.com/hc/en-us/articles/360021248439#-site-members-create-a-category-on-the-waterfountain-page-0-0) exists as well. Normally, we would implement the webparts ourselves, but in this case **the only way to implement the water fountain page is to clone the Powell water fountain site template**.
 
-1. Search
-2. Discussion tiles
+
+1. Clone the Water Fountain Powell Site Template.
+2. Create a subsite or a new site collection.
 
 ### In Powell Manager
 
-#### Create a Custom Content Type
+#### Create a Custom Content Type for Display Widget Application Tiles 2
 
 &emsp; Here, we will be creating a custom content type that inherits from the standard Item Content Type. It will contain additional fields for image, number, and URL.
 
 1. [Create a new item content type](/actions/common/#powell-intranet-create-a-content-type-that-inherits-from-item)
-   - Create a URL field: *Select a field type*, choose URL.
+   - Create a URL field: *Select a field type*, choose URL. You may want to title this field `PictureThumbnailURL`
+2. Save
+
+#### Create a Custom Content Type for 
+
+&emsp; Here, we will be creating a custom content type that inherits from the standard Item Content Type. It will contain additional fields for image, number, and URL.
+
+1. [Create a new item content type](/actions/common/#powell-intranet-create-a-content-type-that-inherits-from-item)
+   - Create a URL field: *Select a field type*, choose URL. You may want to title this field `PictureThumbnailURL`
 2. Save
 
 #### Create a List Template

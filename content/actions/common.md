@@ -33,6 +33,7 @@ weight = 100
       - [Powell Intranet PNP Provisioning Schema](#powell-intranet-pnp-provisioning-schema)
       - [Powell Intranet Search Queries](#powell-intranet-search-queries)
       - [Powell Intranet Sites](#powell-intranet-sites)
+      - [Powell Intranet Powell Site Collections](#powell-intranet-powell-site-collections)
       - [Powell Intranet Site scripts](#powell-intranet-site-scripts)
       - [Powell Intranet Site Templates](#powell-intranet-site-templates)
       - [Powell Intranet Teams templates](#powell-intranet-teams-templates)
@@ -159,6 +160,9 @@ weight = 100
 #### Powell Intranet Sites
 1. [Go to Design](#powell-intranet-design)
 2. Under *SharePoint Templates*, *Sites*
+#### Powell Intranet Powell Site Collections
+1. [Go to sites](#powell-intranet-sites)
+2. Scroll down to *Powell Intranet / Powell site templates*
 #### Powell Intranet Site scripts
 1. [Go to Design](#powell-intranet-design)
 2. Under *Custom Components*, *Site scripts*

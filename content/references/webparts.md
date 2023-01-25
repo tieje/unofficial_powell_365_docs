@@ -5,8 +5,9 @@ title = "Webparts"
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
 - [Species](#species)
-  - [Search Web Part](#search-web-part)
-  - [Combined Search Web Part](#combined-search-web-part)
+  - [Discussion Tiles webpart](#discussion-tiles-webpart)
+  - [Search webpart](#search-webpart)
+  - [Combined Search webpart](#combined-search-webpart)
 - [Edit Widget Explanations](#edit-widget-explanations)
   - [Search Query](#search-query)
     - [Examples](#examples)
@@ -15,14 +16,24 @@ title = "Webparts"
     - [Avoid Nesting Folders in SharePoint Sites](#avoid-nesting-folders-in-sharepoint-sites)
     - [Form View](#form-view)
   - [Row limit](#row-limit)
+- [Display or Select Widgets](#display-or-select-widgets)
+  - [Species](#species-1)
+    - [Application Tiles 2](#application-tiles-2)
 - [Tips and Tricks](#tips-and-tricks)
   - [Determine the Type of Webpart By Inspecting SharePoint Site with Dev Tools](#determine-the-type-of-webpart-by-inspecting-sharepoint-site-with-dev-tools)
 
 ## Species
 
-### Search Web Part
+### Discussion Tiles webpart
 
-### Combined Search Web Part
+&emsp; This webpart can only be used by pre-programmed Powell Intranet site templates like the [Water Fountain Page](#water-fountain-page). In other words, this webpart is useless to Powell users.
+![Discussion Tiles](https://i.postimg.cc/fL24hZss/discussion-tiles.png)
+
+### Search webpart
+
+&emsp; Powell support once told me in a call that "about 80% of the webparts that we use are *Search* webparts". That being said, a picture of a *Search* webpart is not enough to show what it is or what it can do. It's fairly moldable to the user's desires as it can be used with most Display widgets.
+
+### Combined Search webpart
 
 &emsp; This webpart can display multiple query results through the use of tabs.
 
@@ -31,6 +42,7 @@ title = "Webparts"
 Example Recipe: [Combined Search Videos](/recipes/webparts/#combined_search_videos)
 
 ![combined-search-videos.png](https://i.postimg.cc/WbRtkTHF/combined-search-videos.png)
+
 
 ## Edit Widget Explanations
 
@@ -100,6 +112,16 @@ because we need the Forms view of the files.
 **Example**
 
 &emsp; In the [grid list of links recipe](/recipes/webparts/#grid-list-of-links), we want an arbitrary max of 27 rows or 27 items that will be grabbed from the SharePoint List
+
+## Display or Select Widgets
+
+&emsp; When building a webpart, there is often a secondary choice of the Display widget. Not all webparts have display widgets. For example, the [discussion tiles webpart](#discussion-tiles-webpart) cannot display a specific widget other than what it comes with.
+
+### Species
+
+#### Application Tiles 2
+
+TODO
 
 ## Tips and Tricks
 
