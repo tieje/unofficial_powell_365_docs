@@ -1,6 +1,5 @@
 +++
 title = "Content Types"
-insert_anchor_links = "right"
 +++
 
 &emsp; Your partner may not have access to standard content types.

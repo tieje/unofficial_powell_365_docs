@@ -10,6 +10,8 @@ weight = 1
 - [Note to Contributors](#note-to-contributors)
 - [Problem Solving Methods](#problem-solving-methods)
   - [For Building Web Components](#for-building-web-components)
+- [FAQs](#faqs)
+  - [What is the difference between sync and save in Powell Intranet](#what-is-the-difference-between-sync-and-save-in-powell-intranet)
 
 ## Purpose
 
@@ -33,3 +35,11 @@ weight = 1
 6. Save and Sync.
 
 If you have any questions, reach out to Powell Support ASAP. They will probably answer on the same day, but it may take a day or two for them to set up a meeting.
+
+## FAQs
+
+### What is the difference between sync and save in Powell Intranet
+
+&emsp; [*Save*](/references/definitions/#save) saves the configuration to Powell Manager. [*Sync*](/references/definitions/#sync) creates a deployment task to the tenant. The proper steps of the process of the process are always:
+1. Save
+2. Sync

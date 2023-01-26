@@ -36,6 +36,7 @@ weight = 100
       - [Powell Intranet Powell Site Collections](#powell-intranet-powell-site-collections)
       - [Powell Intranet Site scripts](#powell-intranet-site-scripts)
       - [Powell Intranet Site Templates](#powell-intranet-site-templates)
+      - [Powell Intranet Clone a Powell site template](#powell-intranet-clone-a-powell-site-template)
       - [Powell Intranet Teams templates](#powell-intranet-teams-templates)
       - [Powell Intranet Themes](#powell-intranet-themes)
       - [Powell Intranet Widget views](#powell-intranet-widget-views)
@@ -47,6 +48,7 @@ weight = 100
     - [Powell Intranet Deploy](#powell-intranet-deploy)
       - [Powell Intranet Office groups](#powell-intranet-office-groups)
       - [Powell Intranet Site collections](#powell-intranet-site-collections)
+      - [Powell Intranet Create a Site collection](#powell-intranet-create-a-site-collection)
       - [Powell Intranet Site Designs](#powell-intranet-site-designs)
       - [Powell Intranet Teams](#powell-intranet-teams)
   - [Powell Hub](#powell-hub)
@@ -62,6 +64,8 @@ weight = 100
   - [SharePoint Site Settings](#sharepoint-site-settings)
   - [Site Contents](#site-contents)
   - [Site Information](#site-information)
+  - [Site Permissions](#site-permissions)
+  - [Grant Access or Site Permissions](#grant-access-or-site-permissions)
   - [View all site settings](#view-all-site-settings)
   - [Check File Content Type](#check-file-content-type)
 - [Web Page](#web-page)
@@ -169,6 +173,13 @@ weight = 100
 #### Powell Intranet Site Templates
 1. [Go to Design](#powell-intranet-design)
 2. Under *SharePoint Templates*, *Sites*
+#### Powell Intranet Clone a Powell site template
+1. [Go to site templates](/actions/common/#powell-intranet-site-templates)
+2. Scroll to *Powell Intranet / Powell site templates*
+3. Search for the template that you want to clone.
+4. Press the clone/copy button.
+5. In your *Title* include the site name that you'd like to use it for.
+6. Save.
 #### Powell Intranet Teams templates
 1. [Go to Design](#powell-intranet-design)
 2. Under *SharePoint Templates*, *Teams templates*
@@ -210,6 +221,22 @@ weight = 100
 #### Powell Intranet Site collections
 1. [Go to Deploy](#powell-intranet-deploy)
 2. Under *Deploy*, *Site collections*
+#### Powell Intranet Create a Site collection
+1. [Clone a site template](#powell-intranet-clone-a-powell-site-template)
+2. [Go to Site Collection](#powell-intranet-site-collections)
+   1. Choose the site template that you created from a clone in the previous step.
+   2. Next
+      1. *Site Title*
+      2. *Site URL*: it's generated from title, but you can change it to whatever suits your needs
+      3. *Environment*, we'll just use *Production* or whatever suits your needs
+      4. *Portal*, keep it as *No site selected* or whatever suits your needs
+3. Next
+   1. *No content translation* or whatever suits your needs
+   2. *Timezone* = Eastern Time (US and Canada) or whatever suits your needs. I just so happen work from this timezone.
+4. Next
+5. *Default content*: *Yes* or whatever suits your needs
+6. Deploy
+
 #### Powell Intranet Site Designs
 1. [Go to Deploy](#powell-intranet-deploy)
 2. Under *Deploy*, *Site Designs*
@@ -256,6 +283,16 @@ weight = 100
 ## Site Information
 1. [Go to settings](#sharepoint-site-settings)
 2. *Site Information*
+## Site Permissions
+1. [Go to settings](#sharepoint-site-settings)
+2. *Site Permissions*
+## Grant Access or Site Permissions
+1. [Go to Site Permissions](#site-permissions)
+2. *Share Site*
+3. Type in the user that you would like to share with. Click on the suggested user.
+4. Under the user's name, set the users permission level.
+5. *Send email*, is recommended.
+6. *Add*
 ## View all site settings
 1. [Go to site settings](#view-all-site-settings)
 2. *View all site settings* is above the *Delete site* trash can (terrible design, btw)
