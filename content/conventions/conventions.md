@@ -12,6 +12,7 @@ weight = 1
   - [For Building Web Components](#for-building-web-components)
 - [FAQs](#faqs)
   - [What is the difference between sync and save in Powell Intranet](#what-is-the-difference-between-sync-and-save-in-powell-intranet)
+  - [Where to implement Custom CSS](#where-to-implement-custom-css)
 
 ## Purpose
 
@@ -43,3 +44,7 @@ If you have any questions, reach out to Powell Support ASAP. They will probably 
 &emsp; [*Save*](/references/definitions/#save) saves the configuration to Powell Manager. [*Sync*](/references/definitions/#sync) creates a deployment task to the tenant. The proper steps of the process of the process are always:
 1. Save
 2. Sync
+
+### Where to implement Custom CSS
+&emsp; [Go to Custom CSS](/actions/common/#powell-intranet-custom-css). There is an editor there, but I recommend copying and pasting from a real code editor like [VSCode](https://code.visualstudio.com/). Remember to save and sync.
+

@@ -5,9 +5,10 @@ title = "Webparts"
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
 - [Species](#species)
-  - [Discussion Tiles webpart](#discussion-tiles-webpart)
-  - [Search webpart](#search-webpart)
   - [Combined Search webpart](#combined-search-webpart)
+  - [Discussion Tiles webpart](#discussion-tiles-webpart)
+  - [Script Editor](#script-editor)
+  - [Search webpart](#search-webpart)
 - [Edit Widget Explanations](#edit-widget-explanations)
   - [Search Query](#search-query)
     - [Examples](#examples)
@@ -24,15 +25,6 @@ title = "Webparts"
 
 ## Species
 
-### Discussion Tiles webpart
-
-&emsp; This webpart can only be used by pre-programmed Powell Intranet site templates like the [Water Fountain Page](/recipes/pow_example_pages/#water-fountain-page). In other words, this webpart is useless to Powell users.
-![Discussion Tiles](https://i.postimg.cc/fL24hZss/discussion-tiles.png)
-
-### Search webpart
-
-&emsp; Powell support once told me in a call that "about 80% of the webparts that we use are *Search* webparts". That being said, a picture of a *Search* webpart is not enough to show what it is or what it can do. It's fairly moldable to the user's desires as it can be used with most Display widgets.
-
 ### Combined Search webpart
 
 &emsp; This webpart can display multiple query results through the use of tabs.
@@ -43,6 +35,20 @@ Example Recipe: [Combined Search Videos](/recipes/webparts/#combined_search_vide
 
 ![combined-search-videos.png](https://i.postimg.cc/WbRtkTHF/combined-search-videos.png)
 
+### Discussion Tiles webpart
+
+&emsp; This webpart can only be used by pre-programmed Powell Intranet site templates like the [Water Fountain Page](/recipes/pow_example_pages/#water-fountain-page). In other words, this webpart is useless to Powell users.
+![Discussion Tiles](https://i.postimg.cc/fL24hZss/discussion-tiles.png)
+
+### Script Editor
+
+&emsp; This webpart allows users to insert a script tag from Powell Manager.
+
+![Script Editor](https://i.postimg.cc/RF8pHtM0/script-editor.png)
+
+### Search webpart
+
+&emsp; Powell support once told me in a call that "about 80% of the webparts that we use are *Search* webparts". That being said, a picture of a *Search* webpart is not enough to show what it is or what it can do. It's fairly moldable to the user's desires as it can be used with most Display widgets.
 
 ## Edit Widget Explanations
 
