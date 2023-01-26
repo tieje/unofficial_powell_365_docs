@@ -1,6 +1,5 @@
 +++
 title = "Recipes for Entire Powell Web Pages"
-draft = true
 +++
 
 ## Table of Contents
