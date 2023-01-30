@@ -23,6 +23,9 @@ jobs:
     steps:
     - name: Checkout main
       uses: actions/checkout@v3
+      with:
+        set-safe-directory: '*'
+
     # Runs a single command using the runners shell
     - name: Zola Deploy to Pages
       # You may pin to the exact commit or the version
@@ -30,8 +33,3 @@ jobs:
       uses: shalzz/zola-deploy-action@v0.16.1
       env:
         GITHUB_TOKEN: ${{ secrets.ZOLA }}
-      # this is to fix GIT not liking owner of the checkout dir
-      # run: |
-      #   chown -R $(id -u):$(id -g) $PWD
-      with:
-        set-safe-directory: ['entrypoint.sh']
