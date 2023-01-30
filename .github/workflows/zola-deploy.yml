@@ -31,8 +31,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.ZOLA }}
       # this is to fix GIT not liking owner of the checkout dir
-      run: |
-        chown -R $(id -u):$(id -g) $PWD
-      # with:
-      #   set-safe-directory: '*'
-      
+      # run: |
+      #   chown -R $(id -u):$(id -g) $PWD
+      with:
+        set-safe-directory: ['entrypoint.sh']
