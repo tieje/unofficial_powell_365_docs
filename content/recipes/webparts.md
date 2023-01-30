@@ -20,6 +20,10 @@ title = "Recipes for Webparts"
     - [Add to Site Template](#add-to-site-template-1)
   - [In SharePoint Site Contents](#in-sharepoint-site-contents-1)
     - [Create Videos Files](#create-videos-files)
+- [Title Text Statement](#title-text-statement)
+  - [What We Are Making](#what-we-are-making-2)
+  - [In Powell Manager](#in-powell-manager-2)
+    - [Add to Site Template](#add-to-site-template-2)
 
 
 ## Intro
@@ -155,4 +159,28 @@ TL:DR;
 2. Create a Document Library Folder with the same name as what [you specified in your search query](#add-to-site-template)
 3. *New*. Choose from your computer and upload the sample video files
 
+## Title Text Statement
 
+![title text statement](https://i.postimg.cc/mrZm2J5T/title-text-statement.png)
+
+### What We Are Making
+
+&emsp; A paragraph with a mission statement and title with horizontal dividers. This turns out to be a web part with many pieces.
+
+### In Powell Manager
+
+#### Add to Site Template
+
+1. [Add the following Webparts to a single zone](/actions/common/#powell-intranet-add-a-webpart)
+   1. *Title*
+      1. Set *Chrome type* for title to *hidden*
+   2. *Divider*
+   3. *Text*
+      1. Set font size to 30 and alignment center
+   4. *Divider*
+2. [Add the following code to Custom CSS](/actions/common/#powell-intranet-custom-css)
+```css
+hr[role="presentation"] {
+    color: #981d97;
+}
+```
