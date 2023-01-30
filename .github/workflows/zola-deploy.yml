@@ -23,13 +23,13 @@ jobs:
     steps:
     - name: Checkout main
       uses: actions/checkout@v3
-      with:
-        set-safe-directory: '*'
 
     # Runs a single command using the runners shell
     - name: Zola Deploy to Pages
       # You may pin to the exact commit or the version
       # uses: shalzz/zola-deploy-action@60ff9c1e7b855b0960dc792e5b14f1dabc908531
+      with:
+        script: git config --global --add safe.directory /github/workspace
       uses: shalzz/zola-deploy-action@v0.16.1
       env:
         GITHUB_TOKEN: ${{ secrets.ZOLA }}
