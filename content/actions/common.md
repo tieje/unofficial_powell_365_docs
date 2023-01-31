@@ -239,7 +239,7 @@ weight = 100
       1. *Site Title*
       2. *Site URL*: it's generated from title, but you can change it to whatever suits your needs
       3. *Environment*, we'll just use *Production* or whatever suits your needs
-      4. *Portal*, keep it as *No site selected* or whatever suits your needs
+      4. [*Portal*](/references/definitions/#portal), keep it as *No site selected* or whatever suits your needs.
 3. Next
    1. *No content translation* or whatever suits your needs
    2. *Timezone* = Eastern Time (US and Canada) or whatever suits your needs. I just so happen work from this timezone.
