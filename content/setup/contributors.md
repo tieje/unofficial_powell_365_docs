@@ -5,13 +5,10 @@ weight = 100
 
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
-- [Header Rules](#header-rules)
 - [Local Repo Setup](#local-repo-setup)
 - [Recommended VSCode Extensions](#recommended-vscode-extensions)
-
-## Header Rules
-
-&emsp; Do not use non-alpha-numeric characters in markdown headers.
+- [Recommendations](#recommendations)
+- [Header Rules](#header-rules)
 
 ## Local Repo Setup
 
@@ -39,3 +36,11 @@ Version: 3.5.0
 Publisher: Yu Zhang
 VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one
 ```
+
+## Recommendations
+
+1. Write to think. Make documentation while you're doing something new in Powell. It's mentally difficult to go back making documentation for Powell a day or more after its done.
+
+## Header Rules
+
+&emsp; Do not use non-alpha-numeric characters in markdown headers.
