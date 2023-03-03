@@ -30,6 +30,8 @@ title = "Recipes for Webparts"
 
 &emsp; Webparts are the basic building blocks of SharePoint sites. Below are "recipes" on how to build specific web components in Powell for SharePoint Sites. For more information on Webparts, you can check the reference [here](/references/webparts).
 
+---
+
 ## Grid List of Links
 
 ![grid-list-links.png](https://i.postimg.cc/xC7JWZMN/grid-list-links.png)
@@ -107,6 +109,8 @@ TL:DR;
 3. Fill in the fields.
 4. Create as many items in the list as needed.
 
+---
+
 ## Combined Search Videos
 
 ![combined-search-videos.png](https://i.postimg.cc/WbRtkTHF/combined-search-videos.png)
@@ -158,6 +162,8 @@ TL:DR;
 1. [Go to site contents](/actions/common/#site-contents)
 2. Create a Document Library Folder with the same name as what [you specified in your search query](#add-to-site-template)
 3. *New*. Choose from your computer and upload the sample video files
+
+---
 
 ## Title Text Statement
 
