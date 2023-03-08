@@ -2,10 +2,14 @@
 
 Internal reminders for future TODOs.
 
+---
+
 ## Table of Contents
 - [Public Reminders](#public-reminders)
   - [Table of Contents](#table-of-contents)
   - [Migration from Github Pages Default Domain to Custom Domain Checklist](#migration-from-github-pages-default-domain-to-custom-domain-checklist)
+
+---
 
 ## Migration from Github Pages Default Domain to Custom Domain Checklist
 

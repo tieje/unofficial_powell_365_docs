@@ -3,12 +3,16 @@ title = "Setup for Contributors"
 weight = 100
 +++
 
+---
+
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
 - [Local Repo Setup](#local-repo-setup)
 - [Recommended VSCode Extensions](#recommended-vscode-extensions)
 - [Recommendations](#recommendations)
 - [Header Rules](#header-rules)
+
+---
 
 ## Local Repo Setup
 
@@ -26,6 +30,8 @@ git clone https://github.com/tieje/unofficial_powell_365_docs.git
       3. Add the resulting `zola` executable to path.
 3. `zola serve`
 
+---
+
 ## Recommended VSCode Extensions
 
 ```
@@ -37,9 +43,13 @@ Publisher: Yu Zhang
 VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one
 ```
 
+---
+
 ## Recommendations
 
 1. Write to think. Make documentation while you're doing something new in Powell. It's mentally difficult to go back making documentation for Powell a day or more after its done.
+
+---
 
 ## Header Rules
 

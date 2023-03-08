@@ -2,6 +2,8 @@
 title = "Webparts"
 +++
 
+---
+
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
 - [Species](#species)
@@ -27,6 +29,8 @@ title = "Webparts"
     - [Application Tiles 2](#application-tiles-2)
 - [Tips and Tricks](#tips-and-tricks)
   - [Determine the Type of Webpart By Inspecting SharePoint Site with Dev Tools](#determine-the-type-of-webpart-by-inspecting-sharepoint-site-with-dev-tools)
+
+---
 
 ## Species
 
@@ -84,6 +88,8 @@ Example Recipe: [Combined Search Videos](/recipes/webparts/#combined_search_vide
 &emsp; This is like the title part of many web parts. In *Edit widget*, to prevent redundant titles, we recommend setting the top *Title* to *Hidden* in the *Chrome type* dropdown.
 
 &emsp; Example [recipe](/recipes/webparts/#title-text-statement)
+
+---
 
 ## Edit Widget Explanations
 
@@ -154,6 +160,8 @@ because we need the Forms view of the files.
 
 &emsp; In the [grid list of links recipe](/recipes/webparts/#grid-list-of-links), we want an arbitrary max of 27 rows or 27 items that will be grabbed from the SharePoint List
 
+---
+
 ## Display or Select Widgets
 
 &emsp; When building a webpart, there is often a secondary choice of the Display widget. Not all webparts have display widgets. For example, the [discussion tiles webpart](#discussion-tiles) cannot display a specific widget other than what it comes with.
@@ -163,6 +171,8 @@ because we need the Forms view of the files.
 #### Application Tiles 2
 
 TODO
+
+---
 
 ## Tips and Tricks
 

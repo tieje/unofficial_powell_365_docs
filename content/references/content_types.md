@@ -4,6 +4,8 @@ title = "Content Types"
 
 &emsp; Your partner may not have access to standard content types.
 
+---
+
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
 - [Content Types](#content-types)
@@ -55,6 +57,8 @@ title = "Content Types"
     </tbody>
 </table>
 
+---
+
 ## Content Types
 &emsp; A *Content Type* is the type of content allowed in a *List Template*. *List Templates* can be composed of several *Content Type*. A *Content Type* is composed of one or more *Types*. Although there are technically three types of content types according to Powell, in my experience, there are really only two kinds: standard *Content Type* and custom *Content Type*. 
 
@@ -66,6 +70,8 @@ title = "Content Types"
 
 ### Custom Content Types
 &emsp; Custom content types that have been made by your SharePoint tenant.
+
+---
 
 ## Standard Content Types Reference
 

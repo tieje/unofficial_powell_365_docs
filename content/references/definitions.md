@@ -2,6 +2,8 @@
 title = "Definitions"
 +++
 
+---
+
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
 - [Purpose](#purpose)
@@ -10,8 +12,12 @@ title = "Definitions"
   - [Save](#save)
   - [Sync](#sync)
 
+---
+
 ## Purpose
 &emsp; The purpose of this page is to provide definitions to commonly used terms throughout Powell.
+
+---
 
 ## Terms
 

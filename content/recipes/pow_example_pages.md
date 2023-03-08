@@ -2,6 +2,8 @@
 title = "Recipes for Entire Powell Web Pages"
 +++
 
+---
+
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
 - [Powell Example Web Pages](#powell-example-web-pages)
@@ -10,9 +12,13 @@ title = "Recipes for Entire Powell Web Pages"
   - [In Powell Manager](#in-powell-manager)
   - [In SharePoint](#in-sharepoint)
 
+---
+
 ## Powell Example Web Pages
 
 &emsp; There exists a [sample Powell SharePoint site](https://pow365.sharepoint.com/sites/multilingualconnect/en-US/) with several examples of Powell webparts. You can request access [here](https://support.powell-software.com/hc/en-us/requests/new). The site templates of the sample site can be accessed through Powell Manager and going to [Powell site collections](/actions/common/#powell-intranet-powell-site-collections).
+
+---
 
 ## Water Fountain Page
 

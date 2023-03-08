@@ -4,6 +4,8 @@ insert_anchor_links = "right"
 weight = 1
 +++
 
+---
+
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
 - [Purpose](#purpose)
@@ -14,13 +16,19 @@ weight = 1
   - [What is the difference between sync and save in Powell Intranet](#what-is-the-difference-between-sync-and-save-in-powell-intranet)
   - [Where to implement Custom CSS](#where-to-implement-custom-css)
 
+---
+
 ## Purpose
 
 &emsp; Because Powell is low-code/no-code solution, it requires what some call may *tribal knowledge*. This section contains justifications and guides of why things should be done a certain way and how to do them in Powell.
 
+---
+
 ## Note to Contributors
 
 &emsp; For contributors, this section should be referenced often for why things are done a certain way.
+
+---
 
 ## Problem Solving Methods
 
@@ -36,6 +44,8 @@ weight = 1
 6. Save and Sync.
 
 If you have any questions, reach out to Powell Support ASAP. They will probably answer on the same day, but it may take a day or two for them to set up a meeting.
+
+---
 
 ## FAQs
 

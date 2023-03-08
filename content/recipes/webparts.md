@@ -2,6 +2,8 @@
 title = "Recipes for Webparts"
 +++
 
+---
+
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
 - [Intro](#intro)
@@ -25,6 +27,7 @@ title = "Recipes for Webparts"
   - [In Powell Manager](#in-powell-manager-2)
     - [Add to Site Template](#add-to-site-template-2)
 
+---
 
 ## Intro
 

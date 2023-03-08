@@ -2,6 +2,8 @@
 title = "Intranet Deploy"
 +++
 
+---
+
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
 - [Top Navigation](#top-navigation)
@@ -9,6 +11,8 @@ title = "Intranet Deploy"
   - [In Powell Manager](#in-powell-manager)
     - [Create a Navigation](#create-a-navigation)
     - [Add to Your Site](#add-to-your-site)
+
+---
 
 ## Top Navigation
 

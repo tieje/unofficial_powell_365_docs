@@ -3,8 +3,12 @@ title = "Common Actions"
 weight = 100
 +++
 
+---
+
 ## IMPORTANT
 &emsp; Click through the buttons or links in the steps specified to get to your destination on the web.
+
+---
 
 ## Table of Contents
 - [Powell Manager](#powell-manager)
@@ -74,10 +78,16 @@ weight = 100
   - [Inspect a web page](#inspect-a-web-page)
   - [Search for a tag or attribute on a web page](#search-for-a-tag-or-attribute-on-a-web-page)
 
+---
+
 ## Purpose
 &emsp; The purpose of this section is to provide a reference to a list of actions that are very commonly used in Powell to arrive at a desired result or web page. This cuts down on repetition and ambiguity while writing documentation for Powell. Currently, due to needing to repeat specific actions many times in Powell, it's all too easy for Users to visually and mentally block out Powell's other features to the point where they genuinely would not know where to look on the web page. This page should be referenced often by contributors to help users navigate Powell.
 
+---
+
 # Powell Manager
+
+---
 
 ## Powell Intranet
 &emsp; Powell Intranet is where we'll be doing most of our work.
@@ -254,6 +264,8 @@ weight = 100
 1. [Go to Deploy](#powell-intranet-deploy)
 2. Under *Deploy*, *Teams*
 
+---
+
 ## Powell Hub
 <!-- TODO: What does this do. -->
 
@@ -283,19 +295,31 @@ weight = 100
 1. [Go to Design](#powell-hub-design)
 2. Under *Custom Components*, *Widget views*
 
+---
+
 # SharePoint Site Collection
+
+---
 
 ## SharePoint Site Settings
 1. Gear wheel in the upper right corner
+---
+
 ## Site Contents
 1. [Go to settings](#sharepoint-site-settings)
 2. *Site Contents*
+---
+
 ## Site Information
 1. [Go to settings](#sharepoint-site-settings)
 2. *Site Information*
+---
+
 ## Site Permissions
 1. [Go to settings](#sharepoint-site-settings)
 2. *Site Permissions*
+---
+
 ## Grant Access or Site Permissions
 1. [Go to Site Permissions](#site-permissions)
 2. *Share Site*
@@ -303,9 +327,13 @@ weight = 100
 4. Under the user's name, set the users permission level.
 5. *Send email*, is recommended.
 6. *Add*
+---
+
 ## View all site settings
 1. [Go to site settings](#view-all-site-settings)
 2. *View all site settings* is above the *Delete site* trash can (terrible design, btw)
+---
+
 ## Check File Content Type
 1. [Go to site settings](#view-all-site-settings)
 2. Go to your file.
@@ -313,11 +341,17 @@ weight = 100
 4. Click on *Details* all the way at the bottom.
 5. The popup vertical bar on the right, under properties header, Content Type
 
+---
+
 # Web Page
+
+---
 
 ## Inspect a web page
 1. Right-click on an element of the web page that you'd like to inspect.
 2. On the dropdown menu, choose *Inspect*
+
+---
 
 ## Search for a tag or attribute on a web page
 1. [Inspect the page](#inspect-a-web-page)

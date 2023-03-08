@@ -5,10 +5,14 @@ draft = true
 
 MIGHT DELETE THIS PAGE IF NOT NEEDED
 
+---
+
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
 - [Page layouts](#page-layouts)
 - [Page templates](#page-templates)
+
+---
 
 ## Page layouts
 
@@ -16,6 +20,8 @@ MIGHT DELETE THIS PAGE IF NOT NEEDED
 
 1. [Create a page layout](/actions/common/#powell-intranet-create-a-page-layout)
 2. TODO
+
+---
 
 ## Page templates
 
