@@ -45,6 +45,8 @@ weight = 100
       - [Powell Intranet Teams templates](#powell-intranet-teams-templates)
       - [Powell Intranet Themes](#powell-intranet-themes)
       - [Powell Intranet Custom CSS](#powell-intranet-custom-css)
+      - [Powell Intranet Change Logos](#powell-intranet-change-logos)
+      - [Powell Intranet Change Favicon](#powell-intranet-change-favicon)
       - [Powell Intranet Widget views](#powell-intranet-widget-views)
       - [Powell Intranet Your Site](#powell-intranet-your-site)
       - [Powell Intranet Edit Your Site](#powell-intranet-edit-your-site)
@@ -206,6 +208,12 @@ weight = 100
 #### Powell Intranet Custom CSS
 1. [Go to themes](/actions/common/#powell-intranet-themes)
 2. *Custom CSS* on the left bar.
+#### Powell Intranet Change Logos
+1. [Go to themes](/actions/common/#powell-intranet-themes)
+2. *Logos* on the left bar.
+#### Powell Intranet Change Favicon
+1. [Go to themes](/actions/common/#powell-intranet-themes)
+2. *Logos* on the left bar.
 #### Powell Intranet Widget views
 1. [Go to Design](#powell-intranet-design)
 2. Under *Custom Components*, *Widget views*
