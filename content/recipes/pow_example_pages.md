@@ -1,5 +1,5 @@
 +++
-title = "Recipes for Entire Powell Web Pages"
+title = "Recipes for Powell Web Pages"
 +++
 
 ---

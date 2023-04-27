@@ -68,6 +68,9 @@ weight = 100
       - [Powell Hub JavaScript catalog](#powell-hub-javascript-catalog)
       - [Powell Hub Themes](#powell-hub-themes)
       - [Powell Hub Widget views](#powell-hub-widget-views)
+  - [Gear Settings](#gear-settings)
+    - [Gear Settings Tenants](#gear-settings-tenants)
+    - [Gear Settings Create a Tenant](#gear-settings-create-a-tenant)
 - [SharePoint Site Collection](#sharepoint-site-collection)
   - [SharePoint Site Settings](#sharepoint-site-settings)
   - [Site Contents](#site-contents)
@@ -302,6 +305,20 @@ weight = 100
 #### Powell Hub Widget views
 1. [Go to Design](#powell-hub-design)
 2. Under *Custom Components*, *Widget views*
+
+---
+
+## Gear Settings
+
+1. Located on the Upper right corner of manager.powell-software.com, just underneath the profile image.
+
+### Gear Settings Tenants
+1. [Go to Settings](#gear-settings)
+2. Under *Manage Access*, click on *Tenants*
+### Gear Settings Create a Tenant
+1. [Go to Tenants](#gear-settings-tenants)
+2. Click on *Create a new tenant*
+3. Fill out information and save.
 
 ---
 

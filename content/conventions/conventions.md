@@ -1,5 +1,5 @@
 +++
-title = "Conventions"
+title = "Why Conventions?"
 insert_anchor_links = "right"
 weight = 1
 +++
