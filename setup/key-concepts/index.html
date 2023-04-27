@@ -1,0 +1,170 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://tieje.github.io/unofficial_powell_365_docs/main.css">
+    <link rel="icon" href="https://www.getzola.org/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title> Docs | Key Concepts </title>
+</head>
+<body>
+
+<!-- <script>
+        fetch('https://api.github.com/repos/getzola/zola/releases/latest')
+            .then((response) => {
+                return response.json();
+            })
+            .then((data) => {
+                let release_name = data.name;
+                let html_url = data.html_url;
+                release.innerHTML = `<a href='${html_url}'>${release_name}</a>`;
+            });
+    </script>
+-->
+<main>
+    
+    <nav>
+            <a href="https:&#x2F;&#x2F;tieje.github.io&#x2F;unofficial_powell_365_docs">
+                        <img src="https://easydocs.codeandmedia.com/logo.svg" alt="logo"/>
+                    </a>
+                <!-- <div id="release"></div>
+            -->
+            <div id="release"><a href="https:&#x2F;&#x2F;github.com&#x2F;tieje&#x2F;unofficial_powell_365_docs">Github</a></div>
+            <a href="javascript:void(0);" onclick="burger()" id="mobile" class="ms-Icon--GlobalNavButton"></a>
+            <div id="trees">
+                <input class="tree-toggle" type="checkbox" id="setup"
+                           checked/>
+                    <label class="tree-toggle-label"
+                           for="setup">Setup</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/setup/recommended-setup/">Recommended Setup</a>
+                            </li>
+
+                            <li class="active">
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/setup/key-concepts/">Key Concepts</a>
+                            </li>
+
+                            
+                                    
+                                    
+                                        <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/setup/contributors/">Setup for Contributors</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="recipes"
+                           />
+                    <label class="tree-toggle-label"
+                           for="recipes">Recipes</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/pow-example-pages/">Recipes for Powell Web Pages</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/intranet-deploy/">Intranet Deploy</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/">Recipes for Webparts</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="conventions"
+                           />
+                    <label class="tree-toggle-label"
+                           for="conventions">Conventions</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/conventions/conventions/">Why Conventions?</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/conventions/site-collection-dne/">Client&#x27;s Site Collec. Not Exists</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="references"
+                           />
+                    <label class="tree-toggle-label"
+                           for="references">References</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/references/definitions/">Definitions</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/">Webparts</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/references/navigation/">Navigation</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/references/content-types/">Content Types</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="actions"
+                           />
+                    <label class="tree-toggle-label"
+                           for="actions">Actions</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/">Common Actions</a>
+                            </li>
+
+                            </ul>
+                </div>
+        </nav>
+    <article>
+        <div id="on_right">
+                <span id="search-ico" class="ms-Icon--Search"></span>
+            </div>
+            <div class="search-container">
+                <input id="search" type="search" placeholder="Search as you type...">
+                <div class="search-results">
+                    <div class="search-results__header"></div>
+                    <ul class="search-results__items"></ul>
+                </div>
+            </div>
+        <div id="wrap">
+            
+        <hr />
+<h2 id="table-of-contents">Table of Contents&nbsp;<a class="anchor" href="#table-of-contents">&#xE732;</a></h2>
+<ul>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/setup/key-concepts/#table-of-contents">Table of Contents</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/setup/key-concepts/#overview">Overview</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/setup/key-concepts/#avoid-making-manual-changes-from-the-sharepoint-site">Avoid Making Manual Changes from the SharePoint Site</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/setup/key-concepts/#always-build-from-the-bottom-up">Always Build from the Bottom Up</a></li>
+</ul>
+<hr />
+<h2 id="overview">Overview&nbsp;<a class="anchor" href="#overview">&#xE732;</a></h2>
+<p>  The following are concepts that are very important to keep in mind when working with Powell.</p>
+<hr />
+<h2 id="avoid-making-manual-changes-from-the-sharepoint-site">Avoid Making Manual Changes from the SharePoint Site&nbsp;<a class="anchor" href="#avoid-making-manual-changes-from-the-sharepoint-site">&#xE732;</a></h2>
+<p>  Unless you know what you're doing, I discourage making changes directly on the SharePoint site using Powell's Edit button. Even if the desired results are achieved, the resulting behavior between Powell Manager and manual edits directly on SharePoint is unpredictable, thus making it more difficult to change in the future. Second, there is always the possibility that manual changes that are made directly on the SharePoint Site get erased by a sync. It is very easy to erase manual changes accidentally with a single <em>erase manual changes</em> checkbox when performing a sync. Edit the web UI as much as you can from Powell Manager.</p>
+<hr />
+<h2 id="always-build-from-the-bottom-up">Always Build from the Bottom Up&nbsp;<a class="anchor" href="#always-build-from-the-bottom-up">&#xE732;</a></h2>
+<p>  Always build from templates so that as many things are reusable as possible.</p>
+<p>TODO: Expand on this concept</p>
+
+    
+        </div>
+    </article>
+</main>
+
+
+    <script type="text/javascript" src="https://tieje.github.io/unofficial_powell_365_docs/elasticlunr.min.js" defer></script>
+    <script type="text/javascript" src="https://tieje.github.io/unofficial_powell_365_docs/search_index.en.js" defer></script>
+<script type="text/javascript" src="https://tieje.github.io/unofficial_powell_365_docs/js.js" defer></script>
+
+</body>
+</html>

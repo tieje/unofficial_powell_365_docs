@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://tieje.github.io/unofficial_powell_365_docs/main.css">
+    <link rel="icon" href="https://www.getzola.org/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title>Docs</title>
+</head>
+<body>
+
+<!-- <script>
+        fetch('https://api.github.com/repos/getzola/zola/releases/latest')
+            .then((response) => {
+                return response.json();
+            })
+            .then((data) => {
+                let release_name = data.name;
+                let html_url = data.html_url;
+                release.innerHTML = `<a href='${html_url}'>${release_name}</a>`;
+            });
+    </script>
+-->
+<main>
+    
+    <nav>
+            <img src="https://easydocs.codeandmedia.com/logo.svg" alt="logo"/>
+                <!-- <div id="release"></div>
+            -->
+            <div id="release"><a href="https:&#x2F;&#x2F;github.com&#x2F;tieje&#x2F;unofficial_powell_365_docs">Github</a></div>
+            <a href="javascript:void(0);" onclick="burger()" id="mobile" class="ms-Icon--GlobalNavButton"></a>
+            <div id="trees">
+                <input class="tree-toggle" type="checkbox" id="setup"
+                           />
+                    <label class="tree-toggle-label"
+                           for="setup">Setup</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/setup/recommended-setup/">Recommended Setup</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/setup/key-concepts/">Key Concepts</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/setup/contributors/">Setup for Contributors</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="recipes"
+                           />
+                    <label class="tree-toggle-label"
+                           for="recipes">Recipes</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/pow-example-pages/">Recipes for Powell Web Pages</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/intranet-deploy/">Intranet Deploy</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/">Recipes for Webparts</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="conventions"
+                           />
+                    <label class="tree-toggle-label"
+                           for="conventions">Conventions</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/conventions/conventions/">Why Conventions?</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/conventions/site-collection-dne/">Client&#x27;s Site Collec. Not Exists</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="references"
+                           />
+                    <label class="tree-toggle-label"
+                           for="references">References</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/references/definitions/">Definitions</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/">Webparts</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/references/navigation/">Navigation</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/references/content-types/">Content Types</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="actions"
+                           />
+                    <label class="tree-toggle-label"
+                           for="actions">Actions</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/">Common Actions</a>
+                            </li>
+
+                            </ul>
+                </div>
+        </nav>
+    <article>
+        <div id="on_right">
+                <span id="search-ico" class="ms-Icon--Search"></span>
+            </div>
+            <div class="search-container">
+                <input id="search" type="search" placeholder="Search as you type...">
+                <div class="search-results">
+                    <div class="search-results__header"></div>
+                    <ul class="search-results__items"></ul>
+                </div>
+            </div>
+        <div id="wrap">
+            <hr />
+<h2 id="unofficial-powell-365-documentation">Unofficial Powell 365 Documentation&nbsp;<a class="anchor" href="#unofficial-powell-365-documentation">&#xE732;</a></h2>
+<hr />
+<p>  Powell 365, affectionately called &quot;Paolo&quot;, is a site manager for SharePoint.</p>
+<!-- "Paolo" refers to Paolo Gucci, played by Jared Leto, from the Gucci movie (2022). -->
+<h3 id="motivation">Motivation&nbsp;<a class="anchor" href="#motivation">&#xE732;</a></h3>
+<p>  The purpose of this documentation is to ease the developer experience of Powell 365. As of this writing (2023/01/19), <a href="https://support.powell-software.com/hc/en-us">official Powell documentation</a> could be a bit more specific. While <a href="https://www.youtube.com/@powellsoftware6848/videos">official training videos</a> do exist:</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=_JvbDpHYCmo">building a theme</a></li>
+<li><a href="https://www.youtube.com/watch?v=oyMBqLUxXfA">site collection deployment</a></li>
+<li><a href="https://www.youtube.com/watch?v=U_RZ8Rxpwcw">Powell apps</a></li>
+</ul>
+<p>as well as a <a href="https://pow365.sharepoint.com/sites/learningcenter">learning center</a> <a href="https://support.powell-software.com/hc/en-us/requests/new?ticket_form_id=360001285619">(email Powell for access)</a>, this form of training is not especially helpful for developers building SharePoint sites using Powell.</p>
+
+        </div>
+    </article>
+</main>
+
+
+    <script type="text/javascript" src="https://tieje.github.io/unofficial_powell_365_docs/elasticlunr.min.js" defer></script>
+    <script type="text/javascript" src="https://tieje.github.io/unofficial_powell_365_docs/search_index.en.js" defer></script>
+<script type="text/javascript" src="https://tieje.github.io/unofficial_powell_365_docs/js.js" defer></script>
+
+</body>
+</html>

@@ -1,0 +1,219 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://tieje.github.io/unofficial_powell_365_docs/main.css">
+    <link rel="icon" href="https://www.getzola.org/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title> Docs | Setup for Contributors </title>
+</head>
+<body>
+
+<!-- <script>
+        fetch('https://api.github.com/repos/getzola/zola/releases/latest')
+            .then((response) => {
+                return response.json();
+            })
+            .then((data) => {
+                let release_name = data.name;
+                let html_url = data.html_url;
+                release.innerHTML = `<a href='${html_url}'>${release_name}</a>`;
+            });
+    </script>
+-->
+<main>
+    
+    <nav>
+            <a href="https:&#x2F;&#x2F;tieje.github.io&#x2F;unofficial_powell_365_docs">
+                        <img src="https://easydocs.codeandmedia.com/logo.svg" alt="logo"/>
+                    </a>
+                <!-- <div id="release"></div>
+            -->
+            <div id="release"><a href="https:&#x2F;&#x2F;github.com&#x2F;tieje&#x2F;unofficial_powell_365_docs">Github</a></div>
+            <a href="javascript:void(0);" onclick="burger()" id="mobile" class="ms-Icon--GlobalNavButton"></a>
+            <div id="trees">
+                <input class="tree-toggle" type="checkbox" id="setup"
+                           checked/>
+                    <label class="tree-toggle-label"
+                           for="setup">Setup</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/setup/recommended-setup/">Recommended Setup</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/setup/key-concepts/">Key Concepts</a>
+                            </li>
+
+                            <li class="active">
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/setup/contributors/">Setup for Contributors</a>
+                            </li>
+
+                            
+                                    
+                                    
+                                        <ul id="toc">
+                                            <li><a href="
+                                                        https://tieje.github.io/unofficial_powell_365_docs/setup/contributors/#table-of-contents">Table of Contents</a>
+                                                    </li>
+                                            <li><a href="
+                                                        https://tieje.github.io/unofficial_powell_365_docs/setup/contributors/#local-repo-setup">Local Repo Setup</a>
+                                                    </li>
+                                            <li><a href="
+                                                        https://tieje.github.io/unofficial_powell_365_docs/setup/contributors/#recommended-vscode-extensions">Recommended VSCode Extensions</a>
+                                                    </li>
+                                            <li><a href="
+                                                        https://tieje.github.io/unofficial_powell_365_docs/setup/contributors/#recommendations">Recommendations</a>
+                                                    </li>
+                                            <li><a href="
+                                                        https://tieje.github.io/unofficial_powell_365_docs/setup/contributors/#header-rules">Header Rules</a>
+                                                    </li>
+                                            </ul>
+                                    </ul>
+                <input class="tree-toggle" type="checkbox" id="recipes"
+                           />
+                    <label class="tree-toggle-label"
+                           for="recipes">Recipes</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/pow-example-pages/">Recipes for Powell Web Pages</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/intranet-deploy/">Intranet Deploy</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/">Recipes for Webparts</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="conventions"
+                           />
+                    <label class="tree-toggle-label"
+                           for="conventions">Conventions</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/conventions/conventions/">Why Conventions?</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/conventions/site-collection-dne/">Client&#x27;s Site Collec. Not Exists</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="references"
+                           />
+                    <label class="tree-toggle-label"
+                           for="references">References</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/references/definitions/">Definitions</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/">Webparts</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/references/navigation/">Navigation</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/references/content-types/">Content Types</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="actions"
+                           />
+                    <label class="tree-toggle-label"
+                           for="actions">Actions</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/">Common Actions</a>
+                            </li>
+
+                            </ul>
+                </div>
+        </nav>
+    <article>
+        <div id="on_right">
+                <span id="search-ico" class="ms-Icon--Search"></span>
+            </div>
+            <div class="search-container">
+                <input id="search" type="search" placeholder="Search as you type...">
+                <div class="search-results">
+                    <div class="search-results__header"></div>
+                    <ul class="search-results__items"></ul>
+                </div>
+            </div>
+        <div id="wrap">
+            
+        <hr />
+<h2 id="table-of-contents">Table of Contents&nbsp;<a class="anchor" href="#table-of-contents">&#xE732;</a></h2>
+<ul>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/setup/contributors/#table-of-contents">Table of Contents</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/setup/contributors/#local-repo-setup">Local Repo Setup</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/setup/contributors/#recommended-vscode-extensions">Recommended VSCode Extensions</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/setup/contributors/#recommendations">Recommendations</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/setup/contributors/#header-rules">Header Rules</a></li>
+</ul>
+<hr />
+<h2 id="local-repo-setup">Local Repo Setup&nbsp;<a class="anchor" href="#local-repo-setup">&#xE732;</a></h2>
+<p>After cloning the repo:</p>
+<pre data-lang="bash" style="background-color:#eff1f5;color:#4f5b66;" class="language-bash "><code class="language-bash" data-lang="bash"><span style="color:#bf616a;">git</span><span> clone https://github.com/tieje/unofficial_powell_365_docs.git
+</span></code></pre>
+<ol>
+<li><a href="https://www.rust-lang.org/tools/install">Install Rust</a>
+<ol>
+<li>Add <code>~/wherever-it-is/.cargo/bin</code> to path.</li>
+</ol>
+</li>
+<li><a href="https://www.getzola.org/documentation/getting-started/installation">Install Zola</a>
+<ol>
+<li>If you're on Windows or M1 Mac, I recommend building from source
+<ol>
+<li><code>git clone https://github.com/getzola/zola.git</code></li>
+<li><code>cd zola &amp;&amp; cargo build --release</code></li>
+<li>Add the resulting <code>zola</code> executable to path.</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><code>zola serve</code></li>
+</ol>
+<hr />
+<h2 id="recommended-vscode-extensions">Recommended VSCode Extensions&nbsp;<a class="anchor" href="#recommended-vscode-extensions">&#xE732;</a></h2>
+<pre style="background-color:#eff1f5;color:#4f5b66;"><code><span>Name: Markdown All in One
+</span><span>Id: yzhang.markdown-all-in-one
+</span><span>Description: All you need to write Markdown (keyboard shortcuts, table of contents, auto preview and more)
+</span><span>Version: 3.5.0
+</span><span>Publisher: Yu Zhang
+</span><span>VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one
+</span></code></pre>
+<hr />
+<h2 id="recommendations">Recommendations&nbsp;<a class="anchor" href="#recommendations">&#xE732;</a></h2>
+<ol>
+<li>Write to think. Make documentation while you're doing something new in Powell. It's mentally difficult to go back making documentation for Powell a day or more after its done.</li>
+</ol>
+<hr />
+<h2 id="header-rules">Header Rules&nbsp;<a class="anchor" href="#header-rules">&#xE732;</a></h2>
+<p>  Do not use non-alpha-numeric characters in markdown headers.</p>
+
+    
+        </div>
+    </article>
+</main>
+
+
+    <script type="text/javascript" src="https://tieje.github.io/unofficial_powell_365_docs/elasticlunr.min.js" defer></script>
+    <script type="text/javascript" src="https://tieje.github.io/unofficial_powell_365_docs/search_index.en.js" defer></script>
+<script type="text/javascript" src="https://tieje.github.io/unofficial_powell_365_docs/js.js" defer></script>
+
+</body>
+</html>

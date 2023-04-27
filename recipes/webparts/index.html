@@ -1,0 +1,418 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://tieje.github.io/unofficial_powell_365_docs/main.css">
+    <link rel="icon" href="https://www.getzola.org/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title> Docs | Recipes for Webparts </title>
+</head>
+<body>
+
+<!-- <script>
+        fetch('https://api.github.com/repos/getzola/zola/releases/latest')
+            .then((response) => {
+                return response.json();
+            })
+            .then((data) => {
+                let release_name = data.name;
+                let html_url = data.html_url;
+                release.innerHTML = `<a href='${html_url}'>${release_name}</a>`;
+            });
+    </script>
+-->
+<main>
+    
+    <nav>
+            <a href="https:&#x2F;&#x2F;tieje.github.io&#x2F;unofficial_powell_365_docs">
+                        <img src="https://easydocs.codeandmedia.com/logo.svg" alt="logo"/>
+                    </a>
+                <!-- <div id="release"></div>
+            -->
+            <div id="release"><a href="https:&#x2F;&#x2F;github.com&#x2F;tieje&#x2F;unofficial_powell_365_docs">Github</a></div>
+            <a href="javascript:void(0);" onclick="burger()" id="mobile" class="ms-Icon--GlobalNavButton"></a>
+            <div id="trees">
+                <input class="tree-toggle" type="checkbox" id="setup"
+                           />
+                    <label class="tree-toggle-label"
+                           for="setup">Setup</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/setup/recommended-setup/">Recommended Setup</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/setup/key-concepts/">Key Concepts</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/setup/contributors/">Setup for Contributors</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="recipes"
+                           checked/>
+                    <label class="tree-toggle-label"
+                           for="recipes">Recipes</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/pow-example-pages/">Recipes for Powell Web Pages</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/intranet-deploy/">Intranet Deploy</a>
+                            </li>
+
+                            <li class="active">
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/">Recipes for Webparts</a>
+                            </li>
+
+                            
+                                    
+                                    
+                                        <ul id="toc">
+                                            <li><a href="
+                                                        https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/#table-of-contents">Table of Contents</a>
+                                                    </li>
+                                            <li><a href="
+                                                        https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/#intro">Intro</a>
+                                                    </li>
+                                            <li><a href="
+                                                        https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/#grid-list-of-links">Grid List of Links</a>
+                                                    <ul>
+                                                            <li>
+                                                                    <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/#what-we-are-making">What We Are Making</a>
+                                                                </li>
+                                                            <li>
+                                                                    <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/#in-powell-manager">In Powell Manager</a>
+                                                                </li>
+                                                            <li>
+                                                                    <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/#in-sharepoint-site-contents">In SharePoint Site Contents</a>
+                                                                </li>
+                                                            </ul>
+                                                    </li>
+                                            <li><a href="
+                                                        https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/#combined-search-videos">Combined Search Videos</a>
+                                                    <ul>
+                                                            <li>
+                                                                    <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/#what-we-are-making-1">What We Are Making</a>
+                                                                </li>
+                                                            <li>
+                                                                    <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/#in-powell-manager-1">In Powell Manager</a>
+                                                                </li>
+                                                            <li>
+                                                                    <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/#in-sharepoint-site-contents-1">In SharePoint Site Contents</a>
+                                                                </li>
+                                                            </ul>
+                                                    </li>
+                                            <li><a href="
+                                                        https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/#title-text-statement">Title Text Statement</a>
+                                                    <ul>
+                                                            <li>
+                                                                    <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/#what-we-are-making-2">What We Are Making</a>
+                                                                </li>
+                                                            <li>
+                                                                    <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/#in-powell-manager-2">In Powell Manager</a>
+                                                                </li>
+                                                            </ul>
+                                                    </li>
+                                            </ul>
+                                    </ul>
+                <input class="tree-toggle" type="checkbox" id="conventions"
+                           />
+                    <label class="tree-toggle-label"
+                           for="conventions">Conventions</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/conventions/conventions/">Why Conventions?</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/conventions/site-collection-dne/">Client&#x27;s Site Collec. Not Exists</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="references"
+                           />
+                    <label class="tree-toggle-label"
+                           for="references">References</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/references/definitions/">Definitions</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/">Webparts</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/references/navigation/">Navigation</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/references/content-types/">Content Types</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="actions"
+                           />
+                    <label class="tree-toggle-label"
+                           for="actions">Actions</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/">Common Actions</a>
+                            </li>
+
+                            </ul>
+                </div>
+        </nav>
+    <article>
+        <div id="on_right">
+                <span id="search-ico" class="ms-Icon--Search"></span>
+            </div>
+            <div class="search-container">
+                <input id="search" type="search" placeholder="Search as you type...">
+                <div class="search-results">
+                    <div class="search-results__header"></div>
+                    <ul class="search-results__items"></ul>
+                </div>
+            </div>
+        <div id="wrap">
+            
+        <hr />
+<h2 id="table-of-contents">Table of Contents&nbsp;<a class="anchor" href="#table-of-contents">&#xE732;</a></h2>
+<ul>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/#table-of-contents">Table of Contents</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/#intro">Intro</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/#grid-list-of-links">Grid List of Links</a>
+<ul>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/#what-we-are-making">What We Are Making</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/#in-powell-manager">In Powell Manager</a>
+<ul>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/#create-a-custom-content-type">Create a Custom Content Type</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/#create-a-list-template">Create a List Template</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/#create-new-list-from-list-template">Create new List from List Template</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/#add-to-site-template">Add to Site Template</a></li>
+</ul>
+</li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/#in-sharepoint-site-contents">In SharePoint Site Contents</a>
+<ul>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/#create-items-for-the-list">Create Items For the List</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/#combined-search-videos">Combined Search Videos</a>
+<ul>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/#what-we-are-making-1">What We Are Making</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/#in-powell-manager-1">In Powell Manager</a>
+<ul>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/#add-to-site-template-1">Add to Site Template</a></li>
+</ul>
+</li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/#in-sharepoint-site-contents-1">In SharePoint Site Contents</a>
+<ul>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/#create-videos-files">Create Videos Files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/#title-text-statement">Title Text Statement</a>
+<ul>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/#what-we-are-making-2">What We Are Making</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/#in-powell-manager-2">In Powell Manager</a>
+<ul>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/#add-to-site-template-2">Add to Site Template</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h2 id="intro">Intro&nbsp;<a class="anchor" href="#intro">&#xE732;</a></h2>
+<p>  Webparts are the basic building blocks of SharePoint sites. Below are &quot;recipes&quot; on how to build specific web components in Powell for SharePoint Sites. For more information on Webparts, you can check the reference <a href="/references/webparts">here</a>.</p>
+<hr />
+<h2 id="grid-list-of-links">Grid List of Links&nbsp;<a class="anchor" href="#grid-list-of-links">&#xE732;</a></h2>
+<p><img src="https://i.postimg.cc/xC7JWZMN/grid-list-links.png" alt="grid-list-links.png" /></p>
+<p>TL:DR;</p>
+<blockquote>
+<p>&quot;use graph webpart and then application tiles widget view and set 3 per row&quot;</p>
+<p>~ <cite>Dah Master</cite> <img src="https://avatars.githubusercontent.com/u/53357172?s=40&amp;v=4" alt="dah master" /></p>
+</blockquote>
+<h3 id="what-we-are-making">What We Are Making&nbsp;<a class="anchor" href="#what-we-are-making">&#xE732;</a></h3>
+<p>  A list of accessible links is one of the most commonly requested requirements that clients ask for in SharePoint sites. To create this grid style list of links with icons, perform the following steps.</p>
+<h3 id="in-powell-manager">In Powell Manager&nbsp;<a class="anchor" href="#in-powell-manager">&#xE732;</a></h3>
+<h4 id="create-a-custom-content-type">Create a Custom Content Type&nbsp;<a class="anchor" href="#create-a-custom-content-type">&#xE732;</a></h4>
+<p>  Here, we will be creating a custom content type that inherits from the standard Item Content Type. It will contain additional fields for image, number, and URL.</p>
+<ol>
+<li><a href="/actions/common/#powell-intranet-create-a-content-type-that-inherits-from-item">Create a new item content type</a>
+<ol>
+<li>Create an image field: <em>Select a field type</em>, choose Image.</li>
+<li>Create a number field: <em>Select a field type</em>, choose Number.</li>
+<li>Create a URL field: <em>Select a field type</em>, choose URL.</li>
+</ol>
+</li>
+<li>Save</li>
+</ol>
+<h4 id="create-a-list-template">Create a List Template&nbsp;<a class="anchor" href="#create-a-list-template">&#xE732;</a></h4>
+<p>  In Powell Manager, the list template is used by the web part widget. If you already have this list template, then you can skip this section.</p>
+<ol>
+<li><a href="/actions/common/#powell-intranet-create-a-new-list-template">Create a new list template</a></li>
+<li><em>Select a list template model to inherit from</em> dropdown, select <em>Generic List</em></li>
+<li><em>Content Types</em></li>
+<li><em>Add a new content type</em></li>
+<li><em>Add an existing content type</em></li>
+<li>Under <em>Custom content types</em>, choose <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/#create-a-custom-content-type">the custom content type that you created</a>. <em>Add</em> it</li>
+<li>Save</li>
+</ol>
+<h4 id="create-new-list-from-list-template">Create new List from List Template&nbsp;<a class="anchor" href="#create-new-list-from-list-template">&#xE732;</a></h4>
+<ol>
+<li><a href="/actions/common/#powell-intranet-create-a-new-list">Create a new list</a></li>
+<li>Under <em>Select a list model</em> dropdown, select <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/#create-a-list-template">the list template that you created</a> under <em>My List Templates</em></li>
+<li>Save and Sync</li>
+</ol>
+<h4 id="add-to-site-template">Add to Site Template&nbsp;<a class="anchor" href="#add-to-site-template">&#xE732;</a></h4>
+<ol>
+<li><a href="/actions/common/#powell-intranet-add-a-webpart">Add a Webpart</a></li>
+<li>Use the <em>Graph</em> web part</li>
+<li>Scroll down to <em>Display</em></li>
+<li><em>Select a widget view</em></li>
+<li>Use the <em>Application Tiles</em> widget</li>
+<li>Set the following
+<ol>
+<li><em>Title</em></li>
+<li><em>Site Url</em> to your sharepoint site Url</li>
+<li><em>List</em> to <em>Manual value</em>. Type in <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/#create-new-list-from-list-template">the list that you created</a></li>
+<li><em>Sort Property</em> to the <em>Internal Name</em> of <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/#create-a-custom-content-type">the <em>number</em> field of your custom content type</a></li>
+<li><em>Sort Direction</em> descending or whichever you prefer</li>
+<li><a href="/references/webparts/#row-limit"><em>Row Limit</em></a> to however many rows you want to limit to. For example, three pages of 3x3 items, we would want 27. The following are recommended numbers, but do what fits your needs:
+<ol>
+<li><em>Mobile item's per row</em> to 2</li>
+<li><em>Tablet item's per row</em> to 2</li>
+<li><em>Desktop item's per row</em> to 3</li>
+<li><em>Large screen item's per row</em> to 3</li>
+</ol>
+</li>
+<li>Under <em>Mapping</em>
+<ol>
+<li>Choose <em>Map as Publishing Field</em>, for <em>title</em>, type <em>Title</em></li>
+<li>Choose <em>Map as Publishing Field</em>, for your custom image field, type its internal name</li>
+<li>Choose <em>Map as Publishing Field</em>, for your custom number field, type its internal name</li>
+<li>Choose neither checkbox, for your custom URL field, type its internal name</li>
+</ol>
+</li>
+<li>Save and Sync</li>
+</ol>
+</li>
+</ol>
+<h3 id="in-sharepoint-site-contents">In SharePoint Site Contents&nbsp;<a class="anchor" href="#in-sharepoint-site-contents">&#xE732;</a></h3>
+<h4 id="create-items-for-the-list">Create Items For the List&nbsp;<a class="anchor" href="#create-items-for-the-list">&#xE732;</a></h4>
+<ol>
+<li>The (+) sign next to the gear wheel,</li>
+<li>Choose <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/#create-new-list-from-list-template">the list that you created</a></li>
+<li>Fill in the fields.</li>
+<li>Create as many items in the list as needed.</li>
+</ol>
+<hr />
+<h2 id="combined-search-videos">Combined Search Videos&nbsp;<a class="anchor" href="#combined-search-videos">&#xE732;</a></h2>
+<p><img src="https://i.postimg.cc/WbRtkTHF/combined-search-videos.png" alt="combined-search-videos.png" /></p>
+<p>TL:DR;</p>
+<blockquote>
+<p>&quot;use <code>FileType: mp4</code> search query&quot;</p>
+<p>~ <cite>a Student</cite> <img src="https://avatars.githubusercontent.com/u/19988117?s=40&amp;v=4" alt="a student" /></p>
+</blockquote>
+<h3 id="what-we-are-making-1">What We Are Making&nbsp;<a class="anchor" href="#what-we-are-making-1">&#xE732;</a></h3>
+<p>  A list of videos as part of a <a href="/references/webparts/#combined-search-web-part">combined search webpart</a>. You may wish to <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/#create-videos-files">create the videos files</a> first because the <a href="/references/webparts/#search-query">search query</a> might be based on where you stored your videos in storage.</p>
+<h3 id="in-powell-manager-1">In Powell Manager&nbsp;<a class="anchor" href="#in-powell-manager-1">&#xE732;</a></h3>
+<h4 id="add-to-site-template-1">Add to Site Template&nbsp;<a class="anchor" href="#add-to-site-template-1">&#xE732;</a></h4>
+<ol>
+<li><a href="/actions/common/#powell-intranet-add-a-webpart">Add a Webpart</a></li>
+<li>Use the <em>Combined search</em> webpart</li>
+<li>Scroll down to <em>Configuration</em></li>
+<li><em>Select a widget view</em></li>
+<li>In our case, we will be using the <em>Vertical</em> widget, but feel free to use what you need.</li>
+<li>Set the following:
+<ol>
+<li><em>Title</em></li>
+</ol>
+</li>
+<li><em>New Configuration</em>. Set the following:
+<ol>
+<li><em>Title</em></li>
+<li><a href="/references/webparts/#search-query"><em>Search query template</em></a></li>
+<li><a href="/content/references/webparts/#row-limit">Row limit</a></li>
+<li><em>Display</em> -&gt; <em>Select a display type</em> -&gt; <em>Select a widget view</em></li>
+<li>Under <em>Must read items</em>, set the following to your needs or the following parameters
+<ol>
+<li><em>Mobile item's per row</em> to 1</li>
+<li><em>Tablet item's per row</em> to 1</li>
+<li><em>Desktop item's per row</em> to 4</li>
+<li><em>Large screen item's per row</em> to 4</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Save the Configuration</li>
+<li>Save the Webpart</li>
+<li>Save the page template</li>
+<li>Sync the Webpart</li>
+<li>Go back to <em>Edit Site Template</em></li>
+<li>Save all site templates.</li>
+<li>Sync the site template that you were working on.</li>
+</ol>
+<h3 id="in-sharepoint-site-contents-1">In SharePoint Site Contents&nbsp;<a class="anchor" href="#in-sharepoint-site-contents-1">&#xE732;</a></h3>
+<p>  If you do not have any content to upload, I recommend downloading sample video content from <a href="https://samplelib.com/sample-mp4.html">here</a>.</p>
+<h4 id="create-videos-files">Create Videos Files&nbsp;<a class="anchor" href="#create-videos-files">&#xE732;</a></h4>
+<ol>
+<li><a href="/actions/common/#site-contents">Go to site contents</a></li>
+<li>Create a Document Library Folder with the same name as what <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/#add-to-site-template">you specified in your search query</a></li>
+<li><em>New</em>. Choose from your computer and upload the sample video files</li>
+</ol>
+<hr />
+<h2 id="title-text-statement">Title Text Statement&nbsp;<a class="anchor" href="#title-text-statement">&#xE732;</a></h2>
+<p><img src="https://i.postimg.cc/mrZm2J5T/title-text-statement.png" alt="title text statement" /></p>
+<h3 id="what-we-are-making-2">What We Are Making&nbsp;<a class="anchor" href="#what-we-are-making-2">&#xE732;</a></h3>
+<p>  A paragraph with a mission statement and title with horizontal dividers. This turns out to be a web part with many pieces.</p>
+<h3 id="in-powell-manager-2">In Powell Manager&nbsp;<a class="anchor" href="#in-powell-manager-2">&#xE732;</a></h3>
+<h4 id="add-to-site-template-2">Add to Site Template&nbsp;<a class="anchor" href="#add-to-site-template-2">&#xE732;</a></h4>
+<ol>
+<li><a href="/actions/common/#powell-intranet-add-a-webpart">Add the following Webparts to a single zone</a>
+<ol>
+<li><em>Title</em>
+<ol>
+<li>Set <em>Chrome type</em> for title to <em>hidden</em></li>
+</ol>
+</li>
+<li><em>Divider</em></li>
+<li><em>Text</em>
+<ol>
+<li>Set font size to 30 and alignment center</li>
+</ol>
+</li>
+<li><em>Divider</em></li>
+</ol>
+</li>
+<li><a href="/actions/common/#powell-intranet-custom-css">Add the following code to Custom CSS</a></li>
+</ol>
+<pre data-lang="css" style="background-color:#eff1f5;color:#4f5b66;" class="language-css "><code class="language-css" data-lang="css"><span style="color:#bf616a;">hr</span><span style="color:#8fa1b3;">[</span><span style="color:#d08770;">role</span><span>=&quot;</span><span style="color:#a3be8c;">presentation</span><span>&quot;</span><span style="color:#8fa1b3;">] </span><span>{
+</span><span>    color: </span><span style="color:#96b5b4;">#981d97</span><span>;
+</span><span>}
+</span></code></pre>
+
+    
+        </div>
+    </article>
+</main>
+
+
+    <script type="text/javascript" src="https://tieje.github.io/unofficial_powell_365_docs/elasticlunr.min.js" defer></script>
+    <script type="text/javascript" src="https://tieje.github.io/unofficial_powell_365_docs/search_index.en.js" defer></script>
+<script type="text/javascript" src="https://tieje.github.io/unofficial_powell_365_docs/js.js" defer></script>
+
+</body>
+</html>

@@ -1,0 +1,215 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://tieje.github.io/unofficial_powell_365_docs/main.css">
+    <link rel="icon" href="https://www.getzola.org/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title> Docs | Intranet Deploy </title>
+</head>
+<body>
+
+<!-- <script>
+        fetch('https://api.github.com/repos/getzola/zola/releases/latest')
+            .then((response) => {
+                return response.json();
+            })
+            .then((data) => {
+                let release_name = data.name;
+                let html_url = data.html_url;
+                release.innerHTML = `<a href='${html_url}'>${release_name}</a>`;
+            });
+    </script>
+-->
+<main>
+    
+    <nav>
+            <a href="https:&#x2F;&#x2F;tieje.github.io&#x2F;unofficial_powell_365_docs">
+                        <img src="https://easydocs.codeandmedia.com/logo.svg" alt="logo"/>
+                    </a>
+                <!-- <div id="release"></div>
+            -->
+            <div id="release"><a href="https:&#x2F;&#x2F;github.com&#x2F;tieje&#x2F;unofficial_powell_365_docs">Github</a></div>
+            <a href="javascript:void(0);" onclick="burger()" id="mobile" class="ms-Icon--GlobalNavButton"></a>
+            <div id="trees">
+                <input class="tree-toggle" type="checkbox" id="setup"
+                           />
+                    <label class="tree-toggle-label"
+                           for="setup">Setup</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/setup/recommended-setup/">Recommended Setup</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/setup/key-concepts/">Key Concepts</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/setup/contributors/">Setup for Contributors</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="recipes"
+                           checked/>
+                    <label class="tree-toggle-label"
+                           for="recipes">Recipes</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/pow-example-pages/">Recipes for Powell Web Pages</a>
+                            </li>
+
+                            <li class="active">
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/intranet-deploy/">Intranet Deploy</a>
+                            </li>
+
+                            
+                                    
+                                    
+                                        <ul id="toc">
+                                            <li><a href="
+                                                        https://tieje.github.io/unofficial_powell_365_docs/recipes/intranet-deploy/#table-of-contents">Table of Contents</a>
+                                                    </li>
+                                            <li><a href="
+                                                        https://tieje.github.io/unofficial_powell_365_docs/recipes/intranet-deploy/#top-navigation">Top Navigation</a>
+                                                    <ul>
+                                                            <li>
+                                                                    <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/intranet-deploy/#what-we-are-making">What We Are Making</a>
+                                                                </li>
+                                                            <li>
+                                                                    <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/intranet-deploy/#in-powell-manager">In Powell Manager</a>
+                                                                </li>
+                                                            </ul>
+                                                    </li>
+                                            </ul>
+                                    <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/">Recipes for Webparts</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="conventions"
+                           />
+                    <label class="tree-toggle-label"
+                           for="conventions">Conventions</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/conventions/conventions/">Why Conventions?</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/conventions/site-collection-dne/">Client&#x27;s Site Collec. Not Exists</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="references"
+                           />
+                    <label class="tree-toggle-label"
+                           for="references">References</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/references/definitions/">Definitions</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/">Webparts</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/references/navigation/">Navigation</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/references/content-types/">Content Types</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="actions"
+                           />
+                    <label class="tree-toggle-label"
+                           for="actions">Actions</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/">Common Actions</a>
+                            </li>
+
+                            </ul>
+                </div>
+        </nav>
+    <article>
+        <div id="on_right">
+                <span id="search-ico" class="ms-Icon--Search"></span>
+            </div>
+            <div class="search-container">
+                <input id="search" type="search" placeholder="Search as you type...">
+                <div class="search-results">
+                    <div class="search-results__header"></div>
+                    <ul class="search-results__items"></ul>
+                </div>
+            </div>
+        <div id="wrap">
+            
+        <hr />
+<h2 id="table-of-contents">Table of Contents&nbsp;<a class="anchor" href="#table-of-contents">&#xE732;</a></h2>
+<ul>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/intranet-deploy/#table-of-contents">Table of Contents</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/intranet-deploy/#top-navigation">Top Navigation</a>
+<ul>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/intranet-deploy/#what-we-are-making">What We Are Making</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/intranet-deploy/#in-powell-manager">In Powell Manager</a>
+<ul>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/intranet-deploy/#create-a-navigation">Create a Navigation</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/intranet-deploy/#add-to-your-site">Add to Your Site</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h2 id="top-navigation">Top Navigation&nbsp;<a class="anchor" href="#top-navigation">&#xE732;</a></h2>
+<p><img src="https://i.postimg.cc/dtTh2Fw8/top-navigation.png" alt="top navigation" /></p>
+<p>TL:DR;</p>
+<blockquote>
+<p>&quot;Site collection -&gt; Configuration -&gt; (probably features)&quot;</p>
+<p>~ <cite>Dah Master</cite> <img src="https://avatars.githubusercontent.com/u/53357172?s=40&amp;v=4" alt="dah master" /></p>
+</blockquote>
+<h3 id="what-we-are-making">What We Are Making&nbsp;<a class="anchor" href="#what-we-are-making">&#xE732;</a></h3>
+<p>  Top navigation for a Powell Sharepoint Sites.</p>
+<h3 id="in-powell-manager">In Powell Manager&nbsp;<a class="anchor" href="#in-powell-manager">&#xE732;</a></h3>
+<h4 id="create-a-navigation">Create a Navigation&nbsp;<a class="anchor" href="#create-a-navigation">&#xE732;</a></h4>
+<ol>
+<li><a href="/actions/common/#powell-intranet-navigation">Go to Intranet Deploy Navigation</a></li>
+<li><em>Create a new navigation</em></li>
+<li>Fill in fields
+<ol>
+<li><em>Title</em></li>
+<li>Check <em>Top Navigation</em></li>
+<li><em>Navigation Type</em>, choose <em>Custom navigation (cross site collections)</em></li>
+</ol>
+</li>
+<li><a href="/references/navigation/#create-a-new-node">Create new nodes</a></li>
+</ol>
+<h4 id="add-to-your-site">Add to Your Site&nbsp;<a class="anchor" href="#add-to-your-site">&#xE732;</a></h4>
+<ol>
+<li><a href="/actions/common/#powell-intranet-site-collections">Go to Site Collections</a></li>
+<li>Choose your site</li>
+<li><em>Configuration</em> (left column)</li>
+<li><em>Site Collection Features</em>, <em>Top Navigation</em>, choose <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/intranet-deploy/#create-a-navigation">the navigation you created</a>.</li>
+</ol>
+
+    
+        </div>
+    </article>
+</main>
+
+
+    <script type="text/javascript" src="https://tieje.github.io/unofficial_powell_365_docs/elasticlunr.min.js" defer></script>
+    <script type="text/javascript" src="https://tieje.github.io/unofficial_powell_365_docs/search_index.en.js" defer></script>
+<script type="text/javascript" src="https://tieje.github.io/unofficial_powell_365_docs/js.js" defer></script>
+
+</body>
+</html>

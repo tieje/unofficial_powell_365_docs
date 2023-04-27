@@ -1,0 +1,217 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://tieje.github.io/unofficial_powell_365_docs/main.css">
+    <link rel="icon" href="https://www.getzola.org/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title> Docs | Recipes for Powell Web Pages </title>
+</head>
+<body>
+
+<!-- <script>
+        fetch('https://api.github.com/repos/getzola/zola/releases/latest')
+            .then((response) => {
+                return response.json();
+            })
+            .then((data) => {
+                let release_name = data.name;
+                let html_url = data.html_url;
+                release.innerHTML = `<a href='${html_url}'>${release_name}</a>`;
+            });
+    </script>
+-->
+<main>
+    
+    <nav>
+            <a href="https:&#x2F;&#x2F;tieje.github.io&#x2F;unofficial_powell_365_docs">
+                        <img src="https://easydocs.codeandmedia.com/logo.svg" alt="logo"/>
+                    </a>
+                <!-- <div id="release"></div>
+            -->
+            <div id="release"><a href="https:&#x2F;&#x2F;github.com&#x2F;tieje&#x2F;unofficial_powell_365_docs">Github</a></div>
+            <a href="javascript:void(0);" onclick="burger()" id="mobile" class="ms-Icon--GlobalNavButton"></a>
+            <div id="trees">
+                <input class="tree-toggle" type="checkbox" id="setup"
+                           />
+                    <label class="tree-toggle-label"
+                           for="setup">Setup</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/setup/recommended-setup/">Recommended Setup</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/setup/key-concepts/">Key Concepts</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/setup/contributors/">Setup for Contributors</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="recipes"
+                           checked/>
+                    <label class="tree-toggle-label"
+                           for="recipes">Recipes</label>
+
+                    <ul class="subtree">
+                        <li class="active">
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/pow-example-pages/">Recipes for Powell Web Pages</a>
+                            </li>
+
+                            
+                                    
+                                    
+                                        <ul id="toc">
+                                            <li><a href="
+                                                        https://tieje.github.io/unofficial_powell_365_docs/recipes/pow-example-pages/#table-of-contents">Table of Contents</a>
+                                                    </li>
+                                            <li><a href="
+                                                        https://tieje.github.io/unofficial_powell_365_docs/recipes/pow-example-pages/#powell-example-web-pages">Powell Example Web Pages</a>
+                                                    </li>
+                                            <li><a href="
+                                                        https://tieje.github.io/unofficial_powell_365_docs/recipes/pow-example-pages/#water-fountain-page">Water Fountain Page</a>
+                                                    <ul>
+                                                            <li>
+                                                                    <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/pow-example-pages/#what-we-are-making">What We Are Making</a>
+                                                                </li>
+                                                            <li>
+                                                                    <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/pow-example-pages/#in-powell-manager">In Powell Manager</a>
+                                                                </li>
+                                                            <li>
+                                                                    <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/pow-example-pages/#in-sharepoint">In SharePoint</a>
+                                                                </li>
+                                                            </ul>
+                                                    </li>
+                                            </ul>
+                                    <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/intranet-deploy/">Intranet Deploy</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/">Recipes for Webparts</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="conventions"
+                           />
+                    <label class="tree-toggle-label"
+                           for="conventions">Conventions</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/conventions/conventions/">Why Conventions?</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/conventions/site-collection-dne/">Client&#x27;s Site Collec. Not Exists</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="references"
+                           />
+                    <label class="tree-toggle-label"
+                           for="references">References</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/references/definitions/">Definitions</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/">Webparts</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/references/navigation/">Navigation</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/references/content-types/">Content Types</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="actions"
+                           />
+                    <label class="tree-toggle-label"
+                           for="actions">Actions</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/">Common Actions</a>
+                            </li>
+
+                            </ul>
+                </div>
+        </nav>
+    <article>
+        <div id="on_right">
+                <span id="search-ico" class="ms-Icon--Search"></span>
+            </div>
+            <div class="search-container">
+                <input id="search" type="search" placeholder="Search as you type...">
+                <div class="search-results">
+                    <div class="search-results__header"></div>
+                    <ul class="search-results__items"></ul>
+                </div>
+            </div>
+        <div id="wrap">
+            
+        <hr />
+<h2 id="table-of-contents">Table of Contents&nbsp;<a class="anchor" href="#table-of-contents">&#xE732;</a></h2>
+<ul>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/pow-example-pages/#table-of-contents">Table of Contents</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/pow-example-pages/#powell-example-web-pages">Powell Example Web Pages</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/pow-example-pages/#water-fountain-page">Water Fountain Page</a>
+<ul>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/pow-example-pages/#what-we-are-making">What We Are Making</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/pow-example-pages/#in-powell-manager">In Powell Manager</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/pow-example-pages/#in-sharepoint">In SharePoint</a></li>
+</ul>
+</li>
+</ul>
+<hr />
+<h2 id="powell-example-web-pages">Powell Example Web Pages&nbsp;<a class="anchor" href="#powell-example-web-pages">&#xE732;</a></h2>
+<p>  There exists a <a href="https://pow365.sharepoint.com/sites/multilingualconnect/en-US/">sample Powell SharePoint site</a> with several examples of Powell webparts. You can request access <a href="https://support.powell-software.com/hc/en-us/requests/new">here</a>. The site templates of the sample site can be accessed through Powell Manager and going to <a href="/actions/common/#powell-intranet-powell-site-collections">Powell site collections</a>.</p>
+<hr />
+<h2 id="water-fountain-page">Water Fountain Page&nbsp;<a class="anchor" href="#water-fountain-page">&#xE732;</a></h2>
+<table><thead><tr><th style="text-align: center"><img src="https://i.postimg.cc/wTwTvy79/water-fountain-top-half.png" alt="water-fountain-top-half.png" /></th></tr></thead><tbody>
+<tr><td style="text-align: center"><strong>Top Half</strong></td></tr>
+</tbody></table>
+<table><thead><tr><th style="text-align: center"><img src="https://i.postimg.cc/BQbfmhnG/water-fountain-bottom-half.png" alt="water-fountain-bottom-half.png" /></th></tr></thead><tbody>
+<tr><td style="text-align: center"><strong>Bottom Half</strong></td></tr>
+</tbody></table>
+<p>TL:DR;</p>
+<blockquote>
+<p>&quot;this page can only be created from the water fountain site template&quot;</p>
+<p>~ <cite>a Student</cite> <img src="https://avatars.githubusercontent.com/u/19988117?s=40&amp;v=4" alt="a student" /></p>
+</blockquote>
+<h3 id="what-we-are-making">What We Are Making&nbsp;<a class="anchor" href="#what-we-are-making">&#xE732;</a></h3>
+<p>  We will be making a water fountain page, which can be found in the Powell example site <a href="https://pow365.sharepoint.com/sites/multilingualconnect/en-US/waterfountain">here</a>. Official <a href="https://support.powell-software.com/hc/en-us/articles/360021195020--standalone-template-Water-Fountain#h_01FTAX98H2Q296M9N631SRYFN7">powell documentation on the Water Fountain page</a> exists. Additionally, <a href="https://support.powell-software.com/hc/en-us/articles/360021248439#-site-members-create-a-category-on-the-waterfountain-page-0-0">powell documentation on how to create a category on the Water Fountain page</a> exists as well. Normally, we would implement the webparts ourselves, but in this case <strong>the only way to implement the water fountain page is to clone the Powell water fountain site template</strong> and then implement it for the tenant as either a subsite or a site collection. In this example, we will be implementing it as a site collection.</p>
+<h3 id="in-powell-manager">In Powell Manager&nbsp;<a class="anchor" href="#in-powell-manager">&#xE732;</a></h3>
+<ol>
+<li><a href="/actions/common/#powell-intranet-create-a-site-collection">Create a site collection with the water fountain template</a>
+<ul>
+<li>Look for the term <em>water fountain</em> in Powell site templates.</li>
+</ul>
+</li>
+</ol>
+<h3 id="in-sharepoint">In SharePoint&nbsp;<a class="anchor" href="#in-sharepoint">&#xE732;</a></h3>
+<ol>
+<li><a href="/actions/common/#grant-access-or-site-permissions">Grant Access to the site to users</a></li>
+</ol>
+
+    
+        </div>
+    </article>
+</main>
+
+
+    <script type="text/javascript" src="https://tieje.github.io/unofficial_powell_365_docs/elasticlunr.min.js" defer></script>
+    <script type="text/javascript" src="https://tieje.github.io/unofficial_powell_365_docs/search_index.en.js" defer></script>
+<script type="text/javascript" src="https://tieje.github.io/unofficial_powell_365_docs/js.js" defer></script>
+
+</body>
+</html>

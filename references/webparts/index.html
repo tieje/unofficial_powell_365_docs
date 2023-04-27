@@ -1,0 +1,358 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://tieje.github.io/unofficial_powell_365_docs/main.css">
+    <link rel="icon" href="https://www.getzola.org/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title> Docs | Webparts </title>
+</head>
+<body>
+
+<!-- <script>
+        fetch('https://api.github.com/repos/getzola/zola/releases/latest')
+            .then((response) => {
+                return response.json();
+            })
+            .then((data) => {
+                let release_name = data.name;
+                let html_url = data.html_url;
+                release.innerHTML = `<a href='${html_url}'>${release_name}</a>`;
+            });
+    </script>
+-->
+<main>
+    
+    <nav>
+            <a href="https:&#x2F;&#x2F;tieje.github.io&#x2F;unofficial_powell_365_docs">
+                        <img src="https://easydocs.codeandmedia.com/logo.svg" alt="logo"/>
+                    </a>
+                <!-- <div id="release"></div>
+            -->
+            <div id="release"><a href="https:&#x2F;&#x2F;github.com&#x2F;tieje&#x2F;unofficial_powell_365_docs">Github</a></div>
+            <a href="javascript:void(0);" onclick="burger()" id="mobile" class="ms-Icon--GlobalNavButton"></a>
+            <div id="trees">
+                <input class="tree-toggle" type="checkbox" id="setup"
+                           />
+                    <label class="tree-toggle-label"
+                           for="setup">Setup</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/setup/recommended-setup/">Recommended Setup</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/setup/key-concepts/">Key Concepts</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/setup/contributors/">Setup for Contributors</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="recipes"
+                           />
+                    <label class="tree-toggle-label"
+                           for="recipes">Recipes</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/pow-example-pages/">Recipes for Powell Web Pages</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/intranet-deploy/">Intranet Deploy</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/">Recipes for Webparts</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="conventions"
+                           />
+                    <label class="tree-toggle-label"
+                           for="conventions">Conventions</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/conventions/conventions/">Why Conventions?</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/conventions/site-collection-dne/">Client&#x27;s Site Collec. Not Exists</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="references"
+                           checked/>
+                    <label class="tree-toggle-label"
+                           for="references">References</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/references/definitions/">Definitions</a>
+                            </li>
+
+                            <li class="active">
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/">Webparts</a>
+                            </li>
+
+                            
+                                    
+                                    
+                                        <ul id="toc">
+                                            <li><a href="
+                                                        https://tieje.github.io/unofficial_powell_365_docs/references/webparts/#table-of-contents">Table of Contents</a>
+                                                    </li>
+                                            <li><a href="
+                                                        https://tieje.github.io/unofficial_powell_365_docs/references/webparts/#species">Species</a>
+                                                    <ul>
+                                                            <li>
+                                                                    <a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/#banner">Banner</a>
+                                                                </li>
+                                                            <li>
+                                                                    <a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/#combined-search">Combined Search</a>
+                                                                </li>
+                                                            <li>
+                                                                    <a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/#discussion-tiles">Discussion Tiles</a>
+                                                                </li>
+                                                            <li>
+                                                                    <a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/#divider">Divider</a>
+                                                                </li>
+                                                            <li>
+                                                                    <a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/#script-editor">Script Editor</a>
+                                                                </li>
+                                                            <li>
+                                                                    <a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/#search-webpart">Search webpart</a>
+                                                                </li>
+                                                            <li>
+                                                                    <a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/#text">Text</a>
+                                                                </li>
+                                                            <li>
+                                                                    <a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/#title">Title</a>
+                                                                </li>
+                                                            </ul>
+                                                    </li>
+                                            <li><a href="
+                                                        https://tieje.github.io/unofficial_powell_365_docs/references/webparts/#edit-widget-explanations">Edit Widget Explanations</a>
+                                                    <ul>
+                                                            <li>
+                                                                    <a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/#search-query">Search Query</a>
+                                                                </li>
+                                                            <li>
+                                                                    <a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/#avoid-nesting-folders-in-sharepoint-sites">Avoid Nesting Folders in SharePoint Sites</a>
+                                                                </li>
+                                                            <li>
+                                                                    <a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/#form-view">Form View</a>
+                                                                </li>
+                                                            <li>
+                                                                    <a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/#row-limit">Row limit</a>
+                                                                </li>
+                                                            </ul>
+                                                    </li>
+                                            <li><a href="
+                                                        https://tieje.github.io/unofficial_powell_365_docs/references/webparts/#display-or-select-widgets">Display or Select Widgets</a>
+                                                    <ul>
+                                                            <li>
+                                                                    <a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/#species-1">Species</a>
+                                                                </li>
+                                                            </ul>
+                                                    </li>
+                                            <li><a href="
+                                                        https://tieje.github.io/unofficial_powell_365_docs/references/webparts/#tips-and-tricks">Tips and Tricks</a>
+                                                    <ul>
+                                                            <li>
+                                                                    <a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/#determine-the-type-of-webpart-by-inspecting-sharepoint-site-with-dev-tools">Determine the Type of Webpart By Inspecting SharePoint Site with Dev Tools</a>
+                                                                </li>
+                                                            </ul>
+                                                    </li>
+                                            </ul>
+                                    <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/references/navigation/">Navigation</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/references/content-types/">Content Types</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="actions"
+                           />
+                    <label class="tree-toggle-label"
+                           for="actions">Actions</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/">Common Actions</a>
+                            </li>
+
+                            </ul>
+                </div>
+        </nav>
+    <article>
+        <div id="on_right">
+                <span id="search-ico" class="ms-Icon--Search"></span>
+            </div>
+            <div class="search-container">
+                <input id="search" type="search" placeholder="Search as you type...">
+                <div class="search-results">
+                    <div class="search-results__header"></div>
+                    <ul class="search-results__items"></ul>
+                </div>
+            </div>
+        <div id="wrap">
+            
+        <hr />
+<h2 id="table-of-contents">Table of Contents&nbsp;<a class="anchor" href="#table-of-contents">&#xE732;</a></h2>
+<ul>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/#table-of-contents">Table of Contents</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/#species">Species</a>
+<ul>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/#banner">Banner</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/#combined-search">Combined Search</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/#discussion-tiles">Discussion Tiles</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/#divider">Divider</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/#script-editor">Script Editor</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/#search-webpart">Search webpart</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/#text">Text</a>
+<ul>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/#text-caveats">Text Caveats</a></li>
+</ul>
+</li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/#title">Title</a></li>
+</ul>
+</li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/#edit-widget-explanations">Edit Widget Explanations</a>
+<ul>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/#search-query">Search Query</a>
+<ul>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/#kql-cheat-sheet">KQL Cheat Sheet</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/#examples">Examples</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/#debugging-queries">Debugging Queries</a></li>
+</ul>
+</li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/#avoid-nesting-folders-in-sharepoint-sites">Avoid Nesting Folders in SharePoint Sites</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/#form-view">Form View</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/#row-limit">Row limit</a></li>
+</ul>
+</li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/#display-or-select-widgets">Display or Select Widgets</a>
+<ul>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/#species-1">Species</a>
+<ul>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/#application-tiles-2">Application Tiles 2</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/#tips-and-tricks">Tips and Tricks</a>
+<ul>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/#determine-the-type-of-webpart-by-inspecting-sharepoint-site-with-dev-tools">Determine the Type of Webpart By Inspecting SharePoint Site with Dev Tools</a></li>
+</ul>
+</li>
+</ul>
+<hr />
+<h2 id="species">Species&nbsp;<a class="anchor" href="#species">&#xE732;</a></h2>
+<h3 id="banner">Banner&nbsp;<a class="anchor" href="#banner">&#xE732;</a></h3>
+<p>  It is what it says it is. Unfortunately, there are two <em>Title</em> inputs and a <em>Description</em> which gets confusing. The first <em>Title</em> is used internally for the webpart. The second <em>Title</em> is the top part of the banner with the arrow. The text below it is the description. If the text for description is not included, it defaults to the format <strong>[Page Name] - [Title]</strong>. If the text for the title is not included, the top text defaults to the page name.</p>
+<h3 id="combined-search">Combined Search&nbsp;<a class="anchor" href="#combined-search">&#xE732;</a></h3>
+<p>  This webpart can display multiple query results through the use of tabs.</p>
+<p><strong>Example</strong></p>
+<p>Example Recipe: <a href="/recipes/webparts/#combined_search_videos">Combined Search Videos</a></p>
+<p><img src="https://i.postimg.cc/WbRtkTHF/combined-search-videos.png" alt="combined-search-videos.png" /></p>
+<h3 id="discussion-tiles">Discussion Tiles&nbsp;<a class="anchor" href="#discussion-tiles">&#xE732;</a></h3>
+<p>  This webpart can only be used by pre-programmed Powell Intranet site templates like the <a href="/recipes/pow_example_pages/#water-fountain-page">Water Fountain Page</a>. In other words, this webpart is useless to Powell users.
+<img src="https://i.postimg.cc/fL24hZss/discussion-tiles.png" alt="Discussion Tiles" /></p>
+<h3 id="divider">Divider&nbsp;<a class="anchor" href="#divider">&#xE732;</a></h3>
+<p>  This webpart is basically the equivalent of <code>&lt;hr&gt;</code> html tag.</p>
+<p>  Example <a href="/recipes/webparts/#title-text-statement">recipe</a></p>
+<h3 id="script-editor">Script Editor&nbsp;<a class="anchor" href="#script-editor">&#xE732;</a></h3>
+<p>  This webpart allows users to insert a script tag from Powell Manager.</p>
+<p><img src="https://i.postimg.cc/RF8pHtM0/script-editor.png" alt="Script Editor" /></p>
+<h3 id="search-webpart">Search webpart&nbsp;<a class="anchor" href="#search-webpart">&#xE732;</a></h3>
+<p>  Powell support once told me in a call that &quot;about 80% of the webparts that we use are <em>Search</em> webparts&quot;. That being said, a picture of a <em>Search</em> webpart is not enough to show what it is or what it can do. It's fairly moldable to the user's desires as it can be used with most Display widgets.</p>
+<h3 id="text">Text&nbsp;<a class="anchor" href="#text">&#xE732;</a></h3>
+<p>  The very last option that looks like <code>&lt; &gt;</code> shows what is going be on the page in raw HTML. Unfortunately, you'll need to save, sync, and then look at the SharePoint site to look at your pages. There is a bug where deleting empty spacer tags like below while in code view and then save, the empty tags will still remain there. Delete newline spacer tags from the text view instead and then save. It appears that changes are only saved if you press the save button while in text view. Pressing save while in code view.</p>
+<pre data-lang="html" style="background-color:#eff1f5;color:#4f5b66;" class="language-html "><code class="language-html" data-lang="html"><span>&lt;</span><span style="color:#bf616a;">p</span><span>&gt;
+</span><span>  &lt;</span><span style="color:#bf616a;">br</span><span>&gt;
+</span><span>&lt;/</span><span style="color:#bf616a;">p</span><span>&gt;
+</span></code></pre>
+<p>  Example <a href="/recipes/webparts/#title-text-statement">recipe</a></p>
+<h4 id="text-caveats">Text Caveats&nbsp;<a class="anchor" href="#text-caveats">&#xE732;</a></h4>
+<p>  Because we can just create HTML from the text view, it might seem all-powerful, however, all it takes is one user to <em>Edit</em> and <em>Republish</em> the page on SharePoint to remove all of your tags and info that is not <code>&lt;p&gt;</code> or <code>&lt;br&gt;</code> tags.</p>
+<h3 id="title">Title&nbsp;<a class="anchor" href="#title">&#xE732;</a></h3>
+<p>  This is like the title part of many web parts. In <em>Edit widget</em>, to prevent redundant titles, we recommend setting the top <em>Title</em> to <em>Hidden</em> in the <em>Chrome type</em> dropdown.</p>
+<p>  Example <a href="/recipes/webparts/#title-text-statement">recipe</a></p>
+<hr />
+<h2 id="edit-widget-explanations">Edit Widget Explanations&nbsp;<a class="anchor" href="#edit-widget-explanations">&#xE732;</a></h2>
+<h3 id="search-query">Search Query&nbsp;<a class="anchor" href="#search-query">&#xE732;</a></h3>
+<p>  In Powell, you may have seen this Search query box, called either <em>Search query</em> or <em>Search query template</em>:</p>
+<p><img src="https://i.postimg.cc/xC8js7F2/search-query.png" alt="search query" /></p>
+<p>The language used in this particular search box is <a href="https://learn.microsoft.com/en-us/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference">Keyword Query Language (KQL)</a>. KQL is used to build search queries for the SharePoint search service. For syntax and more, please refer to documentation <a href="https://learn.microsoft.com/en-us/sharepoint/dev/general-development/building-search-queries-in-sharepoint">here</a>. These search queries allow developers to query the SharePoint site, often times for looking for info in site contents.</p>
+<p>Keep in mind that there is an entirely separate query language with the same acronym that Microsoft uses for Azure called Kusto Query Language (KQL). This is <em>not</em> used in SharePoint.</p>
+<h4 id="kql-cheat-sheet"><a href="https://www.sharepointagency.co.nz/consulting/blog-search/item/350-keyword-query-language-kql-cheat-sheet.html">KQL Cheat Sheet</a>&nbsp;<a class="anchor" href="#kql-cheat-sheet">&#xE732;</a></h4>
+<h4 id="examples">Examples&nbsp;<a class="anchor" href="#examples">&#xE732;</a></h4>
+<p>  Query for mp4 videos in the entire site contents:</p>
+<p>Search query template</p>
+<pre style="background-color:#eff1f5;color:#4f5b66;"><code><span>FileType: mp4
+</span></code></pre>
+<p>KQL filter = <code>FileType: mp4</code></p>
+<p>  Query for mp4 Videos in the Communications Document Library:</p>
+<p>Search query template</p>
+<pre style="background-color:#eff1f5;color:#4f5b66;"><code><span>PATH: &quot;https://unifiedphysicianmgt.sharepoint.com/sites/UnifiedWomensHealth/Communications/Forms&quot; FileType: mp4
+</span></code></pre>
+<ul>
+<li>SharePoint base URL = <code>https://unifiedphysicianmgt.sharepoint.com/sites/UnifiedWomensHealth</code></li>
+<li>SharePoint Document Library = <code>/Communications</code></li>
+<li>SharePoint Document Library View = <code>/Forms</code></li>
+<li>Additional KQL filter = <code>FileType: mp4</code></li>
+</ul>
+<h4 id="debugging-queries">Debugging Queries&nbsp;<a class="anchor" href="#debugging-queries">&#xE732;</a></h4>
+<p>  The most efficient method of debugging KQL queries in Powell SharePoint is to use the <em>Test</em> button on the Query Builder.</p>
+<ol>
+<li>On your SharePoint Site with Powell, click on <em>Edit</em> in the top right corner.</li>
+<li><em>Edit</em> the webpart that you wish to debug. If it's combined search webpart, you might need to click on an internal edit button as well.</li>
+<li>Under <em>Content Search edit mode</em>, expand Query Builder</li>
+<li>The <em>Test</em> button is at the bottom just before the <em>Display</em> header.</li>
+</ol>
+<p>When you're done testing, always <em>Discard changes</em> in the upper left corner. Otherwise, there is a timer that will take you out of edit mode involuntarily.</p>
+<h3 id="avoid-nesting-folders-in-sharepoint-sites">Avoid Nesting Folders in SharePoint Sites&nbsp;<a class="anchor" href="#avoid-nesting-folders-in-sharepoint-sites">&#xE732;</a></h3>
+<p>  Folders as seen on the <em>site contents</em> level in the SharePoint site are special folders called <em>Document Library</em> folders. If we want to limit grabbing items from a specific folder can only limit the scope of information grabbed by Document Library folders. The same information will be grabbed at the Document Library level folder will be grabbed from the nested folder. Nested folders do not help with organization. Only keep files and lists folders for content in Powell. Do not use folders within folders.</p>
+<h3 id="form-view">Form View&nbsp;<a class="anchor" href="#form-view">&#xE732;</a></h3>
+<p>  You may be tempted to use:</p>
+<p><code>PATH: &quot;https://unifiedphysicianmgt.sharepoint.com/sites/UnifiedWomensHealth/Communications&quot;</code></p>
+<p>but we actually need to use</p>
+<p><code>PATH: &quot;https://unifiedphysicianmgt.sharepoint.com/sites/UnifiedWomensHealth/Communications/Forms&quot;</code></p>
+<p>because we need the Forms view of the files.</p>
+<h3 id="row-limit">Row limit&nbsp;<a class="anchor" href="#row-limit">&#xE732;</a></h3>
+<p>  Think of a SharePoint list. Each row in this case is an item on the list. Therefore, row limit really means item limit.</p>
+<p><strong>Example</strong></p>
+<p>  In the <a href="/recipes/webparts/#grid-list-of-links">grid list of links recipe</a>, we want an arbitrary max of 27 rows or 27 items that will be grabbed from the SharePoint List</p>
+<hr />
+<h2 id="display-or-select-widgets">Display or Select Widgets&nbsp;<a class="anchor" href="#display-or-select-widgets">&#xE732;</a></h2>
+<p>  When building a webpart, there is often a secondary choice of the Display widget. Not all webparts have display widgets. For example, the <a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/#discussion-tiles">discussion tiles webpart</a> cannot display a specific widget other than what it comes with.</p>
+<h3 id="species-1">Species&nbsp;<a class="anchor" href="#species-1">&#xE732;</a></h3>
+<h4 id="application-tiles-2">Application Tiles 2&nbsp;<a class="anchor" href="#application-tiles-2">&#xE732;</a></h4>
+<p>TODO</p>
+<hr />
+<h2 id="tips-and-tricks">Tips and Tricks&nbsp;<a class="anchor" href="#tips-and-tricks">&#xE732;</a></h2>
+<h3 id="determine-the-type-of-webpart-by-inspecting-sharepoint-site-with-dev-tools">Determine the Type of Webpart By Inspecting SharePoint Site with Dev Tools&nbsp;<a class="anchor" href="#determine-the-type-of-webpart-by-inspecting-sharepoint-site-with-dev-tools">&#xE732;</a></h3>
+<p>  The type of webpart can be found in the <code>data-sp-feature-tag</code>. You'll want to inspect the page, and press <code>Ctrl + F</code> to find this attribute in the HTML. It may look like the following:</p>
+<pre data-lang="html" style="background-color:#eff1f5;color:#4f5b66;" class="language-html "><code class="language-html" data-lang="html"><span>&lt;</span><span style="color:#bf616a;">div </span><span style="color:#d08770;">data-sp-feature-tag</span><span>=&quot;</span><span style="color:#a3be8c;">PowellScriptEditorWebPart web part (Search)</span><span>&quot; </span><span style="color:#d08770;">...</span><span>&gt;...&lt;/</span><span style="color:#bf616a;">div</span><span>&gt;
+</span></code></pre>
+<p>The webpart featured here is <em>Search</em>.</p>
+
+    
+        </div>
+    </article>
+</main>
+
+
+    <script type="text/javascript" src="https://tieje.github.io/unofficial_powell_365_docs/elasticlunr.min.js" defer></script>
+    <script type="text/javascript" src="https://tieje.github.io/unofficial_powell_365_docs/search_index.en.js" defer></script>
+<script type="text/javascript" src="https://tieje.github.io/unofficial_powell_365_docs/js.js" defer></script>
+
+</body>
+</html>

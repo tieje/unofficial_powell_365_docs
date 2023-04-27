@@ -1,0 +1,736 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://tieje.github.io/unofficial_powell_365_docs/main.css">
+    <link rel="icon" href="https://www.getzola.org/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title> Docs | Common Actions </title>
+</head>
+<body>
+
+<!-- <script>
+        fetch('https://api.github.com/repos/getzola/zola/releases/latest')
+            .then((response) => {
+                return response.json();
+            })
+            .then((data) => {
+                let release_name = data.name;
+                let html_url = data.html_url;
+                release.innerHTML = `<a href='${html_url}'>${release_name}</a>`;
+            });
+    </script>
+-->
+<main>
+    
+    <nav>
+            <a href="https:&#x2F;&#x2F;tieje.github.io&#x2F;unofficial_powell_365_docs">
+                        <img src="https://easydocs.codeandmedia.com/logo.svg" alt="logo"/>
+                    </a>
+                <!-- <div id="release"></div>
+            -->
+            <div id="release"><a href="https:&#x2F;&#x2F;github.com&#x2F;tieje&#x2F;unofficial_powell_365_docs">Github</a></div>
+            <a href="javascript:void(0);" onclick="burger()" id="mobile" class="ms-Icon--GlobalNavButton"></a>
+            <div id="trees">
+                <input class="tree-toggle" type="checkbox" id="setup"
+                           />
+                    <label class="tree-toggle-label"
+                           for="setup">Setup</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/setup/recommended-setup/">Recommended Setup</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/setup/key-concepts/">Key Concepts</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/setup/contributors/">Setup for Contributors</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="recipes"
+                           />
+                    <label class="tree-toggle-label"
+                           for="recipes">Recipes</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/pow-example-pages/">Recipes for Powell Web Pages</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/intranet-deploy/">Intranet Deploy</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/">Recipes for Webparts</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="conventions"
+                           />
+                    <label class="tree-toggle-label"
+                           for="conventions">Conventions</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/conventions/conventions/">Why Conventions?</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/conventions/site-collection-dne/">Client&#x27;s Site Collec. Not Exists</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="references"
+                           />
+                    <label class="tree-toggle-label"
+                           for="references">References</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/references/definitions/">Definitions</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/">Webparts</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/references/navigation/">Navigation</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/references/content-types/">Content Types</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="actions"
+                           checked/>
+                    <label class="tree-toggle-label"
+                           for="actions">Actions</label>
+
+                    <ul class="subtree">
+                        <li class="active">
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/">Common Actions</a>
+                            </li>
+
+                            
+                                    
+                                    
+                                        <ul id="toc">
+                                            <li><a href="
+                                                        https://tieje.github.io/unofficial_powell_365_docs/actions/common/#important">IMPORTANT</a>
+                                                    </li>
+                                            <li><a href="
+                                                        https://tieje.github.io/unofficial_powell_365_docs/actions/common/#table-of-contents">Table of Contents</a>
+                                                    </li>
+                                            <li><a href="
+                                                        https://tieje.github.io/unofficial_powell_365_docs/actions/common/#purpose">Purpose</a>
+                                                    </li>
+                                            <li><a href="
+                                                        https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-manager">Powell Manager</a>
+                                                    <ul>
+                                                            <li>
+                                                                    <a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet">Powell Intranet</a>
+                                                                </li>
+                                                            <li>
+                                                                    <a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-hub">Powell Hub</a>
+                                                                </li>
+                                                            <li>
+                                                                    <a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#gear-settings">Gear Settings</a>
+                                                                </li>
+                                                            </ul>
+                                                    </li>
+                                            <li><a href="
+                                                        https://tieje.github.io/unofficial_powell_365_docs/actions/common/#sharepoint-site-collection">SharePoint Site Collection</a>
+                                                    <ul>
+                                                            <li>
+                                                                    <a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#sharepoint-site-settings">SharePoint Site Settings</a>
+                                                                </li>
+                                                            <li>
+                                                                    <a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#site-contents">Site Contents</a>
+                                                                </li>
+                                                            <li>
+                                                                    <a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#site-information">Site Information</a>
+                                                                </li>
+                                                            <li>
+                                                                    <a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#site-permissions">Site Permissions</a>
+                                                                </li>
+                                                            <li>
+                                                                    <a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#grant-access-or-site-permissions">Grant Access or Site Permissions</a>
+                                                                </li>
+                                                            <li>
+                                                                    <a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#view-all-site-settings">View all site settings</a>
+                                                                </li>
+                                                            <li>
+                                                                    <a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#check-file-content-type">Check File Content Type</a>
+                                                                </li>
+                                                            </ul>
+                                                    </li>
+                                            <li><a href="
+                                                        https://tieje.github.io/unofficial_powell_365_docs/actions/common/#web-page">Web Page</a>
+                                                    <ul>
+                                                            <li>
+                                                                    <a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#inspect-a-web-page">Inspect a web page</a>
+                                                                </li>
+                                                            <li>
+                                                                    <a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#search-for-a-tag-or-attribute-on-a-web-page">Search for a tag or attribute on a web page</a>
+                                                                </li>
+                                                            </ul>
+                                                    </li>
+                                            </ul>
+                                    </ul>
+                </div>
+        </nav>
+    <article>
+        <div id="on_right">
+                <span id="search-ico" class="ms-Icon--Search"></span>
+            </div>
+            <div class="search-container">
+                <input id="search" type="search" placeholder="Search as you type...">
+                <div class="search-results">
+                    <div class="search-results__header"></div>
+                    <ul class="search-results__items"></ul>
+                </div>
+            </div>
+        <div id="wrap">
+            
+        <hr />
+<h2 id="important">IMPORTANT&nbsp;<a class="anchor" href="#important">&#xE732;</a></h2>
+<p>  Click through the buttons or links in the steps specified to get to your destination on the web.</p>
+<hr />
+<h2 id="table-of-contents">Table of Contents&nbsp;<a class="anchor" href="#table-of-contents">&#xE732;</a></h2>
+<ul>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-manager">Powell Manager</a>
+<ul>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet">Powell Intranet</a>
+<ul>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-design">Powell Intranet Design</a>
+<ul>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-app-catalog">Powell Intranet App catalog</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-azure-applications">Powell Intranet Azure Applications</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-content-types">Powell Intranet Content types</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-create-a-new-content-type">Powell Intranet Create a new content type</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-create-a-content-type-that-inherits-from-item">Powell Intranet Create a content type that inherits from item</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-disclaimers">Powell Intranet Disclaimers</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-email-template">Powell Intranet Email Template</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-fonts">Powell Intranet Fonts</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-footer-html-template">Powell Intranet Footer HTML Template</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-header-html-template">Powell Intranet Header HTML Template</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-javascript-catalog">Powell Intranet JavaScript catalog</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-jslink-catalog">Powell Intranet JSLink catalog</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-list-templates">Powell Intranet List Templates</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-create-a-new-list-template">Powell Intranet Create a new List Template</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-master-pages">Powell Intranet Master pages</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-navigation">Powell Intranet Navigation</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-page-layouts">Powell Intranet Page layouts</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-create-a-page-layout">Powell Intranet Create a Page layout</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-page-templates">Powell Intranet Page templates</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-create-a-page-template">Powell Intranet Create a Page template</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-pnp-provisioning-schema">Powell Intranet PNP Provisioning Schema</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-search-queries">Powell Intranet Search Queries</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-sites">Powell Intranet Sites</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-sites-pages-create-a-new-page">Powell Intranet Sites Pages Create a new page</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-powell-site-collections">Powell Intranet Powell Site Collections</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-site-scripts">Powell Intranet Site scripts</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-site-templates">Powell Intranet Site Templates</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-clone-a-powell-site-template">Powell Intranet Clone a Powell site template</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-teams-templates">Powell Intranet Teams templates</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-themes">Powell Intranet Themes</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-custom-css">Powell Intranet Custom CSS</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-change-logos">Powell Intranet Change Logos</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-change-favicon">Powell Intranet Change Favicon</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-widget-views">Powell Intranet Widget views</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-your-site">Powell Intranet Your Site</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-edit-your-site">Powell Intranet Edit Your Site</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-create-a-new-page-for-your-site">Powell Intranet Create a new page for your site</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-add-a-webpart">Powell Intranet Add a Webpart</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-create-a-new-list">Powell Intranet Create a new list</a></li>
+</ul>
+</li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-deploy">Powell Intranet Deploy</a>
+<ul>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-office-groups">Powell Intranet Office groups</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-site-collections">Powell Intranet Site collections</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-create-a-site-collection">Powell Intranet Create a Site collection</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-site-designs">Powell Intranet Site Designs</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-teams">Powell Intranet Teams</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-hub">Powell Hub</a>
+<ul>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-hub-design">Powell Hub Design</a>
+<ul>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#hub-azure-applications">Hub Azure Applications</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-hub-fonts">Powell Hub Fonts</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-hub-footer-html-template">Powell Hub Footer HTML Template</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-hub-header-html-template">Powell Hub Header HTML Template</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-hub-javascript-catalog">Powell Hub JavaScript catalog</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-hub-themes">Powell Hub Themes</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-hub-widget-views">Powell Hub Widget views</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#gear-settings">Gear Settings</a>
+<ul>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#gear-settings-tenants">Gear Settings Tenants</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#gear-settings-create-a-tenant">Gear Settings Create a Tenant</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#sharepoint-site-collection">SharePoint Site Collection</a>
+<ul>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#sharepoint-site-settings">SharePoint Site Settings</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#site-contents">Site Contents</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#site-information">Site Information</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#site-permissions">Site Permissions</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#grant-access-or-site-permissions">Grant Access or Site Permissions</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#view-all-site-settings">View all site settings</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#check-file-content-type">Check File Content Type</a></li>
+</ul>
+</li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#web-page">Web Page</a>
+<ul>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#inspect-a-web-page">Inspect a web page</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#search-for-a-tag-or-attribute-on-a-web-page">Search for a tag or attribute on a web page</a></li>
+</ul>
+</li>
+</ul>
+<hr />
+<h2 id="purpose">Purpose&nbsp;<a class="anchor" href="#purpose">&#xE732;</a></h2>
+<p>  The purpose of this section is to provide a reference to a list of actions that are very commonly used in Powell to arrive at a desired result or web page. This cuts down on repetition and ambiguity while writing documentation for Powell. Currently, due to needing to repeat specific actions many times in Powell, it's all too easy for Users to visually and mentally block out Powell's other features to the point where they genuinely would not know where to look on the web page. This page should be referenced often by contributors to help users navigate Powell.</p>
+<hr />
+<h1 id="powell-manager">Powell Manager&nbsp;<a class="anchor" href="#powell-manager">&#xE732;</a></h1>
+<hr />
+<h2 id="powell-intranet">Powell Intranet&nbsp;<a class="anchor" href="#powell-intranet">&#xE732;</a></h2>
+<p>  Powell Intranet is where we'll be doing most of our work.</p>
+<h3 id="powell-intranet-design">Powell Intranet Design&nbsp;<a class="anchor" href="#powell-intranet-design">&#xE732;</a></h3>
+<ol>
+<li><em>Powell intranet</em> tab</li>
+<li><em>Design</em> tab</li>
+</ol>
+<h4 id="powell-intranet-app-catalog">Powell Intranet App catalog&nbsp;<a class="anchor" href="#powell-intranet-app-catalog">&#xE732;</a></h4>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-design">Go to Design</a></li>
+<li>Under <em>Custom Components</em>, <em>App catalog</em></li>
+</ol>
+<h4 id="powell-intranet-azure-applications">Powell Intranet Azure Applications&nbsp;<a class="anchor" href="#powell-intranet-azure-applications">&#xE732;</a></h4>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-design">Go to Design</a></li>
+<li>Under <em>Custom Components</em>, <em>Azure Applications</em></li>
+</ol>
+<h4 id="powell-intranet-content-types">Powell Intranet Content types&nbsp;<a class="anchor" href="#powell-intranet-content-types">&#xE732;</a></h4>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-design">Go to Design</a></li>
+<li>Under <em>SharePoint Templates</em>, <em>Content types</em></li>
+</ol>
+<h4 id="powell-intranet-create-a-new-content-type">Powell Intranet Create a new content type&nbsp;<a class="anchor" href="#powell-intranet-create-a-new-content-type">&#xE732;</a></h4>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-content-types">Go to Content types</a></li>
+<li><em>Create a new Content type</em></li>
+<li>Name your new content type.</li>
+</ol>
+<h4 id="powell-intranet-create-a-content-type-that-inherits-from-item">Powell Intranet Create a content type that inherits from item&nbsp;<a class="anchor" href="#powell-intranet-create-a-content-type-that-inherits-from-item">&#xE732;</a></h4>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-create-a-new-content-type">Create a new content type</a></li>
+<li>Inherit from <em>Item</em> Content Type. Save.</li>
+<li>You should be in edit mode for your new content Type. Go to <em>Fields</em></li>
+<li><em>Add new field</em></li>
+<li><em>Create a new field</em>. Name your fields appropriately and with whatever field types that you need.</li>
+</ol>
+<h4 id="powell-intranet-disclaimers">Powell Intranet Disclaimers&nbsp;<a class="anchor" href="#powell-intranet-disclaimers">&#xE732;</a></h4>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-design">Go to Design</a></li>
+<li>Under <em>Branding</em>, <em>Disclaimers</em></li>
+</ol>
+<h4 id="powell-intranet-email-template">Powell Intranet Email Template&nbsp;<a class="anchor" href="#powell-intranet-email-template">&#xE732;</a></h4>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-design">Go to Design</a></li>
+<li>Under <em>Branding</em>, <em>Email Template</em></li>
+</ol>
+<h4 id="powell-intranet-fonts">Powell Intranet Fonts&nbsp;<a class="anchor" href="#powell-intranet-fonts">&#xE732;</a></h4>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-design">Go to Design</a></li>
+<li>Under <em>Branding</em>, <em>Fonts</em></li>
+</ol>
+<h4 id="powell-intranet-footer-html-template">Powell Intranet Footer HTML Template&nbsp;<a class="anchor" href="#powell-intranet-footer-html-template">&#xE732;</a></h4>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-design">Go to Design</a></li>
+<li>Under <em>Branding</em>, <em>Footer HTML Template</em></li>
+</ol>
+<h4 id="powell-intranet-header-html-template">Powell Intranet Header HTML Template&nbsp;<a class="anchor" href="#powell-intranet-header-html-template">&#xE732;</a></h4>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-design">Go to Design</a></li>
+<li>Under <em>Branding</em>, <em>Header HTML Template</em></li>
+</ol>
+<h4 id="powell-intranet-javascript-catalog">Powell Intranet JavaScript catalog&nbsp;<a class="anchor" href="#powell-intranet-javascript-catalog">&#xE732;</a></h4>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-design">Go to Design</a></li>
+<li>Under <em>Custom Components</em>, <em>JavaScript catalog</em></li>
+</ol>
+<h4 id="powell-intranet-jslink-catalog">Powell Intranet JSLink catalog&nbsp;<a class="anchor" href="#powell-intranet-jslink-catalog">&#xE732;</a></h4>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-design">Go to Design</a></li>
+<li>Under <em>Custom Components</em>, <em>JSLink catalog</em></li>
+</ol>
+<h4 id="powell-intranet-list-templates">Powell Intranet List Templates&nbsp;<a class="anchor" href="#powell-intranet-list-templates">&#xE732;</a></h4>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-design">Go to Design</a></li>
+<li>Under <em>SharePoint Templates</em>, <em>Lists</em></li>
+</ol>
+<h4 id="powell-intranet-create-a-new-list-template">Powell Intranet Create a new List Template&nbsp;<a class="anchor" href="#powell-intranet-create-a-new-list-template">&#xE732;</a></h4>
+<ol>
+<li><a href="/actions/common/#powell-intranet-list-templates">Go to list templates</a></li>
+<li><em>Create a new list template</em></li>
+<li>Fill in <em>Title</em>.</li>
+</ol>
+<h4 id="powell-intranet-master-pages">Powell Intranet Master pages&nbsp;<a class="anchor" href="#powell-intranet-master-pages">&#xE732;</a></h4>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-design">Go to Design</a></li>
+<li>Under <em>SharePoint Templates</em>, <em>Master pages</em></li>
+</ol>
+<h4 id="powell-intranet-navigation">Powell Intranet Navigation&nbsp;<a class="anchor" href="#powell-intranet-navigation">&#xE732;</a></h4>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-design">Go to Design</a></li>
+<li>Under <em>SharePoint Templates</em>, <em>Navigation</em></li>
+</ol>
+<h4 id="powell-intranet-page-layouts">Powell Intranet Page layouts&nbsp;<a class="anchor" href="#powell-intranet-page-layouts">&#xE732;</a></h4>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-design">Go to Design</a></li>
+<li>Under <em>SharePoint Templates</em>, <em>Page layouts</em></li>
+</ol>
+<h4 id="powell-intranet-create-a-page-layout">Powell Intranet Create a Page layout&nbsp;<a class="anchor" href="#powell-intranet-create-a-page-layout">&#xE732;</a></h4>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-page-layouts">Go to page layout</a></li>
+<li><em>Create a new page layout</em>
+<ul>
+<li>Its recommended to use the same <em>Web template</em> as the one used in your site.
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-your-site">Go to your site</a></li>
+<li><em>Global settings</em> (left column)</li>
+</ol>
+</li>
+<li>The new page layout should be as close to what we want as possible.</li>
+<li>If there is an existing page layout that is exactly the same as what you're making, you can use that page layout instead.</li>
+<li>To use this page layout builder, <em>Add a section</em>. Drag and drop from the <em>Section list</em></li>
+</ul>
+</li>
+<li>Save.</li>
+</ol>
+<h4 id="powell-intranet-page-templates">Powell Intranet Page templates&nbsp;<a class="anchor" href="#powell-intranet-page-templates">&#xE732;</a></h4>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-design">Go to Design</a></li>
+<li>Under <em>SharePoint Templates</em>, <em>Page templates</em></li>
+</ol>
+<h4 id="powell-intranet-create-a-page-template">Powell Intranet Create a Page template&nbsp;<a class="anchor" href="#powell-intranet-create-a-page-template">&#xE732;</a></h4>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-page-templates">Go to page templates</a></li>
+<li><em>Create a new page template</em></li>
+</ol>
+<h4 id="powell-intranet-pnp-provisioning-schema">Powell Intranet PNP Provisioning Schema&nbsp;<a class="anchor" href="#powell-intranet-pnp-provisioning-schema">&#xE732;</a></h4>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-design">Go to Design</a></li>
+<li>Under <em>Custom Components</em>, <em>PNP Provisioning Schema</em></li>
+</ol>
+<h4 id="powell-intranet-search-queries">Powell Intranet Search Queries&nbsp;<a class="anchor" href="#powell-intranet-search-queries">&#xE732;</a></h4>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-design">Go to Design</a></li>
+<li>Under <em>SharePoint Templates</em>, <em>Search Queries</em></li>
+</ol>
+<h4 id="powell-intranet-sites">Powell Intranet Sites&nbsp;<a class="anchor" href="#powell-intranet-sites">&#xE732;</a></h4>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-design">Go to Design</a></li>
+<li>Under <em>SharePoint Templates</em>, <em>Sites</em></li>
+</ol>
+<h4 id="powell-intranet-sites-pages-create-a-new-page">Powell Intranet Sites Pages Create a new page&nbsp;<a class="anchor" href="#powell-intranet-sites-pages-create-a-new-page">&#xE732;</a></h4>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-sites">Go to Sites</a></li>
+<li><em>Pages</em> on the left column</li>
+<li><em>Create a new page</em></li>
+<li>In the creation dialog, we recommend using the <em>Not Linked</em> option for <em>Copy Type</em> so you can edit the page later. For more info please click on the question mark next to the <em>Copy Type</em> label.</li>
+</ol>
+<h4 id="powell-intranet-powell-site-collections">Powell Intranet Powell Site Collections&nbsp;<a class="anchor" href="#powell-intranet-powell-site-collections">&#xE732;</a></h4>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-sites">Go to sites</a></li>
+<li>Scroll down to <em>Powell Intranet / Powell site templates</em></li>
+</ol>
+<h4 id="powell-intranet-site-scripts">Powell Intranet Site scripts&nbsp;<a class="anchor" href="#powell-intranet-site-scripts">&#xE732;</a></h4>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-design">Go to Design</a></li>
+<li>Under <em>Custom Components</em>, <em>Site scripts</em></li>
+</ol>
+<h4 id="powell-intranet-site-templates">Powell Intranet Site Templates&nbsp;<a class="anchor" href="#powell-intranet-site-templates">&#xE732;</a></h4>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-design">Go to Design</a></li>
+<li>Under <em>SharePoint Templates</em>, <em>Sites</em></li>
+</ol>
+<h4 id="powell-intranet-clone-a-powell-site-template">Powell Intranet Clone a Powell site template&nbsp;<a class="anchor" href="#powell-intranet-clone-a-powell-site-template">&#xE732;</a></h4>
+<ol>
+<li><a href="/actions/common/#powell-intranet-site-templates">Go to site templates</a></li>
+<li>Scroll to <em>Powell Intranet / Powell site templates</em></li>
+<li>Search for the template that you want to clone.</li>
+<li>Press the clone/copy button.</li>
+<li>In your <em>Title</em> include the site name that you'd like to use it for.</li>
+<li>Save.</li>
+</ol>
+<h4 id="powell-intranet-teams-templates">Powell Intranet Teams templates&nbsp;<a class="anchor" href="#powell-intranet-teams-templates">&#xE732;</a></h4>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-design">Go to Design</a></li>
+<li>Under <em>SharePoint Templates</em>, <em>Teams templates</em></li>
+</ol>
+<h4 id="powell-intranet-themes">Powell Intranet Themes&nbsp;<a class="anchor" href="#powell-intranet-themes">&#xE732;</a></h4>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-design">Go to Design</a></li>
+<li>Under <em>Branding</em>, <em>Themes</em></li>
+</ol>
+<h4 id="powell-intranet-custom-css">Powell Intranet Custom CSS&nbsp;<a class="anchor" href="#powell-intranet-custom-css">&#xE732;</a></h4>
+<ol>
+<li><a href="/actions/common/#powell-intranet-themes">Go to themes</a></li>
+<li><em>Custom CSS</em> on the left bar.</li>
+</ol>
+<h4 id="powell-intranet-change-logos">Powell Intranet Change Logos&nbsp;<a class="anchor" href="#powell-intranet-change-logos">&#xE732;</a></h4>
+<ol>
+<li><a href="/actions/common/#powell-intranet-themes">Go to themes</a></li>
+<li><em>Logos</em> on the left bar.</li>
+</ol>
+<h4 id="powell-intranet-change-favicon">Powell Intranet Change Favicon&nbsp;<a class="anchor" href="#powell-intranet-change-favicon">&#xE732;</a></h4>
+<ol>
+<li><a href="/actions/common/#powell-intranet-themes">Go to themes</a></li>
+<li><em>Logos</em> on the left bar.</li>
+</ol>
+<h4 id="powell-intranet-widget-views">Powell Intranet Widget views&nbsp;<a class="anchor" href="#powell-intranet-widget-views">&#xE732;</a></h4>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-design">Go to Design</a></li>
+<li>Under <em>Custom Components</em>, <em>Widget views</em></li>
+</ol>
+<h4 id="powell-intranet-your-site">Powell Intranet Your Site&nbsp;<a class="anchor" href="#powell-intranet-your-site">&#xE732;</a></h4>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-site-templates">Go to site templates</a></li>
+<li>Search for your site</li>
+<li>Edit button for your site</li>
+</ol>
+<h4 id="powell-intranet-edit-your-site">Powell Intranet Edit Your Site&nbsp;<a class="anchor" href="#powell-intranet-edit-your-site">&#xE732;</a></h4>
+<ol>
+<li><a href="/actions/common/#powell-intranet-your-site">Get to your site</a></li>
+<li><em>Pages</em> on the left column</li>
+<li>Edit button for the page that you want to edit</li>
+</ol>
+<h4 id="powell-intranet-create-a-new-page-for-your-site">Powell Intranet Create a new page for your site&nbsp;<a class="anchor" href="#powell-intranet-create-a-new-page-for-your-site">&#xE732;</a></h4>
+<ol>
+<li><a href="/actions/common/#powell-intranet-create-a-page-layout">Create a page a layout</a></li>
+<li><a href="/actions/common/#powell-intranet-create-a-page-template">Create a page template</a></li>
+<li><a href="/actions/common/#powell-intranet-edit-your-site">Go to your site</a></li>
+<li><em>Pages</em> (left column)</li>
+<li><em>Create a new page</em></li>
+</ol>
+<h4 id="powell-intranet-add-a-webpart">Powell Intranet Add a Webpart&nbsp;<a class="anchor" href="#powell-intranet-add-a-webpart">&#xE732;</a></h4>
+<ol>
+<li><a href="/actions/common/#powell-intranet-edit-your-site">Edit your site</a></li>
+<li>Scroll to the bottom under <em>Placeholder Main</em>. <code>Add a webpart</code>
+<ul>
+<li>If you need to add a space on your site for the web part, edit the template under the <code>Selected Page Layout</code></li>
+</ul>
+</li>
+</ol>
+<h4 id="powell-intranet-create-a-new-list">Powell Intranet Create a new list&nbsp;<a class="anchor" href="#powell-intranet-create-a-new-list">&#xE732;</a></h4>
+<ol>
+<li><a href="/actions/common/#powell-intranet-your-site">Get to your site</a></li>
+<li><em>Lists</em> (left sidebar)</li>
+<li><em>Create a new list</em></li>
+<li>Fill in <em>Title</em>.</li>
+</ol>
+<h3 id="powell-intranet-deploy">Powell Intranet Deploy&nbsp;<a class="anchor" href="#powell-intranet-deploy">&#xE732;</a></h3>
+<ol>
+<li><em>Powell intranet</em> tab</li>
+<li><em>Deploy</em> tab</li>
+</ol>
+<h4 id="powell-intranet-office-groups">Powell Intranet Office groups&nbsp;<a class="anchor" href="#powell-intranet-office-groups">&#xE732;</a></h4>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-deploy">Go to Deploy</a></li>
+<li>Under <em>Deploy</em>, <em>Office groups</em></li>
+</ol>
+<h4 id="powell-intranet-site-collections">Powell Intranet Site collections&nbsp;<a class="anchor" href="#powell-intranet-site-collections">&#xE732;</a></h4>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-deploy">Go to Deploy</a></li>
+<li>Under <em>Deploy</em>, <em>Site collections</em></li>
+</ol>
+<h4 id="powell-intranet-create-a-site-collection">Powell Intranet Create a Site collection&nbsp;<a class="anchor" href="#powell-intranet-create-a-site-collection">&#xE732;</a></h4>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-clone-a-powell-site-template">Clone a site template</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-site-collections">Go to Site Collection</a>
+<ol>
+<li>Choose the site template that you created from a clone in the previous step.</li>
+<li>Next
+<ol>
+<li><em>Site Title</em></li>
+<li><em>Site URL</em>: it's generated from title, but you can change it to whatever suits your needs</li>
+<li><em>Environment</em>, we'll just use <em>Production</em> or whatever suits your needs</li>
+<li><a href="/references/definitions/#portal"><em>Portal</em></a>, keep it as <em>No site selected</em> or whatever suits your needs.</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Next
+<ol>
+<li><em>No content translation</em> or whatever suits your needs</li>
+<li><em>Timezone</em> = Eastern Time (US and Canada) or whatever suits your needs. I just so happen work from this timezone.</li>
+</ol>
+</li>
+<li>Next</li>
+<li><em>Default content</em>: <em>Yes</em> or whatever suits your needs</li>
+<li>Deploy</li>
+</ol>
+<h4 id="powell-intranet-site-designs">Powell Intranet Site Designs&nbsp;<a class="anchor" href="#powell-intranet-site-designs">&#xE732;</a></h4>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-deploy">Go to Deploy</a></li>
+<li>Under <em>Deploy</em>, <em>Site Designs</em></li>
+</ol>
+<h4 id="powell-intranet-teams">Powell Intranet Teams&nbsp;<a class="anchor" href="#powell-intranet-teams">&#xE732;</a></h4>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-intranet-deploy">Go to Deploy</a></li>
+<li>Under <em>Deploy</em>, <em>Teams</em></li>
+</ol>
+<hr />
+<h2 id="powell-hub">Powell Hub&nbsp;<a class="anchor" href="#powell-hub">&#xE732;</a></h2>
+<!-- TODO: What does this do. -->
+<h3 id="powell-hub-design">Powell Hub Design&nbsp;<a class="anchor" href="#powell-hub-design">&#xE732;</a></h3>
+<ol>
+<li><em>Powell Hub</em> tab</li>
+<li><em>Design</em> tab</li>
+</ol>
+<h4 id="hub-azure-applications">Hub Azure Applications&nbsp;<a class="anchor" href="#hub-azure-applications">&#xE732;</a></h4>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-hub-design">Go to Design</a></li>
+<li>Under <em>Custom Components</em>, <em>Azure Applications</em></li>
+</ol>
+<h4 id="powell-hub-fonts">Powell Hub Fonts&nbsp;<a class="anchor" href="#powell-hub-fonts">&#xE732;</a></h4>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-hub-design">Go to Design</a></li>
+<li>Under <em>Branding</em>, <em>Fonts</em></li>
+</ol>
+<h4 id="powell-hub-footer-html-template">Powell Hub Footer HTML Template&nbsp;<a class="anchor" href="#powell-hub-footer-html-template">&#xE732;</a></h4>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-hub-design">Go to Design</a></li>
+<li>Under <em>Branding</em>, <em>Footer HTML Template</em></li>
+</ol>
+<h4 id="powell-hub-header-html-template">Powell Hub Header HTML Template&nbsp;<a class="anchor" href="#powell-hub-header-html-template">&#xE732;</a></h4>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-hub-design">Go to Design</a></li>
+<li>Under <em>Branding</em>, <em>Header HTML Template</em></li>
+</ol>
+<h4 id="powell-hub-javascript-catalog">Powell Hub JavaScript catalog&nbsp;<a class="anchor" href="#powell-hub-javascript-catalog">&#xE732;</a></h4>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-hub-design">Go to Design</a></li>
+<li>Under <em>Custom Components</em>, <em>JavaScript catalog</em></li>
+</ol>
+<h4 id="powell-hub-themes">Powell Hub Themes&nbsp;<a class="anchor" href="#powell-hub-themes">&#xE732;</a></h4>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-hub-design">Go to Design</a></li>
+<li>Under <em>Branding</em>, <em>Themes</em></li>
+</ol>
+<h4 id="powell-hub-widget-views">Powell Hub Widget views&nbsp;<a class="anchor" href="#powell-hub-widget-views">&#xE732;</a></h4>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#powell-hub-design">Go to Design</a></li>
+<li>Under <em>Custom Components</em>, <em>Widget views</em></li>
+</ol>
+<hr />
+<h2 id="gear-settings">Gear Settings&nbsp;<a class="anchor" href="#gear-settings">&#xE732;</a></h2>
+<ol>
+<li>Located on the Upper right corner of manager.powell-software.com, just underneath the profile image.</li>
+</ol>
+<h3 id="gear-settings-tenants">Gear Settings Tenants&nbsp;<a class="anchor" href="#gear-settings-tenants">&#xE732;</a></h3>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#gear-settings">Go to Settings</a></li>
+<li>Under <em>Manage Access</em>, click on <em>Tenants</em></li>
+</ol>
+<h3 id="gear-settings-create-a-tenant">Gear Settings Create a Tenant&nbsp;<a class="anchor" href="#gear-settings-create-a-tenant">&#xE732;</a></h3>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#gear-settings-tenants">Go to Tenants</a></li>
+<li>Click on <em>Create a new tenant</em></li>
+<li>Fill out information and save.</li>
+</ol>
+<hr />
+<h1 id="sharepoint-site-collection">SharePoint Site Collection&nbsp;<a class="anchor" href="#sharepoint-site-collection">&#xE732;</a></h1>
+<hr />
+<h2 id="sharepoint-site-settings">SharePoint Site Settings&nbsp;<a class="anchor" href="#sharepoint-site-settings">&#xE732;</a></h2>
+<ol>
+<li>Gear wheel in the upper right corner</li>
+</ol>
+<hr />
+<h2 id="site-contents">Site Contents&nbsp;<a class="anchor" href="#site-contents">&#xE732;</a></h2>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#sharepoint-site-settings">Go to settings</a></li>
+<li><em>Site Contents</em></li>
+</ol>
+<hr />
+<h2 id="site-information">Site Information&nbsp;<a class="anchor" href="#site-information">&#xE732;</a></h2>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#sharepoint-site-settings">Go to settings</a></li>
+<li><em>Site Information</em></li>
+</ol>
+<hr />
+<h2 id="site-permissions">Site Permissions&nbsp;<a class="anchor" href="#site-permissions">&#xE732;</a></h2>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#sharepoint-site-settings">Go to settings</a></li>
+<li><em>Site Permissions</em></li>
+</ol>
+<hr />
+<h2 id="grant-access-or-site-permissions">Grant Access or Site Permissions&nbsp;<a class="anchor" href="#grant-access-or-site-permissions">&#xE732;</a></h2>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#site-permissions">Go to Site Permissions</a></li>
+<li><em>Share Site</em></li>
+<li>Type in the user that you would like to share with. Click on the suggested user.</li>
+<li>Under the user's name, set the users permission level.</li>
+<li><em>Send email</em>, is recommended.</li>
+<li><em>Add</em></li>
+</ol>
+<hr />
+<h2 id="view-all-site-settings">View all site settings&nbsp;<a class="anchor" href="#view-all-site-settings">&#xE732;</a></h2>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#view-all-site-settings">Go to site settings</a></li>
+<li><em>View all site settings</em> is above the <em>Delete site</em> trash can (terrible design, btw)</li>
+</ol>
+<hr />
+<h2 id="check-file-content-type">Check File Content Type&nbsp;<a class="anchor" href="#check-file-content-type">&#xE732;</a></h2>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#view-all-site-settings">Go to site settings</a></li>
+<li>Go to your file.</li>
+<li>Click file menu button, which is the three vertical dots next to the file.</li>
+<li>Click on <em>Details</em> all the way at the bottom.</li>
+<li>The popup vertical bar on the right, under properties header, Content Type</li>
+</ol>
+<hr />
+<h1 id="web-page">Web Page&nbsp;<a class="anchor" href="#web-page">&#xE732;</a></h1>
+<hr />
+<h2 id="inspect-a-web-page">Inspect a web page&nbsp;<a class="anchor" href="#inspect-a-web-page">&#xE732;</a></h2>
+<ol>
+<li>Right-click on an element of the web page that you'd like to inspect.</li>
+<li>On the dropdown menu, choose <em>Inspect</em></li>
+</ol>
+<hr />
+<h2 id="search-for-a-tag-or-attribute-on-a-web-page">Search for a tag or attribute on a web page&nbsp;<a class="anchor" href="#search-for-a-tag-or-attribute-on-a-web-page">&#xE732;</a></h2>
+<ol>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/#inspect-a-web-page">Inspect the page</a></li>
+<li>On the <em>Inspector</em> (Firefox) or <em>Elements</em> (Chrome) tab (at the top, but usually this is the default opened tag anyways), press <code>Ctrl + f</code> and type in what you'd like to look for.</li>
+</ol>
+
+    
+        </div>
+    </article>
+</main>
+
+
+    <script type="text/javascript" src="https://tieje.github.io/unofficial_powell_365_docs/elasticlunr.min.js" defer></script>
+    <script type="text/javascript" src="https://tieje.github.io/unofficial_powell_365_docs/search_index.en.js" defer></script>
+<script type="text/javascript" src="https://tieje.github.io/unofficial_powell_365_docs/js.js" defer></script>
+
+</body>
+</html>

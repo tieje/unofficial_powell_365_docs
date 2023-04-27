@@ -1,0 +1,233 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://tieje.github.io/unofficial_powell_365_docs/main.css">
+    <link rel="icon" href="https://www.getzola.org/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title> Docs | Why Conventions? </title>
+</head>
+<body>
+
+<!-- <script>
+        fetch('https://api.github.com/repos/getzola/zola/releases/latest')
+            .then((response) => {
+                return response.json();
+            })
+            .then((data) => {
+                let release_name = data.name;
+                let html_url = data.html_url;
+                release.innerHTML = `<a href='${html_url}'>${release_name}</a>`;
+            });
+    </script>
+-->
+<main>
+    
+    <nav>
+            <a href="https:&#x2F;&#x2F;tieje.github.io&#x2F;unofficial_powell_365_docs">
+                        <img src="https://easydocs.codeandmedia.com/logo.svg" alt="logo"/>
+                    </a>
+                <!-- <div id="release"></div>
+            -->
+            <div id="release"><a href="https:&#x2F;&#x2F;github.com&#x2F;tieje&#x2F;unofficial_powell_365_docs">Github</a></div>
+            <a href="javascript:void(0);" onclick="burger()" id="mobile" class="ms-Icon--GlobalNavButton"></a>
+            <div id="trees">
+                <input class="tree-toggle" type="checkbox" id="setup"
+                           />
+                    <label class="tree-toggle-label"
+                           for="setup">Setup</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/setup/recommended-setup/">Recommended Setup</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/setup/key-concepts/">Key Concepts</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/setup/contributors/">Setup for Contributors</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="recipes"
+                           />
+                    <label class="tree-toggle-label"
+                           for="recipes">Recipes</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/pow-example-pages/">Recipes for Powell Web Pages</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/intranet-deploy/">Intranet Deploy</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/recipes/webparts/">Recipes for Webparts</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="conventions"
+                           checked/>
+                    <label class="tree-toggle-label"
+                           for="conventions">Conventions</label>
+
+                    <ul class="subtree">
+                        <li class="active">
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/conventions/conventions/">Why Conventions?</a>
+                            </li>
+
+                            
+                                    
+                                    
+                                        <ul id="toc">
+                                            <li><a href="
+                                                        https://tieje.github.io/unofficial_powell_365_docs/conventions/conventions/#table-of-contents">Table of Contents</a>
+                                                    </li>
+                                            <li><a href="
+                                                        https://tieje.github.io/unofficial_powell_365_docs/conventions/conventions/#purpose">Purpose</a>
+                                                    </li>
+                                            <li><a href="
+                                                        https://tieje.github.io/unofficial_powell_365_docs/conventions/conventions/#note-to-contributors">Note to Contributors</a>
+                                                    </li>
+                                            <li><a href="
+                                                        https://tieje.github.io/unofficial_powell_365_docs/conventions/conventions/#problem-solving-methods">Problem Solving Methods</a>
+                                                    <ul>
+                                                            <li>
+                                                                    <a href="https://tieje.github.io/unofficial_powell_365_docs/conventions/conventions/#for-building-web-components">For Building Web Components</a>
+                                                                </li>
+                                                            </ul>
+                                                    </li>
+                                            <li><a href="
+                                                        https://tieje.github.io/unofficial_powell_365_docs/conventions/conventions/#faqs">FAQs</a>
+                                                    <ul>
+                                                            <li>
+                                                                    <a href="https://tieje.github.io/unofficial_powell_365_docs/conventions/conventions/#what-is-the-difference-between-sync-and-save-in-powell-intranet">What is the difference between sync and save in Powell Intranet</a>
+                                                                </li>
+                                                            <li>
+                                                                    <a href="https://tieje.github.io/unofficial_powell_365_docs/conventions/conventions/#where-to-implement-custom-css">Where to implement Custom CSS</a>
+                                                                </li>
+                                                            </ul>
+                                                    </li>
+                                            </ul>
+                                    <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/conventions/site-collection-dne/">Client&#x27;s Site Collec. Not Exists</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="references"
+                           />
+                    <label class="tree-toggle-label"
+                           for="references">References</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/references/definitions/">Definitions</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/references/webparts/">Webparts</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/references/navigation/">Navigation</a>
+                            </li>
+
+                            <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/references/content-types/">Content Types</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="actions"
+                           />
+                    <label class="tree-toggle-label"
+                           for="actions">Actions</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://tieje.github.io/unofficial_powell_365_docs/actions/common/">Common Actions</a>
+                            </li>
+
+                            </ul>
+                </div>
+        </nav>
+    <article>
+        <div id="on_right">
+                <span id="search-ico" class="ms-Icon--Search"></span>
+            </div>
+            <div class="search-container">
+                <input id="search" type="search" placeholder="Search as you type...">
+                <div class="search-results">
+                    <div class="search-results__header"></div>
+                    <ul class="search-results__items"></ul>
+                </div>
+            </div>
+        <div id="wrap">
+            
+        <hr />
+<h2 id="table-of-contents">Table of Contents&nbsp;<a class="anchor" href="#table-of-contents">&#xE732;</a></h2>
+<ul>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/conventions/conventions/#table-of-contents">Table of Contents</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/conventions/conventions/#purpose">Purpose</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/conventions/conventions/#note-to-contributors">Note to Contributors</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/conventions/conventions/#problem-solving-methods">Problem Solving Methods</a>
+<ul>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/conventions/conventions/#for-building-web-components">For Building Web Components</a></li>
+</ul>
+</li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/conventions/conventions/#faqs">FAQs</a>
+<ul>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/conventions/conventions/#what-is-the-difference-between-sync-and-save-in-powell-intranet">What is the difference between sync and save in Powell Intranet</a></li>
+<li><a href="https://tieje.github.io/unofficial_powell_365_docs/conventions/conventions/#where-to-implement-custom-css">Where to implement Custom CSS</a></li>
+</ul>
+</li>
+</ul>
+<hr />
+<h2 id="purpose">Purpose&nbsp;<a class="anchor" href="#purpose">&#xE732;</a></h2>
+<p>  Because Powell is low-code/no-code solution, it requires what some call may <em>tribal knowledge</em>. This section contains justifications and guides of why things should be done a certain way and how to do them in Powell.</p>
+<hr />
+<h2 id="note-to-contributors">Note to Contributors&nbsp;<a class="anchor" href="#note-to-contributors">&#xE732;</a></h2>
+<p>  For contributors, this section should be referenced often for why things are done a certain way.</p>
+<hr />
+<h2 id="problem-solving-methods">Problem Solving Methods&nbsp;<a class="anchor" href="#problem-solving-methods">&#xE732;</a></h2>
+<h3 id="for-building-web-components">For Building Web Components&nbsp;<a class="anchor" href="#for-building-web-components">&#xE732;</a></h3>
+<ol>
+<li>Understand the Webpart and, if needed, the Display widget that you are using.
+<ul>
+<li><a href="/references/webparts/#display-or-select-widget">Not all webparts use a custom Display widget</a>.</li>
+<li>Which field types will the Display widget need?</li>
+</ul>
+</li>
+<li>Create the content type.</li>
+<li>Create the list template.</li>
+<li>Create the list.</li>
+<li>Add the webpart.</li>
+<li>Save and Sync.</li>
+</ol>
+<p>If you have any questions, reach out to Powell Support ASAP. They will probably answer on the same day, but it may take a day or two for them to set up a meeting.</p>
+<hr />
+<h2 id="faqs">FAQs&nbsp;<a class="anchor" href="#faqs">&#xE732;</a></h2>
+<h3 id="what-is-the-difference-between-sync-and-save-in-powell-intranet">What is the difference between sync and save in Powell Intranet&nbsp;<a class="anchor" href="#what-is-the-difference-between-sync-and-save-in-powell-intranet">&#xE732;</a></h3>
+<p>  <a href="/references/definitions/#save"><em>Save</em></a> saves the configuration to Powell Manager. <a href="/references/definitions/#sync"><em>Sync</em></a> creates a deployment task to the tenant. The proper steps of the process of the process are always:</p>
+<ol>
+<li>Save</li>
+<li>Sync</li>
+</ol>
+<h3 id="where-to-implement-custom-css">Where to implement Custom CSS&nbsp;<a class="anchor" href="#where-to-implement-custom-css">&#xE732;</a></h3>
+<p>  <a href="/actions/common/#powell-intranet-custom-css">Go to Custom CSS</a>. There is an editor there, but I recommend copying and pasting from a real code editor like <a href="https://code.visualstudio.com/">VSCode</a>. Remember to save and sync.</p>
+
+    
+        </div>
+    </article>
+</main>
+
+
+    <script type="text/javascript" src="https://tieje.github.io/unofficial_powell_365_docs/elasticlunr.min.js" defer></script>
+    <script type="text/javascript" src="https://tieje.github.io/unofficial_powell_365_docs/search_index.en.js" defer></script>
+<script type="text/javascript" src="https://tieje.github.io/unofficial_powell_365_docs/js.js" defer></script>
+
+</body>
+</html>
